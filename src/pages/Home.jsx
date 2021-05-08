@@ -44,21 +44,21 @@ export default function Home() {
         </div>
       </section>
       {/* end of features */}
-      <section class="text-white bg-green-600 my-24">
-        <div class="flex flex-col items-stretch justify-between px-4 py-20 mx-auto max-w-7xl lg:flex-row sm:items-center">
+      <section className="text-white bg-green-600 my-24">
+        <div className="flex flex-col items-stretch justify-between px-4 py-20 mx-auto max-w-7xl lg:flex-row sm:items-center">
           <div>
-            <h2 class="mb-1 text-xl font-semibold text-left sm:text-2xl sm:text-center lg:text-left">
+            <h2 className="mb-1 text-xl font-semibold text-left sm:text-2xl sm:text-center lg:text-left">
               Built for companies of all sizes
             </h2>
-            <p class="mb-6 text-lg font-normal text-left text-gray-200 sm:text-xl lg:mb-0 sm:text-center lg:text-left">
+            <p className="mb-6 text-lg font-normal text-left text-gray-200 sm:text-xl lg:mb-0 sm:text-center lg:text-left">
               Start your 14-day free trial or book a personal demo.
             </p>
           </div>
-          <div class="flex flex-col mb-2 space-x-0 space-y-2 sm:flex-row sm:space-x-2 sm:space-y-0">
-            <a href="#" class="w-full btn btn-light btn-lg sm:w-auto">
+          <div className="flex flex-col mb-2 space-x-0 space-y-2 sm:flex-row sm:space-x-2 sm:space-y-0">
+            <a href="#" className="w-full btn btn-light btn-lg sm:w-auto">
               Start free trial
             </a>
-            <a href="#" class="w-full btn btn-outline-light btn-lg sm:w-auto">
+            <a href="#" className="w-full btn btn-outline-light btn-lg sm:w-auto">
               Book a demo
             </a>
           </div>
@@ -91,29 +91,29 @@ export default function Home() {
       {/* end of microgreen-benifits */}
       <section className="testimonials">
         <div className="section">
-          <div class="bg-gray-100 py-24">
-            <div class="wrapper">
-              <div class="text-left md:text-center">
-                <p class="mb-8 text-xs font-bold tracking-widest text-green-600 uppercase">
+          <div className="bg-gray-100 py-24">
+            <div className="wrapper">
+              <div className="text-left md:text-center">
+                <p className="mb-8 text-xs font-bold tracking-widest text-green-600 uppercase">
                   Why People Choose Urban Greens
                 </p>
-                <h1 class="mb-10 text-xl italic font-normal text-gray-800 md:leading-snug md:text-3xl">
+                <h1 className="mb-10 text-xl italic font-normal text-gray-800 md:leading-snug md:text-3xl">
                   “We endeavour to build a truly human AND high-performing workplace, where everyone can do the best work of
                   their lives. This product is a key part of facilitating this culture by being our one-stop-shop for all
                   things performance development.”
                 </h1>
               </div>
-              <div class="flex items-center justify-center md:justify-center">
-                <div class="avatar">
+              <div className="flex items-center justify-center md:justify-center">
+                <div className="avatar">
                   <img
                     src="https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
                     alt="Photo of Praveen Juge"
                     className="avatars"
                   />
                 </div>
-                <div class="ml-4">
-                  <p class="mb-1 text-xs font-semibold tracking-widest text-gray-800 uppercase">Praveen Juge</p>
-                  <p class="text-xs font-semibold tracking-widest text-gray-500 uppercase">CEO, Birds</p>
+                <div className="ml-4">
+                  <p className="mb-1 text-xs font-semibold tracking-widest text-gray-800 uppercase">Praveen Juge</p>
+                  <p className="text-xs font-semibold tracking-widest text-gray-500 uppercase">CEO, Birds</p>
                 </div>
               </div>
             </div>
