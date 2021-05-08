@@ -74,8 +74,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {data.benefits.map((item, index) => {
               return (
-                <div key={index} className="flex">
-                  <div className="my-1 mx-4 text-green-600">
+                <div key={index} className="md:flex">
+                  <div className="my-1 md:mx-4 text-green-600">
                     <ion-icon name="checkmark"></ion-icon>
                   </div>
                   <div className="">
@@ -92,7 +92,7 @@ export default function Home() {
       <section className="testimonials">
         <div className="section">
           <div class="bg-gray-100 py-24">
-            <div class="w-full mx-auto md:w-5/6">
+            <div class="wrapper">
               <div class="text-left md:text-center">
                 <p class="mb-8 text-xs font-bold tracking-widest text-green-600 uppercase">
                   Why People Choose Urban Greens
@@ -117,6 +117,13 @@ export default function Home() {
         </div>
       </section>
       {/* end of testimonials */}
+      <section>
+        <div className="section">
+          <div className="wrapper">
+            <h2 className="h2">Here’s How People Use Microgreens!</h2>
+          </div>
+        </div>
+      </section>
       <Footer />
     </div>
   );
