@@ -1,0 +1,57 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "media": "feature-01.png",
+      "headline": "Freshly Grown In Antigua",
+      "body": "Handle your subscriptions and transactions efficiently with the clear overview in Dashboard. Features like the smart search option allow you to quickly find any data you’re looking for.",
+      "btntext": "View More"
+    },
+    {
+      "id": 2,
+      "media": "feature-02.png",
+      "headline": "Can Be Used In Many Diets",
+      "body": "Handle your subscriptions and transactions efficiently with the clear overview in Dashboard. Features like the smart search option allow you to quickly find any data you’re looking for.",
+      "btntext": "View More"
+    },
+    {
+      "id": 3,
+      "media": "feature-03.png",
+      "headline": "Sustainable Packaging",
+      "body": "Handle your subscriptions and transactions efficiently with the clear overview in Dashboard. Features like the smart search option allow you to quickly find any data you’re looking for.",
+      "btntext": "View More"
+    }
+  ],
+  "benefits": [
+    {
+      "id": 1,
+      "headline": "Packed With Vitamins",
+      "body": "orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+    },
+    {
+      "id": 2,
+      "headline": "Work In Many Diets",
+      "body": "orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+    },
+    {
+      "id": 3,
+      "headline": "Great For  Smoothies And Juices",
+      "body": "orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+    },
+    {
+      "id": 4,
+      "headline": "Easily Accessible",
+      "body": "orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+    },
+    {
+      "id": 5,
+      "headline": "Give Flare To Dishes",
+      "body": "orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+    },
+    {
+      "id": 6,
+      "headline": "Great For Your Health",
+      "body": "orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+    }
+  ]
+}
