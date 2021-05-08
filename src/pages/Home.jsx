@@ -36,7 +36,7 @@ export default function Home() {
                   <p>{item.body}</p>
                 </div>
                 <div className="">
-                  <div className="bg-gray-200 w-full h-96"></div>
+                  <img src={`../src/assets/home/${item.media}`} alt="" className="image" />
                 </div>
               </div>
             );
@@ -117,10 +117,25 @@ export default function Home() {
         </div>
       </section>
       {/* end of testimonials */}
-      <section>
+      <section className="useage">
         <div className="section">
           <div className="wrapper">
             <h2 className="h2">Here’s How People Use Microgreens!</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
+              <div className="">
+                {data.useage.map((item, index) => {
+                  return (
+                    <div key={index} className="my-8">
+                      <h3 className="h3">{item.headline}</h3>
+                      <p>{item.body}</p>
+                    </div>
+                  );
+                })}
+              </div>
+              <div className="">
+                <img src="../src/assets/home/feature-04.png" alt="" className="image" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
