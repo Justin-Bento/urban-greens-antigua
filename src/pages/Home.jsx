@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div>
       <section className="hero">
-        <div className="bg-gray-200 mb-24">
-          <div className="wrapper py-24 lg:text-center">
+        <div className="bg-hero-img py-24">
+          <div className="wrapper lg:text-center">
             <h1 className="h1">Urban Greens Antigua.</h1>
             <p className="my-4 text-xl text-left sm:text-2xl sm:text-center ">
               Your one stop shop to get the best microgreens in Antigua. As our goal is to, help you bring back greens into
@@ -16,10 +16,10 @@ export default function Home() {
             </p>
             <div className="mb-4">
               <Link to="/products">
-                <button className="btn-high">View Products</button>
+                <button className="btn-contained">View Products</button>
               </Link>
               <Link to="/products">
-                <button className="btn-medium">Call Now</button>
+                <button className="btn-outlined">Learn More</button>
               </Link>
             </div>
           </div>
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </section>
       {/* end of features */}
-      <section class="text-white bg-gray-600 my-24">
+      <section class="text-white bg-green-600 my-24">
         <div class="flex flex-col items-stretch justify-between px-4 py-20 mx-auto max-w-7xl lg:flex-row sm:items-center">
           <div>
             <h2 class="mb-1 text-xl font-semibold text-left sm:text-2xl sm:text-center lg:text-left">
@@ -103,9 +103,13 @@ export default function Home() {
                   things performance development.”
                 </h1>
               </div>
-              <div class="flex items-center justify-start md:justify-center">
+              <div class="flex items-center justify-center md:justify-center">
                 <div class="avatar">
-                  <img src="/placeholder.jpg" alt="Photo of Praveen Juge" />
+                  <img
+                    src="https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                    alt="Photo of Praveen Juge"
+                    className="avatars"
+                  />
                 </div>
                 <div class="ml-4">
                   <p class="mb-1 text-xs font-semibold tracking-widest text-gray-800 uppercase">Praveen Juge</p>

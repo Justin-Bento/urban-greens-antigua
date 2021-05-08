@@ -5,6 +5,9 @@ export default {
       colors: {
         grey: colors.gray,
       },
+      backgroundImage: (theme) => ({
+        'hero-img': "url('./assets/home/hero.png')",
+      }),
     },
   },
   plugins: [
