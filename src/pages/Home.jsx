@@ -65,6 +65,30 @@ export default function Home() {
         </div>
       </section>
       {/* end of call-to-action */}
+      <section className="benifits">
+        <div className="wrapper my-24">
+          <h2 className="text-3xl tracking-wide font-medium mb-2 capitalize">Incredible benefits of microgreens</h2>
+          <p className="mb-16 text-lg text-gray-500 tracking-wide">
+            Get insights to dig down into what's powering your growth the most
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {data.benefits.map((item, index) => {
+              return (
+                <div key={index} className="flex">
+                  <div className="my-1 mx-4 text-green-600">
+                    <ion-icon name="checkmark"></ion-icon>
+                  </div>
+                  <div className="">
+                    <h3 className="h3">{item.headline}</h3>
+                    <p>{item.body}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+      {/* end of microgreen-benifits */}
       <Footer />
     </div>
   );
