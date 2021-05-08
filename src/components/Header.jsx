@@ -17,16 +17,16 @@ export default class Header extends Component {
                 <div className="menu"></div>
               </div>
               <div className="col-2">
-                <Link to="/products" className="md:p-2">
+                <Link to="/product" className="md:p-2 hover:text-green-600">
                   Products
                 </Link>
-                <Link to="/learn" className="md:p-2">
+                <Link to="/learn" className="md:p-2 hover:text-green-600">
                   Learn
                 </Link>
-                <Link to="/about" className="md:p-2">
+                <Link to="/about" className="md:p-2 hover:text-green-600">
                   About
                 </Link>
-                <Link to="/contact" className="md:p-2">
+                <Link to="/contact" className="md:p-2 hover:text-green-600">
                   Contact
                 </Link>
               </div>
