@@ -9,8 +9,8 @@ export default function Home() {
       <section className="hero">
         <div className="bg-gray-200 mb-24">
           <div className="wrapper py-24 lg:text-center">
-            <h1 className="h1 ">Urban Greens Antigua.</h1>
-            <p className="text-xl trackinig-wider">
+            <h1 className="h1">Urban Greens Antigua.</h1>
+            <p className="my-4 text-xl text-left sm:text-2xl sm:text-center ">
               Your one stop shop to get the best microgreens in Antigua. As our goal is to, help you bring back greens into
               your lifestyle. So You can maintin a meaningful lifestyle.
             </p>
@@ -43,6 +43,28 @@ export default function Home() {
           })}
         </div>
       </section>
+      {/* end of features */}
+      <section class="text-white bg-gray-600 my-24">
+        <div class="flex flex-col items-stretch justify-between px-4 py-20 mx-auto max-w-7xl lg:flex-row sm:items-center">
+          <div>
+            <h2 class="mb-1 text-xl font-semibold text-left sm:text-2xl sm:text-center lg:text-left">
+              Built for companies of all sizes
+            </h2>
+            <p class="mb-6 text-lg font-normal text-left text-gray-200 sm:text-xl lg:mb-0 sm:text-center lg:text-left">
+              Start your 14-day free trial or book a personal demo.
+            </p>
+          </div>
+          <div class="flex flex-col mb-2 space-x-0 space-y-2 sm:flex-row sm:space-x-2 sm:space-y-0">
+            <a href="#" class="w-full btn btn-light btn-lg sm:w-auto">
+              Start free trial
+            </a>
+            <a href="#" class="w-full btn btn-outline-light btn-lg sm:w-auto">
+              Book a demo
+            </a>
+          </div>
+        </div>
+      </section>
+      {/* end of call-to-action */}
       <Footer />
     </div>
   );
