@@ -53,5 +53,22 @@
       "headline": "Great For Your Health",
       "body": "orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
     }
+  ],
+  "useage": [
+    {
+      "id": 1,
+      "headline": "Great For Smoothies",
+      "body": "Scelerisque varius morbi enim nunc faucibus a pellentesque sit amet. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt."
+    },
+    {
+      "id": 1,
+      "headline": "Can Be Used As Garnish For Dishes",
+      "body": "Scelerisque varius morbi enim nunc faucibus a pellentesque sit amet. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt."
+    },
+    {
+      "id": 1,
+      "headline": "Make Salads Great Again",
+      "body": "Scelerisque varius morbi enim nunc faucibus a pellentesque sit amet. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt."
+    }
   ]
 }
