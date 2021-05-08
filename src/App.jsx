@@ -4,7 +4,7 @@ import About from './pages/About.jsx';
 import Product from './pages/Product.jsx';
 import Contact from './pages/Contact.jsx';
 import Header from './components/Header.jsx';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 export default function App() {
   return (
@@ -12,10 +12,10 @@ export default function App() {
       <Header />
       <div>
         <Switch>
-          <Route to="/" component={Home} />
-          <Route to="/about" component={About} />
-          <Route to="/product" component={Product} />
-          <Route to="/contact" component={Contact} />
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/product" component={Product} />
+          <Route path="/contact" component={Contact} />
         </Switch>
       </div>
     </Router>
