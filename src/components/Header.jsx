@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Header extends Component {
   render() {
@@ -9,23 +10,25 @@ export default class Header extends Component {
             <div className="md:flex md:justify-between  md:items-center">
               <div className="col-1">
                 <div className="logo">
-                  <img src="../src/assets/logo/urban-greens-logo.png" alt="" width="96px" height="96px" />
+                  <Link to="/">
+                    <img src="../src/assets/logo/urban-greens-logo.png" alt="" width="96px" height="96px" />
+                  </Link>
                 </div>
                 <div className="menu"></div>
               </div>
               <div className="col-2">
-                <a href="#" className="md:p-2">
+                <Link to="/products" className="md:p-2">
                   Products
-                </a>
-                <a href="#" className="md:p-2">
+                </Link>
+                <Link to="/learn" className="md:p-2">
                   Learn
-                </a>
-                <a href="#" className="md:p-2">
+                </Link>
+                <Link to="/about" className="md:p-2">
                   About
-                </a>
-                <a href="#" className="md:p-2">
+                </Link>
+                <Link to="/contact" className="md:p-2">
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
           </div>
