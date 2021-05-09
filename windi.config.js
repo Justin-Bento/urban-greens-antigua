@@ -2,16 +2,20 @@
 export default {
   theme: {
     extend: {
-      colors: {
-        grey: colors.gray,
-      },
       backgroundImage: (theme) => ({
-        'hero-img': "url('./assets/home/hero.png')",
+        'hero-img': "url('./src/assets/home/hero.png')",
       }),
+      lineClamp: {
+        sm: '3',
+        lg: '10',
+      },
     },
   },
   plugins: [
     require('windicss/plugin/typography'),
+    require('windicss/plugin/forms'),
+    require('windicss/plugin/aspect-ratio'),
+    require('windicss/plugin/line-clamp'),
     // ...
   ],
 };
