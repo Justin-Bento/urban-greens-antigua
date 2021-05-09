@@ -70,5 +70,37 @@
       "headline": "Make Salads Great Again",
       "body": "Scelerisque varius morbi enim nunc faucibus a pellentesque sit amet. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt."
     }
+  ],
+  "faqs": [
+    {
+      "id": 1,
+      "headline": "What Are Microgreens?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    },
+    {
+      "id": 2,
+      "headline": "What Are Microgreens?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    },
+    {
+      "id": 3,
+      "headline": "What Are Microgreens?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    },
+    {
+      "id": 4,
+      "headline": "What Are Microgreens?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    },
+    {
+      "id": 5,
+      "headline": "What Are Microgreens?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    },
+    {
+      "id": 6,
+      "headline": "What Are Microgreens?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    }
   ]
 }

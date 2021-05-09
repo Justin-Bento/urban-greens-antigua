@@ -1,6 +1,7 @@
 import React from 'react';
 import products from '../lib/products.json';
 import Cards from '../components/Cards.jsx';
+import Footer from '../components/Footer.jsx';
 
 export default function Product() {
   return (
@@ -22,6 +23,7 @@ export default function Product() {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
