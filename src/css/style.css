@@ -19,7 +19,7 @@
     @apply mb-1 text-lg font-medium text-gray-800;
   }
   p {
-    @apply prose text-gray-700 mb-4 lg:prose-2xl;
+    @apply prose text-gray-700 mb-4 2xl:prose-2xl;
   }
   .image {
     @apply object-cover w-full h-96 bg-center rounded;
