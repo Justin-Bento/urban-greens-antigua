@@ -7,20 +7,26 @@ export default function Home() {
   return (
     <div>
       <section className="hero">
-        <div className="bg-hero-img py-24">
-          <div className="wrapper lg:text-center">
-            <h1 className="h1">Urban Greens Antigua.</h1>
-            <p className="my-4 text-xl text-left sm:text-2xl sm:text-center ">
-              Your one stop shop to get the best microgreens in Antigua. As our goal is to, help you bring back greens into
-              your lifestyle. So You can maintin a meaningful lifestyle.
-            </p>
-            <div className="mb-4">
-              <Link to="/products">
-                <button className="btn-contained">View Products</button>
-              </Link>
-              <Link to="/products">
-                <button className="btn-outlined">Learn More</button>
-              </Link>
+        <div className="bg-hero-img bg-no-repeat bg-cover">
+          <div className="bg-gradient-to-t from-gray-700 via-gray-800 to-gray-900 bg-opacity-60">
+            <div className="wrapper py-24">
+              <h1 className="h1 text-center text-white">
+                Urban Greens Antigua.
+              </h1>
+              <p className="my-2 text-xl sm:text-2xl font-medium text-center text-white">
+                Our goal is to educate and show people the future of
+                micro-greens. We do this by showing people how they use
+                micro-greens in their lifestyle and informing you on the
+                product.
+              </p>
+              <div className="mb-4 text-center">
+                <Link to="/products">
+                  <button className="btn-contained">View Products</button>
+                </Link>
+                <Link to="/learn">
+                  <button className="btn-outlined">Learn More</button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -30,13 +36,20 @@ export default function Home() {
         <div className="wrapper my-24">
           {data.features.map((item, index) => {
             return (
-              <div key={index} className="section grid grid-cols-1 md:grid-cols-2 gap-24">
+              <div
+                key={index}
+                className="section grid grid-cols-1 md:grid-cols-2 gap-24"
+              >
                 <div className="">
                   <h2 className="h2">{item.headline}</h2>
                   <p>{item.body}</p>
                 </div>
                 <div className="">
-                  <img src={`../src/assets/home/${item.media}`} alt="" className="image" />
+                  <img
+                    src={`../src/assets/home/${item.media}`}
+                    alt=""
+                    className="image"
+                  />
                 </div>
               </div>
             );
@@ -58,7 +71,10 @@ export default function Home() {
             <a href="#" className="w-full btn btn-light btn-lg sm:w-auto">
               Start free trial
             </a>
-            <a href="#" className="w-full btn btn-outline-light btn-lg sm:w-auto">
+            <a
+              href="#"
+              className="w-full btn btn-outline-light btn-lg sm:w-auto"
+            >
               Book a demo
             </a>
           </div>
@@ -67,7 +83,9 @@ export default function Home() {
       {/* end of call-to-action */}
       <section className="benifits">
         <div className="wrapper my-24">
-          <h2 className="text-3xl tracking-wide font-medium mb-2 capitalize">Incredible benefits of microgreens</h2>
+          <h2 className="text-3xl tracking-wide font-medium mb-2 capitalize">
+            Incredible benefits of microgreens
+          </h2>
           <p className="mb-16 text-lg text-gray-500 tracking-wide">
             Get insights to dig down into what's powering your growth the most
           </p>
@@ -98,9 +116,11 @@ export default function Home() {
                   Why People Choose Urban Greens
                 </p>
                 <h1 className="mb-10 text-xl italic font-normal text-gray-800 md:leading-snug md:text-3xl">
-                  “We endeavour to build a truly human AND high-performing workplace, where everyone can do the best work of
-                  their lives. This product is a key part of facilitating this culture by being our one-stop-shop for all
-                  things performance development.”
+                  “We endeavour to build a truly human AND high-performing
+                  workplace, where everyone can do the best work of their lives.
+                  This product is a key part of facilitating this culture by
+                  being our one-stop-shop for all things performance
+                  development.”
                 </h1>
               </div>
               <div className="flex items-center justify-center md:justify-center">
@@ -112,8 +132,12 @@ export default function Home() {
                   />
                 </div>
                 <div className="ml-4">
-                  <p className="mb-1 text-xs font-semibold tracking-widest text-gray-800 uppercase">Praveen Juge</p>
-                  <p className="text-xs font-semibold tracking-widest text-gray-500 uppercase">CEO, Birds</p>
+                  <p className="mb-1 text-xs font-semibold tracking-widest text-gray-800 uppercase">
+                    Praveen Juge
+                  </p>
+                  <p className="text-xs font-semibold tracking-widest text-gray-500 uppercase">
+                    CEO, Birds
+                  </p>
                 </div>
               </div>
             </div>
@@ -137,7 +161,11 @@ export default function Home() {
                 })}
               </div>
               <div className="">
-                <img src="../src/assets/home/feature-04.png" alt="" className="image" />
+                <img
+                  src="../src/assets/home/feature-04.png"
+                  alt=""
+                  className="image"
+                />
               </div>
             </div>
           </div>
