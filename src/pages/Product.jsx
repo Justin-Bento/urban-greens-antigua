@@ -2,6 +2,7 @@ import React from 'react';
 import products from '../lib/products.json';
 import Cards from '../components/Cards.jsx';
 import Footer from '../components/Footer.jsx';
+import { Link } from 'react-router-dom';
 
 export default function Product() {
   return (
@@ -11,13 +12,15 @@ export default function Product() {
           {products.map((item, index) => {
             return (
               <div key={index}>
-                <Cards
-                  Media={item.Image}
-                  Price={item.Price}
-                  Headline={item.Microgreen}
-                  Body={item.Nutrients}
-                  Colour={item.Colour}
-                />
+                <Link to={`/${item.id}`}>
+                  <Cards
+                    Media={item.Image}
+                    Price={item.Price}
+                    Headline={item.Microgreen}
+                    Body={item.Nutrients}
+                    Colour={item.Colour}
+                  />
+                </Link>
               </div>
             );
           })}
