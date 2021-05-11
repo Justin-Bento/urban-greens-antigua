@@ -11,11 +11,9 @@ export default function Home() {
           <div className=" flex justify-center py-16 bg-black bg-opacity-50">
             <div className="wrapper text-center">
               <h1 className="headline-1 text-white">Urban Greens Antigua.</h1>
-              <p className="my-4 headline-6 text-white">
-                Our goal is to educate and show people the future of
-                micro-greens. We do this by showing people how they use
-                micro-greens in their lifestyle and informing you on the
-                product.
+              <p className="my-4 headline-5 text-white">
+                Our goal is to show people the future of micro-greens by showing
+                people how they use micro-greens in their lifestyle.
               </p>
               <div className="flex items-center justify-center">
                 <Link to="/products">
@@ -44,7 +42,7 @@ export default function Home() {
                 </div>
                 <div className="">
                   <img
-                    src={`../src/assets/home/${item.media}`}
+                    src={`../assets/home/${item.media}`}
                     alt=""
                     className="image"
                   />
@@ -59,21 +57,22 @@ export default function Home() {
         <div className="flex flex-col items-stretch justify-between px-4 py-20 mx-auto max-w-7xl lg:flex-row sm:items-center">
           <div>
             <h2 className="headline-3 text-white mb-4">
-              Built for companies of all sizes
+              Learn More About Your Greens!
             </h2>
             <p className="subtitle-2 text-white">
-              Start your 14-day free trial or book a personal demo.
+              Get to know about Micro Greens so we can help you make an informed
+              purchase.
             </p>
           </div>
           <div className="flex flex-col mb-2 space-x-0 space-y-2 sm:flex-row sm:space-x-2 sm:space-y-0">
             <a href="#" className="w-full btn btn-light btn-lg sm:w-auto">
-              Start free trial
+              Learn More
             </a>
             <a
               href="#"
               className="w-full btn btn-outline-light btn-lg sm:w-auto"
             >
-              Book a demo
+              Contact Us
             </a>
           </div>
         </div>
@@ -160,7 +159,7 @@ export default function Home() {
               </div>
               <div className="">
                 <img
-                  src="../src/assets/home/feature-04.png"
+                  src="../assets/home/feature-04.png"
                   alt=""
                   className="image"
                 />
