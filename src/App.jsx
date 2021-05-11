@@ -5,6 +5,7 @@ import Product from './pages/Product.jsx';
 import Product_Item from './pages/Product_Item.jsx';
 import Contact from './pages/Contact.jsx';
 import Learn from './pages/Learn.jsx';
+import Community from './pages/Community.jsx';
 import Header from './components/Header.jsx';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/product" component={Product} />
           <Route path="/product/:id" component={Product_Item} />
           <Route path="/contact" component={Contact} />
+          <Route path="/community" component={Community} />
         </Switch>
       </div>
     </Router>
