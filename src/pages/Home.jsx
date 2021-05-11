@@ -8,23 +8,21 @@ export default function Home() {
     <div>
       <section className="hero">
         <div className="bg-hero-img bg-no-repeat bg-cover">
-          <div className="bg-gradient-to-t from-gray-700 via-gray-800 to-gray-900 bg-opacity-60">
-            <div className="wrapper py-24">
-              <h1 className="h1 text-center text-white">
-                Urban Greens Antigua.
-              </h1>
-              <p className="my-2 text-xl sm:text-2xl font-medium text-center text-white">
+          <div className=" flex justify-center py-16 bg-black bg-opacity-50">
+            <div className="wrapper text-center">
+              <h1 className="headline-1 text-white">Urban Greens Antigua.</h1>
+              <p className="my-4 headline-6 text-white">
                 Our goal is to educate and show people the future of
                 micro-greens. We do this by showing people how they use
                 micro-greens in their lifestyle and informing you on the
                 product.
               </p>
-              <div className="mb-4 text-center">
+              <div className="flex items-center justify-center">
                 <Link to="/products">
-                  <button className="btn-contained">View Products</button>
+                  <button className="btn-contain m-2">View Products</button>
                 </Link>
                 <Link to="/learn">
-                  <button className="btn-outlined">Learn More</button>
+                  <button className="btn-contain-white m-2">Learn More</button>
                 </Link>
               </div>
             </div>
@@ -38,11 +36,11 @@ export default function Home() {
             return (
               <div
                 key={index}
-                className="section grid grid-cols-1 md:grid-cols-2 gap-24"
+                className="my-24 grid grid-cols-1 md:grid-cols-2 gap-24"
               >
                 <div className="">
-                  <h2 className="h2">{item.headline}</h2>
-                  <p>{item.body}</p>
+                  <h2 className="headline-3 mb-4">{item.headline}</h2>
+                  <p className="body-1">{item.body}</p>
                 </div>
                 <div className="">
                   <img
@@ -60,10 +58,10 @@ export default function Home() {
       <section className="text-white bg-green-600 my-24">
         <div className="flex flex-col items-stretch justify-between px-4 py-20 mx-auto max-w-7xl lg:flex-row sm:items-center">
           <div>
-            <h2 className="mb-1 text-xl font-semibold text-left sm:text-2xl sm:text-center lg:text-left">
+            <h2 className="headline-3 text-white mb-4">
               Built for companies of all sizes
             </h2>
-            <p className="mb-6 text-lg font-normal text-left text-gray-200 sm:text-xl lg:mb-0 sm:text-center lg:text-left">
+            <p className="subtitle-2 text-white">
               Start your 14-day free trial or book a personal demo.
             </p>
           </div>
@@ -83,9 +81,7 @@ export default function Home() {
       {/* end of call-to-action */}
       <section className="benifits">
         <div className="wrapper my-24">
-          <h2 className="text-3xl tracking-wide font-medium mb-2 capitalize">
-            Incredible benefits of microgreens
-          </h2>
+          <h2 className="headline-3">Incredible benefits of microgreens</h2>
           <p className="mb-16 text-lg text-gray-500 tracking-wide">
             Get insights to dig down into what's powering your growth the most
           </p>
@@ -146,15 +142,17 @@ export default function Home() {
       </section>
       {/* end of testimonials */}
       <section className="useage">
-        <div className="section">
+        <div className="my-24">
           <div className="wrapper">
-            <h2 className="h2">Here’s How People Use Microgreens!</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
               <div className="">
+                <h2 className="headline-3">
+                  Here’s How People Use Microgreens!
+                </h2>
                 {data.useage.map((item, index) => {
                   return (
                     <div key={index} className="my-8">
-                      <h3 className="h3">{item.headline}</h3>
+                      <h3 className="subtitle-1">{item.headline}</h3>
                       <p>{item.body}</p>
                     </div>
                   );
