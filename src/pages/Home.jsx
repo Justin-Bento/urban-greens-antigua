@@ -42,7 +42,7 @@ export default function Home() {
                 </div>
                 <div className="">
                   <img
-                    src={`../assets/home/${item.media}`}
+                    src={`../src/assets/home/${item.media}`}
                     alt=""
                     className="image"
                   />
@@ -159,7 +159,7 @@ export default function Home() {
               </div>
               <div className="">
                 <img
-                  src="../assets/home/feature-04.png"
+                  src="../src/assets/home/feature-04.png"
                   alt=""
                   className="image"
                 />
