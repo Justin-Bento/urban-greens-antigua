@@ -1,5 +1,4 @@
 import React from 'react';
-const Footer = React.lazy(() => import('./components/Footer.jsx'));
 import data from '../lib/data.json';
 
 export default function About() {

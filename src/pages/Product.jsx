@@ -1,7 +1,6 @@
 import React from 'react';
 import products from '../lib/products.json';
-const Cards = React.lazy(() => import('./components/Cards.jsx'));
-const Footer = React.lazy(() => import('./components/Footer.jsx'));
+import Cards from '../components/Cards.jsx';
 import { Link } from 'react-router-dom';
 
 export default function Product() {
