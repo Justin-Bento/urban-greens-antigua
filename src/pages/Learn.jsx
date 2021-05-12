@@ -24,7 +24,6 @@ export default function Learn() {
           })}
         </div>
       </div>
-      <Footer />
     </section>
   );
 }
