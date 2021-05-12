@@ -3,7 +3,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        'hero-img': "url('./public/assets/home/hero.png')",
+        'hero-img': "url('/assets/home/hero.png')",
       }),
       lineClamp: {
         sm: '3',
