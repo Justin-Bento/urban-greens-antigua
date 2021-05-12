@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const Footer = React.lazy(() => import('./components/Footer.jsx'));
 import data from '../lib/data.json';
 
 export default function Home() {
