@@ -12,9 +12,9 @@ export default function Product() {
           {products.map((item, index) => {
             return (
               <div key={index}>
-                <Link to={`/${item.id}`}>
+                <Link to={`/product/${item.id}`}>
                   <Cards
-                    Media={item.Image}
+                    Media={`../../assets/products/${item.Image}`}
                     Price={item.Price}
                     Headline={item.Microgreen}
                     Body={item.Nutrients}

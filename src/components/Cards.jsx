@@ -7,7 +7,7 @@ export default class Cards extends Component {
         <div>
           <a href="#">
             <img
-              src={`../src/assets/products/${this.props.Media}`}
+              src={`${this.props.Media}`}
               className="object-contain w-full h-56 bg-center rounded mb-1"
               alt="Kutty"
               loading="lazy"
