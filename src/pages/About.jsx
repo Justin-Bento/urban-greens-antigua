@@ -31,7 +31,7 @@ export default function About() {
             </div>
             <div className="2">
               <img
-                src="../src/assets/home/hero.png"
+                src="/assets/home/hero.png"
                 alt=""
                 loading="lazy"
                 className="image"
