@@ -11,7 +11,13 @@ export default class Header extends Component {
               <div className="col-1">
                 <div className="logo">
                   <Link to="/">
-                    <img src="../src/assets/logo/urban-greens-logo.png" alt="" width="96px" height="96px" />
+                    <img
+                      src="../../assets/logo/urban-greens-logo.png"
+                      alt=""
+                      width="96px"
+                      height="96px"
+                      loading="lazy"
+                    />
                   </Link>
                 </div>
                 <div className="menu"></div>
