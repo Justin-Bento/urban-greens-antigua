@@ -59,7 +59,7 @@ export default function Home() {
               Learn More About Your Greens!
             </h2>
             <p className="subtitle-2 text-white">
-              Get to know about Micro Greens so we can help you make an informed
+              Get to know Microgreens more so we can help you make an informed
               purchase.
             </p>
           </div>
