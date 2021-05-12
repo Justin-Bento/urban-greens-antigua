@@ -16,7 +16,7 @@ export default function Home() {
                 people how they use micro-greens in their lifestyle.
               </p>
               <div className="flex items-center justify-center">
-                <Link to="/products">
+                <Link to="/product">
                   <button className="btn-contain m-2">View Products</button>
                 </Link>
                 <Link to="/learn">
@@ -42,7 +42,7 @@ export default function Home() {
                 </div>
                 <div className="">
                   <img
-                    src={`../src/assets/home/${item.media}`}
+                    src={`../assets/home/${item.media}`}
                     alt=""
                     className="image"
                   />
@@ -159,7 +159,7 @@ export default function Home() {
               </div>
               <div className="">
                 <img
-                  src="../src/assets/home/feature-04.png"
+                  src="../assets/home/feature-04.png"
                   alt=""
                   className="image"
                 />
