@@ -7,7 +7,7 @@ import Contact from './pages/Contact.jsx';
 import Learn from './pages/Learn.jsx';
 import Community from './pages/Community.jsx';
 import Header from './components/Header.jsx';
-import Footer from '../components/Footer.jsx';
+import Footer from './components/Footer.jsx';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 export default function App() {
