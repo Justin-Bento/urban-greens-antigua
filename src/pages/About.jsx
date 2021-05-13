@@ -5,11 +5,11 @@ export default function About() {
   return (
     <div className="About">
       <section className="wrapper">
-        <div className="my-24">
+        <div className="my-12 md:my-24">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
             <div className="1">
               <h1 className="headline-3">About Us</h1>
-              <p className="body-1 my-8 line-clamp-4">
+              <p className="body-1 my-4 line-clamp-4">
                 Our greens are grown indoors in hydroponic systems where a
                 constant stream of mineral enriched water feeds the plants
                 through their roots. Growing indoors allows us to control the
