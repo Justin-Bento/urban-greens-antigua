@@ -208,48 +208,29 @@ export default function Home() {
       <section className="useage my-24">
         <div className="wrapper">
           <div className="my-12">
-            <h2 className="headline-3">Here's how people use Microgreens</h2>
+            <h2 className="headline-3">See how people use Microgreens!</h2>
             <p className="body-1 mt-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              eum autem dolores est sit?
+              Follow our community and stay up today to see how people are using
+              microgreens in their Lifestyle.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16">
             <div className="1">
               <div className="">
                 <h6 className="subtitle-1">
-                  Here's how people use Microgreens
+                  Visit Our Faceebok Microgreen Group!
                 </h6>
                 <p className="body-1 line-clamp-2">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Aliquam similique alias esse consequuntur iure commodi
-                  repellendus voluptatum! Tempore facere odit sequi, impedit
-                  quisquam, repellat veritatis sunt fugit molestias aliquam
-                  expedita?
+                  Got something to share or wating for our lastest update?
+                  Interact with our online community, and see how people from
+                  all backgrounds are using our greens.
                 </p>
               </div>
               <div className="my-8">
-                <h6 className="subtitle-1">
-                  Here's how people use Microgreens
-                </h6>
+                <h6 className="subtitle-1">Visit Our Instagram Page!</h6>
                 <p className="body-1 line-clamp-2">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Aliquam similique alias esse consequuntur iure commodi
-                  repellendus voluptatum! Tempore facere odit sequi, impedit
-                  quisquam, repellat veritatis sunt fugit molestias aliquam
-                  expedita?
-                </p>
-              </div>
-              <div className="my-6">
-                <h6 className="subtitle-1">
-                  Here's how people use Microgreens
-                </h6>
-                <p className="body-1 line-clamp-2">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Aliquam similique alias esse consequuntur iure commodi
-                  repellendus voluptatum! Tempore facere odit sequi, impedit
-                  quisquam, repellat veritatis sunt fugit molestias aliquam
-                  expedita?
+                  You can follow our instagram page for insperation on how you
+                  can incoperate microgreens into your lifestyle.
                 </p>
               </div>
             </div>
