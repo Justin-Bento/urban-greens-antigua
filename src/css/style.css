@@ -38,6 +38,12 @@
   .body-2 {
     @apply prose-sm text-gray-700;
   }
+  .caption {
+    @apply prose-sm tracking-widest text-center;
+  }
+  .overline {
+    @apply prose-sm uppercase tracking-widest font-medium;
+  }
 
   /* end of type scale */
 
