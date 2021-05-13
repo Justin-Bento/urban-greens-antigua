@@ -4,7 +4,7 @@
 
 @layer base {
   .wrapper {
-    @apply max-w-screen-xl mx-auto;
+    @apply w-11/12 md:max-w-screen-xl mx-auto;
   }
   .headline-1 {
     @apply text-5xl font-bold capitalize;
