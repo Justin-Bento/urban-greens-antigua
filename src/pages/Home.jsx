@@ -7,10 +7,10 @@ export default function Home() {
     <div>
       <section className="hero">
         <div className="bg-hero-img bg-no-repeat bg-cover">
-          <div className=" flex justify-center py-16 bg-black bg-opacity-50">
+          <div className=" flex justify-center py-24 bg-black bg-opacity-50">
             <div className="wrapper text-center">
               <h1 className="headline-1 text-white">Urban Greens Antigua.</h1>
-              <p className="my-4 headline-5 text-white">
+              <p className="headline-5 my-4 text-white">
                 Our goal is to show people the future of micro-greens by showing
                 people how they use micro-greens in their lifestyle.
               </p>
@@ -77,7 +77,7 @@ export default function Home() {
       <section className="benifits">
         <div className="wrapper my-24">
           <h2 className="headline-3">Incredible benefits of microgreens</h2>
-          <p className="mb-16 text-lg text-gray-500 tracking-wide">
+          <p className="mb-20 text-lg text-gray-500 tracking-wide">
             Get insights to dig down into what's powering your growth the most
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -88,7 +88,7 @@ export default function Home() {
                     <ion-icon name="checkmark"></ion-icon>
                   </div>
                   <div className="">
-                    <h3 className="h3">{item.headline}</h3>
+                    <h3 className="subtitle-1 ">{item.headline}</h3>
                     <p>{item.body}</p>
                   </div>
                 </div>
@@ -103,10 +103,10 @@ export default function Home() {
           <div className="bg-gray-100 py-24">
             <div className="wrapper">
               <div className="text-left md:text-center">
-                <p className="mb-8 text-xs font-bold tracking-widest text-green-600 uppercase">
+                <p className="overline mb-4 text-green-600">
                   Why People Choose Urban Greens
                 </p>
-                <h1 className="mb-10 text-xl italic font-normal text-gray-800 md:leading-snug md:text-3xl">
+                <h1 className="mb-8 text-xl italic font-normal text-gray-800 md:leading-snug md:text-3xl">
                   “We endeavour to build a truly human AND high-performing
                   workplace, where everyone can do the best work of their lives.
                   This product is a key part of facilitating this culture by
@@ -123,7 +123,7 @@ export default function Home() {
                   />
                 </div>
                 <div className="ml-4">
-                  <p className="mb-1 text-xs font-semibold tracking-widest text-gray-800 uppercase">
+                  <p className="mb-2 text-xs font-semibold tracking-widest text-gray-800 uppercase">
                     Praveen Juge
                   </p>
                   <p className="text-xs font-semibold tracking-widest text-gray-500 uppercase">
