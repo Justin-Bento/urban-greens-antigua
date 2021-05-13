@@ -89,7 +89,7 @@ export default function Home() {
                   </div>
                   <div className="">
                     <h3 className="subtitle-1 ">{item.headline}</h3>
-                    <p>{item.body}</p>
+                    <p className="body-1">{item.body}</p>
                   </div>
                 </div>
               );
@@ -123,11 +123,8 @@ export default function Home() {
                   />
                 </div>
                 <div className="ml-4">
-                  <p className="mb-2 text-xs font-semibold tracking-widest text-gray-800 uppercase">
-                    Praveen Juge
-                  </p>
-                  <p className="text-xs font-semibold tracking-widest text-gray-500 uppercase">
-                    CEO, Birds
+                  <p className="overline">
+                    Praveen Juge <br /> CEO, Birds
                   </p>
                 </div>
               </div>
@@ -148,7 +145,7 @@ export default function Home() {
                   return (
                     <div key={index} className="my-8">
                       <h3 className="subtitle-1">{item.headline}</h3>
-                      <p>{item.body}</p>
+                      <p className="body-1">{item.body}</p>
                     </div>
                   );
                 })}
