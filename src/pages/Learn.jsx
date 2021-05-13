@@ -13,7 +13,7 @@ export default function Learn() {
                 className="grid grid-cols-1 md:grid-cols-2 items-center my-12"
                 key={index}
               >
-                <div className="divide-y divide-light-blue-400">
+                <div className="">
                   <h3 className="subtitle-1">{item.headline}</h3>
                 </div>
                 <div className="">
