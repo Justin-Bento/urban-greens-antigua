@@ -5,7 +5,7 @@ export default class Footer extends Component {
     return (
       <div>
         <footer className="px-4 py-20 text-gray-100 bg-green-800">
-          <div className="mx-auto max-w-7xl">
+          <div className="wrapper">
             <div className="grid grid-cols-2 gap-4 mb-4 md:grid-cols-5">
               <a
                 href="/"
@@ -91,7 +91,7 @@ export default class Footer extends Component {
                 </a>
               </nav>
             </div>
-            <p className="subtitle-2 text-green-100 text-center tracking-wide">
+            <p className="subtitle-2 text-green-100 md:text-center tracking-wide">
               © Copyright 2021 Urban Greens Inc. All Rights Reserved.
             </p>
           </div>
