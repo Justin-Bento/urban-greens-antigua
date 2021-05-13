@@ -9,16 +9,16 @@ export default function Home() {
         <div className="bg-hero-img bg-no-repeat bg-cover mb-24">
           <div className="py-24 bg-black bg-opacity-50">
             <div className="wrapper">
-              <h1 className="headline-1 text-gray-50 text-center">
+              <h1 className="headline-1 text-gray-50 md:text-center">
                 See What Microgreen Are Right For You!
               </h1>
-              <p className="text-xl font-medium max-w-full text-center text-gray-200 my-8">
+              <p className="text-xl font-medium max-w-full md:text-center text-gray-200 my-8">
                 Urban Greens Antigua is a company that grows, sells and helps
                 people learn more about Microgreens. We do this by showing
                 people the future Of Microgreens. As well as show people how
                 they can incoruperate it into Their Lifestyle.
               </p>
-              <div className="text-center">
+              <div className="md:text-center">
                 <button className="btn-primary m-2">View Work</button>
                 <button className="btn-light m-2">Learn More</button>
               </div>
@@ -195,7 +195,7 @@ export default function Home() {
             <p className="overline text-green-800 text-center">
               See What People Have to say ABout Urban Greens
             </p>
-            <h2 className="headline-3 font-normal italic text-center my-4 leading-relaxed tracking-normal">
+            <h2 className="headline-4 font-normal italic text-center my-4 leading-relaxed tracking-normal">
               “We endeavour to build a truly human AND high-performing
               workplace, where everyone can do the best work of their lives.
               This product is a key part of facilitating this culture by being
