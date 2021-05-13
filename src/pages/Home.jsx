@@ -52,7 +52,7 @@ export default function Home() {
         </div>
       </section>
       {/* end of features */}
-      <section className="text-gray-50 bg-green-600 my-24">
+      <section className="text-gray-50 bg-green-500 my-24">
         <div className="flex flex-col items-stretch justify-between px-4 py-20 mx-auto max-w-7xl lg:flex-row sm:items-center">
           <div>
             <h2 className="headline-3 text-gray-50 mb-4">
@@ -84,7 +84,7 @@ export default function Home() {
             {data.benefits.map((item, index) => {
               return (
                 <div key={index} className="md:flex">
-                  <div className="my-1 md:mx-4 text-green-600">
+                  <div className="my-1 md:mx-4 text-green-500">
                     <ion-icon name="checkmark"></ion-icon>
                   </div>
                   <div className="">

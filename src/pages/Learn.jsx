@@ -9,15 +9,12 @@ export default function Learn() {
           <h1 className="headline-2">Frequently Asked Questions</h1>
           {data.faqs.map((item, index) => {
             return (
-              <div
-                className="grid grid-cols-1 md:grid-cols-2 items-center my-12"
-                key={index}
-              >
+              <div className="my-12" key={index}>
                 <div className="">
                   <h3 className="subtitle-1">{item.headline}</h3>
                 </div>
                 <div className="">
-                  <p>{item.body}</p>
+                  <p className="body-1">{item.body}</p>
                 </div>
               </div>
             );
