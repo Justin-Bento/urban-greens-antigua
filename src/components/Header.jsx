@@ -5,7 +5,7 @@ export default class Header extends Component {
   constructor() {
     super();
     this.state = {
-      toggle: true,
+      toggle: false,
     };
   }
 
