@@ -4,7 +4,7 @@ export default class Footer extends Component {
   render() {
     return (
       <div>
-        <footer className="px-4 py-20 text-gray-50 bg-green-600">
+        <footer className="px-4 py-20 text-gray-100 bg-green-600">
           <div className="mx-auto max-w-7xl">
             <div className="grid grid-cols-2 gap-4 mb-4 md:grid-cols-5">
               <a
@@ -22,142 +22,77 @@ export default class Footer extends Component {
                 />
               </a>
               <nav className="mb-8">
-                <p className="mb-4 text-xs font-bold tracking-wider text-gray-50 uppercase">
-                  Product
-                </p>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <p className="mb-4 subtitle-1 text-gray-50">Product</p>
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Features
                 </a>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Integrations
                 </a>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Documentation
                 </a>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   FAQs
                 </a>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <a href="#" className="flex body-2 text-gray-100">
                   Pricing
                 </a>
               </nav>
               <nav className="mb-8">
-                <p className="mb-2 text-xs font-bold tracking-wider  uppercase">
-                  About
-                </p>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <p className="mb-4 subtitle-1 text-gray-50">About</p>
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Press-Kit
                 </a>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Company
                 </a>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Privacy
                 </a>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Blog
                 </a>
               </nav>
               <nav className="mb-8">
-                <p className="mb-4 text-xs font-bold tracking-wider text-gray-50 uppercase">
-                  Contact
-                </p>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <p className="mb-4 subtitle-1 text-gray-50">Contact</p>
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Twitter
                 </a>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Instagram
                 </a>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Email
                 </a>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Advertising
                 </a>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Chat
                 </a>
               </nav>
               <nav className="mb-8">
-                <p className="mb-4 text-xs font-bold tracking-wider text-gray-50 uppercase">
-                  Legal
-                </p>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <p className="mb-4 subtitle-1 text-gray-50">Legal</p>
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Terms of Service
                 </a>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-primary"
-                >
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Privacy Policy
                 </a>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-green-70"
-                >
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Cookie Policy
                 </a>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-green-70"
-                >
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Affiliate Program
                 </a>
-                <a
-                  href="#"
-                  className="flex mb-4 text-sm font-medium transition md:mb-2 hover:text-green-70"
-                >
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Manage Cookies
                 </a>
               </nav>
             </div>
-            <p className="text-sm font-medium text-left text-gray-800 md:text-center">
-              © Copyright 2020 Skcript Inc. All Rights Reserved.
+            <p className="subtitle-2 text-green-100 text-center tracking-wide">
+              © Copyright 2021 Urban Greens Inc. All Rights Reserved.
             </p>
           </div>
         </footer>
