@@ -73,7 +73,7 @@ export default function Home() {
       </section>
       {/* end of perks section */}
       <section className="call-to-action my-24">
-        <div className="text-white bg-green-600">
+        <div className="text-white bg-green-800">
           <div className="wrapper">
             <div className="flex flex-col items-stretch justify-between px-4 py-20 mx-auto max-w-7xl lg:flex-row sm:items-center">
               <div>
@@ -108,7 +108,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16">
             <div className="1 md:flex">
-              <div className="my-1 md:mx-2 text-green-500">
+              <div className="my-1 md:mx-2 text-green-800">
                 <ion-icon name="checkmark"></ion-icon>
               </div>
               <div className="">
@@ -120,7 +120,7 @@ export default function Home() {
               </div>
             </div>
             <div className="2 md:flex">
-              <div className="my-1 md:mx-2 text-green-500">
+              <div className="my-1 md:mx-2 text-green-800">
                 <ion-icon name="checkmark"></ion-icon>
               </div>
               <div className="2-item">
@@ -132,7 +132,7 @@ export default function Home() {
               </div>
             </div>
             <div className="3 md:flex">
-              <div className="my-1 md:mx-2 text-green-500">
+              <div className="my-1 md:mx-2 text-green-800">
                 <ion-icon name="checkmark"></ion-icon>
               </div>
               <div className="3-item">
@@ -144,7 +144,7 @@ export default function Home() {
               </div>
             </div>
             <div className="4 md:flex">
-              <div className="my-1 md:mx-2 text-green-500">
+              <div className="my-1 md:mx-2 text-green-800">
                 <ion-icon name="checkmark"></ion-icon>
               </div>
               <div className="">
@@ -159,7 +159,7 @@ export default function Home() {
             </div>
             <div className="5 md:flex">
               <div className="">
-                <div className="my-1 md:mx-2 text-green-500">
+                <div className="my-1 md:mx-2 text-green-800">
                   <ion-icon name="checkmark"></ion-icon>
                 </div>
               </div>
@@ -173,7 +173,7 @@ export default function Home() {
             </div>
             <div className="6 md:flex">
               <div className="">
-                <div className="my-1 md:mx-2 text-green-500">
+                <div className="my-1 md:mx-2 text-green-800">
                   <ion-icon name="checkmark"></ion-icon>
                 </div>
               </div>
@@ -192,7 +192,7 @@ export default function Home() {
       <section className="testimonials my-24">
         <div className="bg-gray-100 py-24">
           <div className="wrapper">
-            <p className="overline text-green-500 text-center">
+            <p className="overline text-green-800 text-center">
               See What People Have to say ABout Urban Greens
             </p>
             <h2 className="headline-3 font-normal italic text-center my-4 leading-relaxed tracking-normal">
