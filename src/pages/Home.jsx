@@ -16,10 +16,10 @@ export default function Home() {
               </p>
               <div className="flex items-center justify-center">
                 <Link to="/product">
-                  <button className="btn-contain m-2">View Products</button>
+                  <button className="btn-primary m-2">View Products</button>
                 </Link>
                 <Link to="/learn">
-                  <button className="btn-contain-white m-2">Learn More</button>
+                  <button className="btn-light m-2">Learn More</button>
                 </Link>
               </div>
             </div>
@@ -67,10 +67,7 @@ export default function Home() {
             <a href="#" className="w-full btn btn-light btn-lg sm:w-auto">
               Learn More
             </a>
-            <a
-              href="#"
-              className="w-full btn btn-outline-light btn-lg sm:w-auto"
-            >
+            <a href="#" className="btn-link text-white">
               Contact Us
             </a>
           </div>
