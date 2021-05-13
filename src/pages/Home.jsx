@@ -39,11 +39,7 @@ export default function Home() {
               </p>
             </div>
             <div className="w-full h-full py-14">
-              <img
-                src="/public/assets/home/feature-01.png"
-                alt=""
-                className="image"
-              />
+              <img src="/assets/home/feature-01.png" alt="" className="image" />
             </div>
           </div>
           <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-10 md:gap-x-24">
@@ -57,11 +53,7 @@ export default function Home() {
               </p>
             </div>
             <div className="w-full h-full py-14">
-              <img
-                src="/public/assets/home/feature-02.png"
-                alt=""
-                className="image"
-              />
+              <img src="/assets/home/feature-02.png" alt="" className="image" />
             </div>
           </div>
           <div className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-10 md:gap-x-24">
@@ -74,11 +66,7 @@ export default function Home() {
               </p>
             </div>
             <div className="w-full h-full py-14">
-              <img
-                src="/public/assets/home/feature-03.png"
-                alt=""
-                className="image"
-              />
+              <img src="/assets/home/feature-03.png" alt="" className="image" />
             </div>
           </div>
         </div>
@@ -266,11 +254,7 @@ export default function Home() {
               </div>
             </div>
             <div className="2">
-              <img
-                src="/public/assets/home/feature-04.png"
-                alt=""
-                className="image"
-              />
+              <img src="/assets/home/feature-04.png" alt="" className="image" />
             </div>
           </div>
         </div>
