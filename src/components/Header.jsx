@@ -46,8 +46,8 @@ export default class Header extends Component {
                   About
                 </Link>
               </div>
-              <div className="/contact">
-                <Link to="" className="p-2 m-2">
+              <div className="">
+                <Link to="/contact" className="p-2 m-2">
                   Contact
                 </Link>
               </div>
