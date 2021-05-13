@@ -28,24 +28,24 @@ export default function Contact() {
               </div>
             </div>
             <div className="2">
-              <label class="block my-8">
-                <span class="text-gray-700">Name</span>
+              <label className="block my-8">
+                <span className="text-gray-700">Name</span>
                 <input
-                  class="form-input rounded  px-2 h-10 block w-full border-1 border-gray-400"
+                  className="form-input rounded  px-2 h-10 block w-full border-1 border-gray-400"
                   placeholder="Jane Doe"
                 />
               </label>
-              <label class="block my-8">
-                <span class="text-gray-700">Email</span>
+              <label className="block my-8">
+                <span className="text-gray-700">Email</span>
                 <input
-                  class="form-input rounded  px-2 h-10 block w-full border-1 border-gray-400"
+                  className="form-input rounded  px-2 h-10 block w-full border-1 border-gray-400"
                   placeholder="Jane Doe"
                 />
               </label>
-              <label class="block my-8">
-                <span class="text-gray-700">Message</span>
+              <label className="block my-8">
+                <span className="text-gray-700">Message</span>
                 <input
-                  class="form-input rounded  px-2 h-10 block w-full border-1 border-gray-400"
+                  className="form-input rounded  px-2 h-10 block w-full border-1 border-gray-400"
                   placeholder="Jane Doe"
                 />
               </label>
