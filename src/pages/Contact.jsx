@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="Contact">
       <div className="wrapper">
-        <div className="my-24">
+        <div className="my-12 md:my-24">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 md:gap-12 lg:gap-20">
             <div className="1">
               <h1 className="headline-3 mb-2">Contact</h1>
