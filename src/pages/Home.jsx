@@ -9,8 +9,8 @@ export default function Home() {
         <div className="bg-hero-img bg-no-repeat bg-cover">
           <div className=" flex justify-center py-24 bg-black bg-opacity-50">
             <div className="wrapper text-center">
-              <h1 className="headline-1 text-white">Urban Greens Antigua.</h1>
-              <p className="headline-5 my-4 text-white">
+              <h1 className="headline-1 text-gray-50">Urban Greens Antigua.</h1>
+              <p className="headline-5 my-4 text-gray-50">
                 Our goal is to show people the future of micro-greens by showing
                 people how they use micro-greens in their lifestyle.
               </p>
@@ -52,13 +52,13 @@ export default function Home() {
         </div>
       </section>
       {/* end of features */}
-      <section className="text-white bg-green-600 my-24">
+      <section className="text-gray-50 bg-green-600 my-24">
         <div className="flex flex-col items-stretch justify-between px-4 py-20 mx-auto max-w-7xl lg:flex-row sm:items-center">
           <div>
-            <h2 className="headline-3 text-white mb-4">
+            <h2 className="headline-3 text-gray-50 mb-4">
               Learn More About Your Greens!
             </h2>
-            <p className="subtitle-2 text-white">
+            <p className="subtitle-2 text-gray-50">
               Get to know Microgreens more so we can help you make an informed
               purchase.
             </p>
@@ -67,7 +67,7 @@ export default function Home() {
             <a href="#" className="w-full btn btn-light btn-lg sm:w-auto">
               Learn More
             </a>
-            <a href="#" className="btn-link text-white">
+            <a href="#" className="btn-link text-gray-50">
               Contact Us
             </a>
           </div>

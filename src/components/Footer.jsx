@@ -4,7 +4,7 @@ export default class Footer extends Component {
   render() {
     return (
       <div>
-        <footer className="px-4 py-20 text-white bg-green-600">
+        <footer className="px-4 py-20 text-gray-50 bg-green-600">
           <div className="mx-auto max-w-7xl">
             <div className="grid grid-cols-2 gap-4 mb-4 md:grid-cols-5">
               <a
