@@ -192,10 +192,10 @@ export default function Home() {
       <section className="testimonials my-24">
         <div className="bg-gray-100 py-24">
           <div className="wrapper">
-            <p className="overline text-green-800 text-center">
+            <p className="overline text-green-800 md:text-center">
               See What People Have to say ABout Urban Greens
             </p>
-            <h2 className="headline-4 font-normal italic text-center my-4 leading-relaxed tracking-normal">
+            <h2 className="headline-4 font-normal italic md:text-center my-4 leading-relaxed tracking-normal">
               “We endeavour to build a truly human AND high-performing
               workplace, where everyone can do the best work of their lives.
               This product is a key part of facilitating this culture by being
