@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 export default class Header extends Component {
+  constructor() {
+    super();
+    this.state = {
+      toggle: true,
+    };
+  }
+
   render() {
     return (
       <header className="sticky top-0 z-90 bg-white shadow-sm">
@@ -18,38 +25,47 @@ export default class Header extends Component {
                   />
                 </Link>
               </div>
-              <div className="text-2xl md:hidden">
+              <div
+                className="text-2xl md:hidden"
+                onClick={() => {
+                  this.setState({
+                    toggle: !this.state.toggle,
+                  });
+                }}
+              >
                 <ion-icon
                   name="menu"
                   id="hamburgerbtn"
                   className=" bg-purple-800"
+                  onClick={() => {
+                    this.setState({
+                      toggle: !this.state.toggle,
+                    });
+                  }}
                 ></ion-icon>
               </div>
             </div>
 
-            <div
-              className="hidden md:flex flex-row md:items-center md:inline-block"
-              id="mobileMenu"
-            >
+            <div id="mobileMenu">
               <div className="">
-                <Link to="/product" className="p-2 m-2">
-                  Products
-                </Link>
-              </div>
-              <div className="">
-                <Link to="/learn" className="p-2 m-2">
-                  Learn
-                </Link>
-              </div>
-              <div className="">
-                <Link to="/about" className="p-2 m-2">
-                  About
-                </Link>
-              </div>
-              <div className="">
-                <Link to="/contact" className="p-2 m-2">
-                  Contact
-                </Link>
+                {this.state.toggle ? (
+                  <div className="md:flex flex-row md:items-center md:block">
+                    <div className="py-4 m-2">
+                      <Link to="/product" className="">
+                        Products
+                      </Link>
+                    </div>
+                    <div className="py-2 m-2">
+                      <Link to="/learn">Learn</Link>
+                    </div>
+                    <div className="py-2 m-2">
+                      <Link to="/about">About</Link>
+                    </div>
+                    <div className="py-2 m-2">
+                      <Link to="/contact">Contact</Link>
+                    </div>
+                  </div>
+                ) : null}
               </div>
             </div>
           </div>
