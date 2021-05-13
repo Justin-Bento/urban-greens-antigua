@@ -33,7 +33,7 @@
     @apply prose-sm font-medium capitalize text-gray-900;
   }
   .body-1 {
-    @apply prose text-gray-700;
+    @apply prose text-gray-700 leading-relaxed;
   }
   .body-2 {
     @apply prose-sm text-gray-700;
