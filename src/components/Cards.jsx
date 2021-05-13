@@ -13,7 +13,7 @@ export default class Cards extends Component {
               loading="lazy"
             />
           </a>
-          <p className="overline mb-1">{this.props.Price}</p>
+          <p className="overline text-green-600 mb-1">{this.props.Price}</p>
           <h2 className="subtitle-1">
             <a href="#" className="mb-1 hover:text-green-700">
               {this.props.Headline}
