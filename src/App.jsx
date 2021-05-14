@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Product from './pages/Product.jsx';
+import ProductDetail from './pages/ProductDetail.jsx';
 import Contact from './pages/Contact.jsx';
 import Learn from './pages/Learn.jsx';
 import Community from './pages/Community.jsx';
@@ -18,7 +19,8 @@ export default function App() {
           <Route exact path="/" component={Home} />
           <Route path="/learn" component={Learn} />
           <Route path="/about" component={About} />
-          <Route path="/product" component={Product} />
+          <Route path="/products" component={Product} />
+          <Route path="/products/:id" component={ProductDetail} />
           <Route path="/contact" component={Contact} />
           <Route path="/community" component={Community} />
         </Switch>
