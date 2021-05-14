@@ -5,7 +5,7 @@ export default class NotFound extends Component {
   render() {
     return (
       <section className="wrapper my-24">
-        <div className="grid items-center w-full grid-cols-1 gap-10 mx-auto md:w-4/5 lg:grid-cols-2 xl:gap-24">
+        <div className="grid items-center w-full grid-cols-1 gap-10 mx-auto lg:grid-cols-2 xl:gap-24">
           <div>
             <p className="mb-2 text-xs font-semibold tracking-wide text-gray-500 uppercase">
               Error 404
