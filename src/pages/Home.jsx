@@ -6,20 +6,26 @@ export default function Home() {
   return (
     <div className="">
       <section className="hero">
-        <div className="bg-hero-img bg-no-repeat bg-cover mb-24">
-          <div className="py-24 bg-black bg-opacity-50">
-            <div className="wrapper">
-              <h1 className="headline-1 text-gray-50 md:text-center">
-                See What Microgreens Are Right For You!
-              </h1>
-              <p className="text-xl font-medium max-w-full md:text-center text-gray-200 my-8">
-                Urban Greens Antigua mission is to grow, sell and educate people
-                about Microgreens.
-              </p>
-              <div className="md:text-center">
-                <button className="btn-primary m-2">Check Our Greens</button>
-                <button className="btn-light m-2">Learn More</button>
-              </div>
+        <div className="my-28">
+          <div className="wrapper">
+            <h1 className="headline-1 md:text-center">
+              See What Microgreens Are Right For You!
+            </h1>
+            <p className="text-xl font-medium max-w-full md:text-center my-8">
+              Urban Greens Antigua mission is to grow, sell and educate people
+              about Microgreens.
+            </p>
+            <div className="md:text-center">
+              <button className="btn-primary m-2">Check Our Greens</button>
+              <button className="btn-light m-2">Learn More</button>
+            </div>
+            <div className="mt-16">
+              <img
+                src="/assets/home/hero.png"
+                alt=""
+                className="w-full h-auto rounded"
+              />
+              <p className="caption text-center my-4">Healty Microgreen</p>
             </div>
           </div>
         </div>
