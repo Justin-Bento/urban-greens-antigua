@@ -8,6 +8,7 @@ import Learn from './pages/Learn.jsx';
 import Community from './pages/Community.jsx';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
+import NotFound from './components/NotFound.jsx';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 export default function App() {
@@ -20,9 +21,10 @@ export default function App() {
           <Route path="/learn" component={Learn} />
           <Route path="/about" component={About} />
           <Route path="/products" component={Product} />
-          <Route path="/products/:id" component={ProductDetail} />
+          <Route exact path="/products/:id" component={ProductDetail} />
           <Route path="/contact" component={Contact} />
           <Route path="/community" component={Community} />
+          <Route path="*" component={NotFound} />
         </Switch>
       </div>
       <Footer />
