@@ -2,13 +2,6 @@
 export default {
   theme: {
     extend: {
-      backgroundImage: (theme) => ({
-        'hero-img': "url('/assets/home/hero.png')",
-      }),
-      lineClamp: {
-        sm: '3',
-        lg: '10',
-      },
       colors: {
         gray: {
           '50': '#f8f9fa', 
