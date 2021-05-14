@@ -10,16 +10,14 @@ export default function Home() {
           <div className="py-24 bg-black bg-opacity-50">
             <div className="wrapper">
               <h1 className="headline-1 text-gray-50 md:text-center">
-                See What Microgreen Are Right For You!
+                See What Microgreens Are Right For You!
               </h1>
               <p className="text-xl font-medium max-w-full md:text-center text-gray-200 my-8">
-                Urban Greens Antigua is a company that grows, sells and helps
-                people learn more about Microgreens. We do this by showing
-                people the future Of Microgreens. As well as show people how
-                they can incoruperate it into Their Lifestyle.
+                Urban Greens Antigua mission is to grow, sell and educate people
+                about Microgreens.
               </p>
               <div className="md:text-center">
-                <button className="btn-primary m-2">View Work</button>
+                <button className="btn-primary m-2">Check Our Greens</button>
                 <button className="btn-light m-2">Learn More</button>
               </div>
             </div>
