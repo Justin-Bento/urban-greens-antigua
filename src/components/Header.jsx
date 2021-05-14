@@ -51,7 +51,7 @@ export default class Header extends Component {
                 {this.state.toggle ? (
                   <div className="md:flex flex-row md:items-center md:block">
                     <div className="py-4 m-2">
-                      <Link to="/product" className="">
+                      <Link to="/products" className="">
                         Products
                       </Link>
                     </div>
