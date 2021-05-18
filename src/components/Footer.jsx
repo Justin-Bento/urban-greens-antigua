@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Footer extends Component {
   render() {
@@ -7,11 +8,7 @@ export default class Footer extends Component {
         <footer className="px-4 py-20 text-gray-100 bg-green-800">
           <div className="wrapper">
             <div className="grid grid-cols-2 gap-4 mb-4 md:grid-cols-5">
-              <a
-                href="/"
-                title="Go to Kutty Home Page"
-                className="col-span-2 md:col-span-1"
-              >
+              <Link to="/" className="col-span-2 md:col-span-1">
                 <img
                   src="../../assets/logo/urban-greens-logo-white.png"
                   alt=""
@@ -20,78 +17,63 @@ export default class Footer extends Component {
                   width="96px"
                   height="96px"
                 />
-              </a>
+              </Link>
               <nav className="mb-8">
-                <p className="mb-4 subtitle-1 text-gray-50">Product</p>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
-                  Features
-                </a>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
-                  Integrations
-                </a>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
-                  Documentation
-                </a>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
-                  FAQs
-                </a>
-                <a href="#" className="flex body-2 text-gray-100">
-                  Pricing
-                </a>
+                <p className="mb-4 subtitle-1 text-gray-50">Pages</p>
+                <Link to="/products" className="flex mb-4 body-2 text-gray-100">
+                  Products
+                </Link>
+                <Link to="/learn" className="flex mb-4 body-2 text-gray-100">
+                  Learn
+                </Link>
+                <Link to="/about" className="flex mb-4 body-2 text-gray-100">
+                  About
+                </Link>
+                <Link to="/contact" className="flex body-2 text-gray-100">
+                  Contact
+                </Link>
               </nav>
               <nav className="mb-8">
                 <p className="mb-4 subtitle-1 text-gray-50">About</p>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
-                  Press-Kit
-                </a>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
+                <Link to="/about" className="flex mb-4 body-2 text-gray-100">
                   Company
-                </a>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
-                  Privacy
-                </a>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
-                  Blog
-                </a>
+                </Link>
+                <Link to="/about" className="flex mb-4 body-2 text-gray-100">
+                  Story
+                </Link>
+                <Link to="/about" className="flex mb-4 body-2 text-gray-100">
+                  Values
+                </Link>
               </nav>
               <nav className="mb-8">
                 <p className="mb-4 subtitle-1 text-gray-50">Contact</p>
                 <a href="#" className="flex mb-4 body-2 text-gray-100">
-                  Twitter
+                  Facebook
                 </a>
                 <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Instagram
                 </a>
                 <a href="#" className="flex mb-4 body-2 text-gray-100">
+                  Twitter
+                </a>
+                <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Email
-                </a>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
-                  Advertising
-                </a>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
-                  Chat
                 </a>
               </nav>
               <nav className="mb-8">
                 <p className="mb-4 subtitle-1 text-gray-50">Legal</p>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
+                <Link to="/terms" className="flex mb-4 body-2 text-gray-100">
                   Terms of Service
-                </a>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
+                </Link>
+                <Link to="/privacy" className="flex mb-4 body-2 text-gray-100">
                   Privacy Policy
-                </a>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
+                </Link>
+                <Link to="/cookie" className="flex mb-4 body-2 text-gray-100">
                   Cookie Policy
-                </a>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
-                  Affiliate Program
-                </a>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
-                  Manage Cookies
-                </a>
+                </Link>
               </nav>
             </div>
-            <p className="subtitle-2 text-green-100 md:text-center tracking-wide">
+            <p className="subtitle-2 text-green-100 md:text-center">
               © Copyright 2021 Urban Greens Inc. All Rights Reserved.
             </p>
           </div>

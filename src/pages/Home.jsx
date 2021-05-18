@@ -16,8 +16,12 @@ export default function Home() {
               about Microgreens.
             </p>
             <div className="md:text-center">
-              <button className="btn-primary m-2">Check Our Greens</button>
-              <button className="btn-light m-2">Learn More</button>
+              <Link to="/products" className="btn-primary m-2">
+                Check Our Greens
+              </Link>
+              <Link to="/learn" className="btn-light m-2">
+                Learn More
+              </Link>
             </div>
             <div className="mt-16">
               <img
@@ -90,12 +94,12 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex flex-col mb-2 space-x-0 space-y-2 sm:flex-row sm:space-x-2 sm:space-y-0">
-                <a href="#" className="btn-light">
+                <Link to="/learn" className="btn-light">
                   Learn More
-                </a>
-                <a href="#" className="btn-link text-white">
+                </Link>
+                <Link to="/contact" className="btn-link text-white">
                   Message Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
