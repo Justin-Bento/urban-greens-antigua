@@ -8,9 +8,9 @@ export default function Product() {
     <div className="products">
       <div className="wrapper my-24">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24">
-          {products.map((item, index) => {
+          {products.map((item) => {
             return (
-              <div key={index}>
+              <div key={item.id}>
                 <Link to={`/products/${item.id}`}>
                   <Cards
                     Media={`../../assets/products/${item.Image}`}
