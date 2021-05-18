@@ -41,9 +41,9 @@ export default function Home() {
             <div>
               <h2 className="headline-2 mb-4">Freshly Growin In Antigua</h2>
               <p className="body-1">
-                Handle your subscriptions and transactions efficiently with the
-                clear overview in Dashboard. Features like the smart search
-                option allow you to quickly find any data you’re looking for.
+                We grow and harvest our greens in Antigua. As our gardens are in
+                a controlled environment, that does not use any harmful
+                checmicals . So we can keep our plants are healthy and mature.
               </p>
             </div>
             <div className="w-full h-full py-14">
@@ -54,10 +54,10 @@ export default function Home() {
             <div className="order-none md:order-2">
               <h2 className="headline-2 mb-4">Can Be Used With Many Dishes</h2>
               <p className="body-1 mb-4">
-                Love to code? Next to our ready-made and free plugins you can
-                use our expansive yet simple API; decide how you integrate
-                Payments and build advanced and reliable products yourself from
-                scratch.
+                We sell an array of microgreens, to help you take advantage of
+                this superfood. Cooks from all backgrounds like to use
+                microgreens inside their dish for its unique qualities and
+                nutritional content.
               </p>
             </div>
             <div className="w-full h-full py-14">
@@ -68,9 +68,9 @@ export default function Home() {
             <div>
               <h2 className="headline-2 mb-4">Sustainable Packiging</h2>
               <p className="body-1">
-                Handle your subscriptions and transactions efficiently with the
-                clear overview in Dashboard. Features like the smart search
-                option allow you to quickly find any data you’re looking for.
+                We aim to take care of our environment, and encourage you to
+                make the most out of our packaging. What does sustainable mean?
+                It means you can re-use the package however you like.
               </p>
             </div>
             <div className="w-full h-full py-14">
