@@ -5,6 +5,9 @@ import Product from './pages/Product.jsx';
 import ProductDetail from './pages/ProductDetail.jsx';
 import Contact from './pages/Contact.jsx';
 import Learn from './pages/Learn.jsx';
+import terms from './pages/terms.jsx';
+import privacy from './pages/privacy.jsx';
+import cookie from './pages/cookie.jsx';
 import Community from './pages/Community.jsx';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
@@ -24,6 +27,9 @@ export default function App() {
           <Route exact path="/products/:id" component={ProductDetail} />
           <Route path="/contact" component={Contact} />
           <Route path="/community" component={Community} />
+          <Route path="/terms" component={terms} />
+          <Route path="/privacy" component={privacy} />
+          <Route path="/cookie" component={cookie} />
           <Route path="*" component={NotFound} />
         </Switch>
       </div>
