@@ -8,16 +8,16 @@ export default function Product() {
     <div className="products">
       <div className="wrapper my-24">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24">
-          {products.map((item) => {
+          {products.map((product) => {
             return (
-              <div key={item.id}>
-                <Link to={`/products/${item.id}`}>
+              <div key={product.id}>
+                <Link to={`/products/${product.id}`}>
                   <Cards
-                    Media={`../../assets/products/${item.Image}`}
-                    Price={item.Price}
-                    Headline={item.Microgreen}
-                    Body={item.Nutrients}
-                    Colour={item.Colour}
+                    Media={`../../assets/products/${product.Image}`}
+                    Price={product.Price}
+                    Headline={product.Microgreen}
+                    Body={product.Nutrients}
+                    Colour={product.Colour}
                   />
                 </Link>
               </div>
