@@ -1,5 +1,4 @@
 import React from 'react';
-import data from '../lib/data.json';
 
 export default function About() {
   return (

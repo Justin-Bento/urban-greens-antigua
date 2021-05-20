@@ -1,5 +1,5 @@
 import React from 'react';
-import products from '../lib/products.json';
+import products from '../../public/lib/products.json';
 import Cards from '../components/Cards.jsx';
 import { Link } from 'react-router-dom';
 
