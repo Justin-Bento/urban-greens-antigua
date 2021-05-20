@@ -6,7 +6,7 @@
 }
 @layer base {
   .wrapper {
-    @apply w-11/12 md:max-w-screen-xl mx-auto;
+    @apply container mx-auto px-4;
   }
   .headline-1 {
     @apply text-5xl font-semibold capitalize text-gray-900;
@@ -77,5 +77,9 @@
   }
   .btn-link {
     @apply p-3 bg-transparent text-gray-900 font-medium hover:text-green-800 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75;
+  }
+  /* Layout  */
+  .grid-2 {
+    @apply grid items-center grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-y-16 md:gap-x-24;
   }
 }
