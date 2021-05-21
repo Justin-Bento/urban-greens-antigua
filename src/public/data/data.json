@@ -1,0 +1,106 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "media": "feature-01.png",
+      "headline": "Freshly Grown In Antigua",
+      "body": "We can grow and harvest our greens in Antigua's weather. As we develop our gardens indoors in a safe, controlled environment, until our plants are healthy and mature. We also prepare the soil to be pest-free and weed-free to eliminate harmful chemicals or pesticides. ",
+      "btntext": "View More"
+    },
+    {
+      "id": 2,
+      "media": "feature-02.png",
+      "headline": "Can Be Used In Many Diets",
+      "body": "Urban Greens has an array of microgreens. We want you to take advantage of this superfood and increase your vitamins, minerals, fibre, and antioxidants. Cooks like to use microgreens for their solid aromatic qualities and nutritional content. Microgreens give your dish character and enhance the flavour; they are also very flexible. Don't forget you can visit our Facebook and Instagram pages to see how our community uses products to improve their lifestyle.",
+      "btntext": "View More"
+    },
+    {
+      "id": 3,
+      "media": "feature-03.png",
+      "headline": "Sustainable Packaging",
+      "body": "As grow and sell out product and take care of our environment. We made our packaging sustainable to encourage you to make the most out of our packaging. What does sustainable mean? It means you can re-use the package however you like. Or send it back our way. Our goal is not to harm our environment.",
+      "btntext": "View More"
+    }
+  ],
+  "benefits": [
+    {
+      "id": 1,
+      "headline": "Packed With Vitamins",
+      "body": "Microgreens are packed with vitamins, like iron, magnesium, potassium, zinc and copper."
+    },
+    {
+      "id": 2,
+      "headline": "Work In Many Dishes",
+      "body": "Microgreens have many families which vary in taste, smell, colour and presintation."
+    },
+    {
+      "id": 3,
+      "headline": "Great For  Smoothies And Juices",
+      "body": "These greens are great for smoothies, juices, shakes, as they can boost your immune levels."
+    },
+    {
+      "id": 4,
+      "headline": "They Are Affordable",
+      "body": "We sell microgreens at an affordable price. So you don't have to worry about breaking the bank."
+    },
+    {
+      "id": 5,
+      "headline": "Give Flare To Dishes",
+      "body": "Cooks of all kinds like to use micorgreens as they come in a wide array of choices."
+    },
+    {
+      "id": 6,
+      "headline": "Great For Your Health",
+      "body": "Microgreens contain many vitamins, minerals, antioxidants and nutrients."
+    }
+  ],
+  "useage": [
+    {
+      "id": 1,
+      "headline": "Great For Smoothies",
+      "body": "Scelerisque varius morbi enim nunc faucibus a pellentesque sit amet. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt."
+    },
+    {
+      "id": 1,
+      "headline": "Can Be Used As Garnish For Dishes",
+      "body": "Scelerisque varius morbi enim nunc faucibus a pellentesque sit amet. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt."
+    },
+    {
+      "id": 1,
+      "headline": "Make Salads Great Again",
+      "body": "Scelerisque varius morbi enim nunc faucibus a pellentesque sit amet. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt."
+    }
+  ],
+  "faqs": [
+    {
+      "id": 1,
+      "headline": "What Are Microgreens?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    },
+    {
+      "id": 2,
+      "headline": "What Are Microgreens?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    },
+    {
+      "id": 3,
+      "headline": "What Are Microgreens?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    },
+    {
+      "id": 4,
+      "headline": "What Are Microgreens?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    },
+    {
+      "id": 5,
+      "headline": "What Are Microgreens?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    },
+    {
+      "id": 6,
+      "headline": "What Are Microgreens?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    }
+  ]
+}
