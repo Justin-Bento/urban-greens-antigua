@@ -4,7 +4,7 @@
     "Image": "cerled-cress.png",
     "Microgreen": "Red Garnet Amaranth",
     "Flavour": "Mild sweet earthy flavour",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Thiamine, niacin, calcium, potassium, iron, manganese, zinc, and copper, and its leaves are a good source of vitamins A and C and folate. Good source of dietary fibre.",
     "Colour": "Red / Magenta",
     "Price": "$15 / 1oz pack"
@@ -14,7 +14,7 @@
     "Image": "detroit-red-beet.png",
     "Microgreen": "Micro Arugula",
     "Flavour": "Strong pepper, mild buttery and cabbage-like flavour",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Vitamins A, B, C and E, Calcium, Iron, Magnesium, Niacin, Phosphorus, Potassium, Antioxidants, All Essential Amino Acids, Protein: 20-25%",
     "Colour": "Deep Green",
     "Price": "$15 / 1.5oz pack"
@@ -24,7 +24,7 @@
     "Image": "micro-arugula.png",
     "Microgreen": "Detroit Red Beet",
     "Flavour": "Sweet mix of root beets and spinach flavour",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Vitamins A, B, C, E, and K, the minerals calcium, iron, magnesium, manganese, potassium, zinc, as well as antioxidants.",
     "Colour": "Vibrant Red Stems wiht neon green leaves",
     "Price": "$15 / 1oz pack"
@@ -34,7 +34,7 @@
     "Image": "micro-brocolli.png",
     "Microgreen": "Micro Brocolli",
     "Flavour": "Fresh, mild broccoli or cabbage flavor",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Sulforaphane (cancer-fighting compound), vitamins C, A, E, and K, protein, calcium, potassium, iron, glucosinolates, carotenoids, chlorophyll, essential minerals, and phenolic compounds.",
     "Colour": "Thin white stem with shades of green on top",
     "Price": "$12 / 1.5oz pack"
@@ -44,7 +44,7 @@
     "Image": "micro-carrot.png",
     "Microgreen": "Red Acre Cabbage",
     "Flavour": "Strong broccoli flavour",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Vitamins C, K, and E, beta-carotenes, calcium, magnesium, potassium, phosphorus, folate, choline, sodium, and iron.",
     "Colour": "green leaves with violet to red highlights",
     "Price": "$12 / 1.5oz pack"
@@ -54,7 +54,7 @@
     "Image": "micro-cilantro.png",
     "Microgreen": "Micro Carrot",
     "Flavour": "Mild sweet carrot flavour",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Vitamins A, B complex, D, and E, calcium, iron, magnesium, potassium, and phosphorus.",
     "Colour": "Green",
     "Price": "$15 / 1.5oz pack"
@@ -64,7 +64,7 @@
     "Image": "micro-dill.png",
     "Microgreen": "Micro Cilantro",
     "Flavour": "Pungent citrusy flavour",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Vitamin A, C, E and vitamin K, as well as riboflavin, niacin, vitamin B6, folate, pantothenic acid, calcium, iron, magnesium, phosphorus, potassium, copper and manganese and fibre.",
     "Colour": "Green",
     "Price": "$15 / 1oz pack"
@@ -74,7 +74,7 @@
     "Image": "micro-radish.png",
     "Microgreen": "Curled Cress",
     "Flavour": "Peppery, Tangy, Mellows with Age",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Vitamins B, C & K, Folic Acid & fibre.",
     "Colour": "Light Green",
     "Price": "$15 / 1.5oz pack"
@@ -84,7 +84,7 @@
     "Image": "micro-dill.png",
     "Microgreen": "Micro Dill",
     "Flavour": "Slightly lemony, sweet, and bitter flavour",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Folate (vitamin B11), vitamin B6 (pyridoxine), riboflavin (vitamin B-2), vitamin-C and A, calcium, iron and manganese.",
     "Colour": "Green",
     "Price": "$15 / 1.5oz pack"
@@ -94,7 +94,7 @@
     "Image": "popcorn-shoots.png",
     "Microgreen": "Popcorn Shoots",
     "Flavour": "Sweet corn flavour",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Vitamins A, B, C, & E, Calcium, Magnesium and Chlorophyll.",
     "Colour": "Bright Yellow",
     "Price": "$16 / 2oz pack"
@@ -104,7 +104,7 @@
     "Image": "red-russian-kale.png",
     "Microgreen": "Red Russian Kale",
     "Flavour": "Mild, sweet and nutty flavour",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Vitamins A, B, C, E and K, Calcium, Iron, Magnesium, Phosphorus, Potassium, Zinc, Beta Carotene, Chlorophyll, Amino Acids, Antioxidants, Protein: 30-35%",
     "Colour": "Assorted red & pink stems with dark green leaves",
     "Price": "$15 / 1.5oz pack"
@@ -114,7 +114,7 @@
     "Image": "nasturtium.png",
     "Microgreen": "Nasturtium",
     "Flavour": "Spicy, similar to mustard and wasabi",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "The leaves are high in vitamin C (supports a strong immune system), iron and other minerals and the flowers are plentiful in vitamins B1, B2, B3 and also contain manganese, iron, phosphorus and calcium.",
     "Colour": "Multi-color stems, Pink – yellow",
     "Price": "$25 / 1oz pack"
@@ -124,7 +124,7 @@
     "Image": "red-tatsoi-mustard.png",
     "Microgreen": "Red Tatsoi Mustard",
     "Flavour": "Mild flavour",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Antioxidants, fiber, Vitamins A,C, E, and K.",
     "Colour": "Dark green spoon-shaped leaves",
     "Price": "$12 / 1.5oz pack"
@@ -134,7 +134,7 @@
     "Image": "pea-shoots.png",
     "Microgreen": "Pea Shoots",
     "Flavour": "Sweet, pea flavour. Crunchy and succulent",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "38 minerals, Vitamins A, B, C, E, and K, Folic acid, thiamine, riboflavin, calcium, iron, magnesium, niacin, phosphorus, potassium, and chlorophyll, all essential Amino Acids, 26% Protein",
     "Colour": "Green",
     "Price": "$16 / 2oz pack"
@@ -144,7 +144,7 @@
     "Image": "micro-radish.png",
     "Microgreen": "Micro Radish",
     "Flavour": "Spicy & floral with a hint of sweetness. Crunch and succulent",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Vitamins A, B, C, E and K, Calcium, Iron, Magnesium, Phosphorus, Potassium, Zinc, Beta Carotene, Chlorophyll, Amino Acids, Antioxidants, Protein: 30-35%",
     "Colour": "Vibrant Pink Stem with Deep Green Top",
     "Price": "$15 / 1.5oz pack"
@@ -184,7 +184,7 @@
     "Image": "red-viened-sorrel.png",
     "Microgreen": "Red Viened Sorrel",
     "Flavour": "Delightful Lemony Tang",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Vitamins A & C, Manganese, Copper and Iron.",
     "Colour": "Bright Green",
     "Price": "$25 / 1oz pack"
@@ -194,7 +194,7 @@
     "Image": "sunfolower-shoot.png",
     "Microgreen": "Sunflower Shoots",
     "Flavour": "Crunchy, nutty, sunflower seed flavour",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Vitamins A, B complex, D, and E, calcium, iron, zinc, folate, magnesium, potassium, phosphorus, and 25% protein.",
     "Colour": "Green",
     "Price": "$16 / 2oz pack"
@@ -204,7 +204,7 @@
     "Image": "wheatmix.png",
     "Microgreen": "Wheatgrass",
     "Flavour": "Sugary sweet with mild and bittery aftertaste",
-    "Varieties": "",
+    "Varieties": "There are no varieties for this product.",
     "Nutrients": "Vitamins A, B6, C, E, & K, Potassium, Thiamin, Riboflavin, Niacin, Pentothenic Acid, Iron, Zinc, Copper, Manganese and Selenium.",
     "Colour": "Green",
     "Price": "$12 / 1.5oz pack"
