@@ -1,53 +1,63 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router';
 
 export default function ProductDetail() {
+  // Empty array in useState!
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState();
+  const { id } = useParams();
+
+  useEffect(() => {
+    fetch('/lib/products.json')
+      .then((res) => res.json())
+      .then((datas) => {
+        setData(datas[id]);
+        console.log(datas);
+      })
+      .catch((err) => {
+        console.log(err);
+        setError(err);
+      })
+      .finally(() => {
+        setLoading(false);
+      });
+  }, []);
   return (
     <div>
       <div className="wrapper my-24">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="">
-            <p className="subtitle-2 uppercase tracking-wider text-green-600">
-              $15 / 1oz pack
-            </p>
-            <h1 className="headline-2">Microgreen Product</h1>
-          </div>
-          <div className=""></div>
+        <div className="grid-2">
           <div className="cols-1">
-            <div className="my-4">
-              <h2 className="headline-5 text-gray-700">Flavor</h2>
-              <p className="body-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-                nemo ducimus totam modi officiis assumenda nulla ratione.
+            <div className="my-5">
+              <p className="subtitle-2 text-green-600 tracking-wide">
+                {data.Price}
               </p>
+              <h1 className="headline-3">{data.Microgreen}</h1>
             </div>
             <div className="my-4">
-              <h2 className="headline-5 text-gray-700">Varieties</h2>
-              <p className="body-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
+              <h2 className="headline-6">Flavour</h2>
+              <p className="body-2">{data.Flavour}</p>
             </div>
             <div className="my-4">
-              <h2 className="headline-5 text-gray-700">Nutrients</h2>
-              <p className="body-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-                nemo ducimus totam modi officiis assumenda nulla ratione,
-                accusantium aliquam repellat reprehenderit atque vero itaque
-                unde esse ab vel perspiciatis fuga.
-              </p>
+              <h2 className="headline-6">Varieties</h2>
+              <p className="body-2">{data.Varieties}</p>
             </div>
             <div className="my-4">
-              <h2 className="headline-5 text-gray-700">Colour</h2>
-              <p className="body-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
+              <h2 className="headline-6">Nutrients</h2>
+              <p className="body-2">{data.Nutrients}</p>
             </div>
-            <div className="flex justify-between my-4">
-              <button className="btn-light">Previous</button>
-              <button className="btn-secondary">Next</button>
+            <div className="my-4">
+              <h2 className="headline-6">Colour</h2>
+              <p className="body-2">{data.Colour}</p>
             </div>
           </div>
           <div className="cols-2">
-            <div className="bg-gray-100 image roudned"></div>
+            <img
+              src={`/public/assets/products/${data.Image}`}
+              alt={data.Microgreen}
+              loading="lazy"
+              className="w-full h-96 object-contain"
+            />
           </div>
         </div>
       </div>
