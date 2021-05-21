@@ -49,19 +49,19 @@ export default class Header extends Component {
             <div id="mobileMenu">
               <div className="">
                 {this.state.toggle ? (
-                  <div className="md:flex flex-row md:items-center md:block">
-                    <div className="py-4 m-2">
+                  <div className="flex items-center justify-between">
+                    <div className="p-1 hover:border-b-2 hover:border-green-600 lg:px-2 lg:m-2">
                       <Link to="/products" className="">
                         Products
                       </Link>
                     </div>
-                    <div className="py-2 m-2">
+                    <div className="p-1 hover:border-b-2 hover:border-green-600 lg:px-2 lg:m-2">
                       <Link to="/learn">Learn</Link>
                     </div>
-                    <div className="py-2 m-2">
+                    <div className="p-1 hover:border-b-2 hover:border-green-600 lg:px-2 lg:m-2">
                       <Link to="/about">About</Link>
                     </div>
-                    <div className="py-2 m-2">
+                    <div className="p-1 hover:border-b-2 hover:border-green-600 lg:px-2 lg:m-2">
                       <Link to="/contact">Contact</Link>
                     </div>
                   </div>
