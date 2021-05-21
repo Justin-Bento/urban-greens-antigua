@@ -53,7 +53,7 @@ export default function ProductDetail() {
           </div>
           <div className="cols-2">
             <img
-              src={`/public/assets/products/${data.Image}`}
+              src={`/assets/products/${data.Image}`}
               alt={data.Microgreen}
               loading="lazy"
               className="w-full h-96 object-contain"
