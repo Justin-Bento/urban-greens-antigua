@@ -26,7 +26,7 @@ export default function Home() {
               <img
                 src="/assets/home/hero.png"
                 alt=""
-                className="w-full h-auto rounded"
+                className="w-full aspect-h-4 rounded"
               />
               <p className="caption text-center my-4">Healty Microgreen</p>
             </div>
