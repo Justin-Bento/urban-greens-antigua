@@ -53,6 +53,9 @@
   .image {
     @apply w-full h-86 object-cover rounded md:aspect-w-2 md:aspect-w-2;
   }
+  .nav_links {
+    @apply p-1 duration-200 border-b-2 border-transparent hover:border-b-2 hover:border-green-600 lg:px-2 lg:m-2;
+  }
   /* Button Square  */
   .btn-primary {
     @apply p-3 bg-green-600 text-white font-medium rounded hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75;
