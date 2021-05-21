@@ -50,18 +50,18 @@ export default class Header extends Component {
               <div className="">
                 {this.state.toggle ? (
                   <div className="flex items-center justify-between">
-                    <div className="p-1 hover:border-b-2 hover:border-green-600 lg:px-2 lg:m-2">
+                    <div className="nav_links">
                       <Link to="/products" className="">
                         Products
                       </Link>
                     </div>
-                    <div className="p-1 hover:border-b-2 hover:border-green-600 lg:px-2 lg:m-2">
+                    <div className="nav_links">
                       <Link to="/learn">Learn</Link>
                     </div>
-                    <div className="p-1 hover:border-b-2 hover:border-green-600 lg:px-2 lg:m-2">
+                    <div className="nav_links">
                       <Link to="/about">About</Link>
                     </div>
-                    <div className="p-1 hover:border-b-2 hover:border-green-600 lg:px-2 lg:m-2">
+                    <div className="nav_links">
                       <Link to="/contact">Contact</Link>
                     </div>
                   </div>
