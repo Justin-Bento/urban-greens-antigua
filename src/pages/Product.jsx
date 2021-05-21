@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function Product() {
   // Empty array in useState!
   const [data, setData] = useState();
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState();
 
   useEffect(() => {
@@ -20,7 +20,7 @@ export default function Product() {
         setError(err);
       })
       .finally(() => {
-        setLoading(false);
+        setLoading(true);
       });
   }, []);
   if (loading) {
