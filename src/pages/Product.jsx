@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Cards from '../components/Cards.jsx';
 import { Link } from 'react-router-dom';
+import NotFound from '../components/NotFound.jsx';
+import Loading from '../components/Loading.jsx';
 
 export default function Product() {
   // Empty array in useState!
@@ -24,10 +26,10 @@ export default function Product() {
       });
   }, []);
   if (loading) {
-    return <p>Data is loading...</p>;
+    return <Loading />;
   }
   if (error || !Array.isArray(data)) {
-    return <p>There was an error loading your data!</p>;
+    return <NotFound />;
   }
   return (
     <div className="products">
