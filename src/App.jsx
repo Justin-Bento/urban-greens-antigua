@@ -23,8 +23,8 @@ export default function App() {
           <Route exact path="/" component={Home} />
           <Route path="/learn" component={Learn} />
           <Route path="/about" component={About} />
-          <Route path="/products" exact component={Product} />
-          <Route exact path="/products/:id" component={ProductDetail} />
+          <Route exact path="/products" component={Product} />
+          <Route path="/products/:id" component={ProductDetail} />
           <Route path="/contact" component={Contact} />
           <Route path="/community" component={Community} />
           <Route path="/terms" component={terms} />
