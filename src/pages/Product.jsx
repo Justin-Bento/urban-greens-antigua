@@ -9,7 +9,7 @@ export default function Product() {
   const [error, setError] = useState();
 
   useEffect(() => {
-    fetch('/public/lib/products.json')
+    fetch('/lib/products.json')
       .then((res) => res.json())
       .then((datas) => {
         setData(datas);

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import data from '../../public/lib/data.json';
+import data from '../../lib/data.json';
 
 export default function Home() {
   return (
