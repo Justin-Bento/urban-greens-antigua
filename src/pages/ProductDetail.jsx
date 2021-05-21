@@ -18,9 +18,6 @@ export default function ProductDetail() {
       .catch((err) => {
         console.log(err);
         setError(err);
-      })
-      .finally(() => {
-        setLoading(false);
       });
   }, []);
   return (
