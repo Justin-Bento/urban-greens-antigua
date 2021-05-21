@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../../lib/data.json';
+import data from '../public/data/data.json';
 
 export default function Learn() {
   return (
