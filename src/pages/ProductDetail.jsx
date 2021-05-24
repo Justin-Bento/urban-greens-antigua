@@ -13,10 +13,10 @@ export default function ProductDetail() {
       .then((res) => res.json())
       .then((datas) => {
         setData(datas[id]);
-        console.log(datas);
+        // console.log(datas);
       })
       .catch((err) => {
-        console.log(err);
+        // console.log(err);
         setError(err);
       });
   }, []);

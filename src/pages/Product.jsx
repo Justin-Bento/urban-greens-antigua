@@ -15,10 +15,10 @@ export default function Product() {
       .then((res) => res.json())
       .then((datas) => {
         setData(datas);
-        console.log(datas);
+        // console.log(datas);
       })
       .catch((err) => {
-        console.log(err);
+        // console.log(err);
         setError(err);
       })
       .finally(() => {
