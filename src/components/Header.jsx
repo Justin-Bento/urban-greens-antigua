@@ -11,7 +11,7 @@ export default class Header extends Component {
 
   render() {
     return (
-      <header className="sticky top-0 z-90 bg-white shadow">
+      <header className="sticky top-0 z-90 bg-white shadow-sm">
         <nav className="wrapper mx-auto md:justify-between">
           <div className="md:container md:flex md:justify-between md:items-center py-2">
             <div className="flex justify-between items-center">
