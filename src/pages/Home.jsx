@@ -15,10 +15,10 @@ export default function Home() {
               about Microgreens.
             </p>
             <div className="md:text-center">
-              <Link to="/products" className="btn-primary m-2">
+              <Link to="/products" className="btn-contained m-2">
                 Check Our Greens
               </Link>
-              <Link to="/learn" className="btn-light m-2">
+              <Link to="/learn" className="btn-outline">
                 Learn More
               </Link>
             </div>
@@ -93,10 +93,16 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex flex-col mb-2 space-x-0 space-y-2 sm:flex-row sm:space-x-2 sm:space-y-0">
-                <Link to="/learn" className="btn-light">
+                <Link
+                  to="/learn"
+                  className="btn-contained bg-white text-green-700"
+                >
                   Learn More
                 </Link>
-                <Link to="/contact" className="btn-link text-white">
+                <Link
+                  to="/contact"
+                  className="btn-outline border-green-50 text-green-50"
+                >
                   Message Us
                 </Link>
               </div>
