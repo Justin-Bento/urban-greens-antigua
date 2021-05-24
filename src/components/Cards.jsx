@@ -6,7 +6,7 @@ export default class Cards extends Component {
     return (
       <div
         id="card"
-        className="transition duration-75 hover:shadow-sm hover:border p-4 rounded"
+        className="transition duration-150 border border-transparent hover:shadow-sm hover:border-gray-100 p-4 rounded"
       >
         <img
           src={`${this.props.Media}`}
