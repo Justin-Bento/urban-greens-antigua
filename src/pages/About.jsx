@@ -7,25 +7,21 @@ export default function About() {
         <div className="my-12 md:my-24">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
             <div className="1">
-              <h1 className="headline-3 mb-2">About Us</h1>
-              <p className="line-clamp-4">
-                Our greens are grown indoors in hydroponic systems where a
-                constant stream of mineral enriched water feeds the plants
-                through their roots. Growing indoors allows us to control the
-                all aspects of the environment, from nutrients, air, and
-                temperature, to lighting spectrums and crop rotation. We are
-                able to offer optimal growing conditions that make our plants
-                healthy, strong and oh so tasty! We also use energy efficient
-                heating and cooling technology and compost all waste products,
-                we are focused on being as "green" as we can get!
+              <h1 className="headline-3">About Us</h1>
+              <p className="line-clamp-4 my-4">
+                Urban Greens Antigua started out as a passion project that
+                quickly eveolved into a business. We realzed that our customers
+                wanted to experience enjoy a fresh way of eating vegtables.
               </p>
-              <p className="line-clamp-4">
-                With Colorado’s weather swings from extreme heats to harsh
-                colds, urban farming enables us to grow all-year-round. We
-                cultivate our greens in an environment that is also pest-free
-                and weed-free, completely eliminating any use of harmful
-                chemicals or pesticides. The result? Our produce is the
-                prettiest and tastiest we’ve ever grown or eaten!
+              <p className="line-clamp-4 my-4">
+                That’s why we had to adapt and find a way to improve our
+                equipment and the customer experience. So We are now selling at
+              </p>
+              <p className="line-clamp-4 my-4">
+                Along the way, we want to share you our journey of learning more
+                things about our community and see how people use our product
+                our Microgreens. So that we can give everyone a change to
+                expreicne microgreens.
               </p>
             </div>
             <div className="2">
