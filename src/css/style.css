@@ -61,7 +61,7 @@
     @apply bg-green-700 text-green-50 p-3 rounded-sm text-sm uppercase tracking-wide font-medium transition-colors duration-150  hover:text-green-50 hover:bg-green-900;
   }
   .btn-outline {
-    @apply border border-green-700 text-green-700 p-3 rounded-sm text-sm uppercase tracking-wide font-medium transition-colors duration-150  hover:text-green-50 hover:bg-green-700;
+    @apply border border-green-700 text-green-700 p-3 rounded-sm text-sm uppercase tracking-wide font-medium transition-colors duration-150  hover:text-green-900 hover:bg-green-100;
   }
   .btn-text {
     @apply border border-transparent text-green-700 p-3 rounded-sm text-sm uppercase tracking-wide font-medium transition-colors duration-150  hover:text-green-50 hover:bg-green-700;
