@@ -11,8 +11,8 @@ export default function Home() {
               See What Microgreens Are Right For You!
             </h1>
             <p className="text-xl font-medium max-w-full md:text-center my-8">
-              Urban Greens Antigua mission is to grow, sell and educate people
-              about Microgreens.
+              Our mission is to grow, sell, and share Microgreens. We do this by
+              learning how people use our greens in their lifestyle.
             </p>
             <div className="md:text-center">
               <Link to="/products" className="btn-contained m-2">
@@ -38,11 +38,13 @@ export default function Home() {
         <div className="wrapper">
           <div className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-10 md:gap-x-24">
             <div>
-              <h2 className="headline-3 mb-4">Freshly Growin In Antigua</h2>
+              <h2 className="headline-3 mb-4">Freshly Grown In Antigua</h2>
               <p>
-                We grow and harvest our greens in Antigua. As our gardens are in
-                a controlled environment, that does not use any harmful
-                checmicals . So we can keep our plants are healthy and mature.
+                We grow and harvest our greens in Antigua, in a controlled
+                environment, so we do not have to use harmful checmicals.
+                Growing our greens this way also ensures we keep our plants
+                fresh, healthy, and mature to help you maximize your eating
+                experience.
               </p>
             </div>
             <div className="w-full h-full py-14">
@@ -52,13 +54,13 @@ export default function Home() {
           <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-10 md:gap-x-24">
             <div className="order-none md:order-2">
               <h2 className="headline-3 mb-4">
-                Can Be Featured In Many Dishes
+                Can Be Featured In Many Dishes.
               </h2>
               <p>
-                We sell an array of microgreens, to help you take advantage of
-                this superfood. Cooks from all backgrounds like to use
-                microgreens inside their dish for its unique qualities and
-                nutritional content.
+                Our goal is to help you enjoy a new experience of greens, and
+                help you take advantage of this superfood. Cooks from all
+                backgrounds use microgreens inside their dish and smoothies for
+                their unique qualities and high nutritional content.
               </p>
             </div>
             <div className="w-full h-full py-14">
@@ -69,9 +71,11 @@ export default function Home() {
             <div>
               <h2 className="headline-3 mb-4">Sustainable Packiging</h2>
               <p className="body-1">
-                We aim to take care of our environment, and encourage you to
-                make the most out of our packaging. What does sustainable mean?
-                It means you can re-use the package however you like.
+                We aim to take care of our environment, which is why we are
+                against waistfull packaging. What does sustainable mean? It
+                means you can re-use the package however you like, and we would
+                like to see how our community make the most out of our
+                packaging.
               </p>
             </div>
             <div className="w-full h-full py-14">
