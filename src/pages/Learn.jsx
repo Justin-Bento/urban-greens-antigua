@@ -14,7 +14,7 @@ export default function Learn() {
                   <h3 className="subtitle-1">{item.headline}</h3>
                 </div>
                 <div className="">
-                  <p className="body-1">{item.body}</p>
+                  <p>{item.body}</p>
                 </div>
               </div>
             );

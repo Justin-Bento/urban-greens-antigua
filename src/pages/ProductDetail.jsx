@@ -29,23 +29,23 @@ export default function ProductDetail() {
               <p className="subtitle-2 text-green-600 tracking-wide">
                 {data.Price}
               </p>
-              <h1 className="headline-3">{data.Microgreen}</h1>
+              <h1 className="headline-2 mb-4">{data.Microgreen}</h1>
             </div>
             <div className="my-4">
               <h2 className="headline-6">Flavour</h2>
-              <p className="body-2">{data.Flavour}</p>
+              <p>{data.Flavour}</p>
             </div>
             <div className="my-4">
               <h2 className="headline-6">Varieties</h2>
-              <p className="body-2">{data.Varieties}</p>
+              <p>{data.Varieties}</p>
             </div>
             <div className="my-4">
               <h2 className="headline-6">Nutrients</h2>
-              <p className="body-2">{data.Nutrients}</p>
+              <p>{data.Nutrients}</p>
             </div>
             <div className="my-4">
               <h2 className="headline-6">Colour</h2>
-              <p className="body-2">{data.Colour}</p>
+              <p>{data.Colour}</p>
             </div>
           </div>
           <div className="cols-2">

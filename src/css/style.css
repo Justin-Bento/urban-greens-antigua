@@ -66,6 +66,9 @@
   .btn-text {
     @apply border border-transparent text-green-700 p-3 rounded-sm text-sm uppercase tracking-wide font-medium transition-colors duration-150  hover:text-green-50 hover:bg-green-700;
   }
+  p {
+    @apply prose w-full text-gray-700;
+  }
   .btn-text {
     @apply;
   }

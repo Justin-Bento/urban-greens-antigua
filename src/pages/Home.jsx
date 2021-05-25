@@ -38,8 +38,8 @@ export default function Home() {
         <div className="wrapper">
           <div className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-10 md:gap-x-24">
             <div>
-              <h2 className="headline-2 mb-4">Freshly Growin In Antigua</h2>
-              <p className="body-1">
+              <h2 className="headline-3 mb-4">Freshly Growin In Antigua</h2>
+              <p>
                 We grow and harvest our greens in Antigua. As our gardens are in
                 a controlled environment, that does not use any harmful
                 checmicals . So we can keep our plants are healthy and mature.
@@ -51,8 +51,10 @@ export default function Home() {
           </div>
           <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-10 md:gap-x-24">
             <div className="order-none md:order-2">
-              <h2 className="headline-2 mb-4">Can Be Used With Many Dishes</h2>
-              <p className="body-1 mb-4">
+              <h2 className="headline-3 mb-4">
+                Can Be Featured In Many Dishes
+              </h2>
+              <p>
                 We sell an array of microgreens, to help you take advantage of
                 this superfood. Cooks from all backgrounds like to use
                 microgreens inside their dish for its unique qualities and
@@ -65,7 +67,7 @@ export default function Home() {
           </div>
           <div className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-10 md:gap-x-24">
             <div>
-              <h2 className="headline-2 mb-4">Sustainable Packiging</h2>
+              <h2 className="headline-3 mb-4">Sustainable Packiging</h2>
               <p className="body-1">
                 We aim to take care of our environment, and encourage you to
                 make the most out of our packaging. What does sustainable mean?
@@ -84,7 +86,7 @@ export default function Home() {
           <div className="wrapper">
             <div className="flex flex-col items-stretch justify-between px-4 py-20 mx-auto max-w-7xl lg:flex-row sm:items-center">
               <div>
-                <h2 className="headline-3 text-gray-100 tracking-wide mb-2">
+                <h2 className="headline-3 text-white mb-1">
                   Have Any Questions About Microgreens?
                 </h2>
                 <p className="subtitle-1 text-gray-100 tracking-wide mb-2">
@@ -114,9 +116,11 @@ export default function Home() {
       <section className="benifits my-24">
         <div className="wrapper">
           <div className="my-16">
-            <h2 className="headline-3">Incredible Benifits Of Microgreens</h2>
-            <h3 className="headline-6 text-gray-700">
+            <h2 className="headline-3 mb-1">
               Incredible Benifits Of Microgreens
+            </h2>
+            <h3 className="headline-6 text-gray-600 tracking-wide">
+              See Why Microgreens are considered the new superfood!
             </h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16">
@@ -205,10 +209,10 @@ export default function Home() {
       <section className="testimonials my-24">
         <div className="bg-gray-100 py-24">
           <div className="wrapper">
-            <p className="overline text-green-800 md:text-center">
-              See What People Have to say ABout Urban Greens
+            <p className="flex overline text-green-800 text-center">
+              See What People Have to say About Urban Greens
             </p>
-            <h2 className="headline-4 font-normal italic md:text-center my-4 leading-relaxed tracking-normal">
+            <h2 className="headline-3 font-normal italic md:text-center my-4 leading-relaxed">
               “We endeavour to build a truly human AND high-performing
               workplace, where everyone can do the best work of their lives.
               This product is a key part of facilitating this culture by being
@@ -221,8 +225,8 @@ export default function Home() {
       <section className="useage my-24">
         <div className="wrapper">
           <div className="my-12">
-            <h2 className="headline-3">See how people use Microgreens!</h2>
-            <p className="body-1 mt-1">
+            <h2 className="headline-3 mb-1">See how people use Microgreens!</h2>
+            <p>
               Follow our community and stay up today to see how people are using
               microgreens in their Lifestyle.
             </p>
@@ -233,7 +237,7 @@ export default function Home() {
                 <h6 className="subtitle-1">
                   Visit Our Faceebok Microgreen Group!
                 </h6>
-                <p className="body-1 line-clamp-2">
+                <p className="line-clamp-2">
                   Got something to share or wating for our lastest update?
                   Interact with our online community, and see how people from
                   all backgrounds are using our greens.
@@ -241,7 +245,7 @@ export default function Home() {
               </div>
               <div className="my-8">
                 <h6 className="subtitle-1">Visit Our Instagram Page!</h6>
-                <p className="body-1 line-clamp-2">
+                <p className="line-clamp-2">
                   You can follow our instagram page for insperation on how you
                   can incoperate microgreens into your lifestyle.
                 </p>
