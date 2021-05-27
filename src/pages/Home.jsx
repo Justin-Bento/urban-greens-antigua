@@ -8,11 +8,11 @@ export default function Home() {
         <div className="my-28">
           <div className="wrapper">
             <h1 className="headline-1 md:text-center">
-              See What Microgreens Are Right For You!
+              Enjoy fresh microgreens!
             </h1>
-            <p className="text-xl font-medium max-w-full md:text-center my-8">
-              Our mission is to grow, sell, and share Microgreens. We do this by
-              learning how people use our greens in their lifestyle.
+            <p className="my-8 prose-xl max-w-full capitalize md:text-center">
+              Our mission is to produce and supply our locally grown Microgreens
+              to consumers, restaurants and hotels.
             </p>
             <div className="md:text-center">
               <Link to="/products" className="btn-contained m-2">
@@ -40,11 +40,10 @@ export default function Home() {
             <div>
               <h2 className="headline-3 mb-4">Freshly Grown In Antigua</h2>
               <p>
-                We grow and harvest our greens in Antigua, in a controlled
-                environment, so we do not have to use harmful checmicals.
-                Growing our greens this way also ensures we keep our plants
-                fresh, healthy, and mature to help you maximize your eating
-                experience.
+                Most of our plants are harvested in a ten-day to a two-week
+                cycle. We grow and harvest our greens in a controlled
+                environment, without the use of chemicals or pesticides, to
+                ensure a healthy and nutritional product.
               </p>
             </div>
             <div className="w-full h-full py-14">
@@ -53,14 +52,11 @@ export default function Home() {
           </div>
           <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-10 md:gap-x-24">
             <div className="order-none md:order-2">
-              <h2 className="headline-3 mb-4">
-                Can Be Featured In Many Dishes.
-              </h2>
+              <h2 className="headline-3 mb-4">Can Be Used in Many Ways.</h2>
               <p>
-                Our goal is to help you enjoy a new experience of greens, and
-                help you take advantage of this superfood. Cooks from all
-                backgrounds use microgreens inside their dish and smoothies for
-                their unique qualities and high nutritional content.
+                Microgreens can be used or consumed on their own, mixed into
+                salads or smoothies, used as a topper for sanwiches or as a
+                garnish or decoration for a plate.
               </p>
             </div>
             <div className="w-full h-full py-14">
@@ -69,13 +65,9 @@ export default function Home() {
           </div>
           <div className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-10 md:gap-x-24">
             <div>
-              <h2 className="headline-3 mb-4">Sustainable Packiging</h2>
+              <h2 className="headline-3 mb-4">Sustainable Packaging</h2>
               <p className="body-1">
-                We aim to take care of our environment, which is why we are
-                against waistfull packaging. What does sustainable mean? It
-                means you can re-use the package however you like, and we would
-                like to see how our community make the most out of our
-                packaging.
+                All our packaging is either reusable or able to be re-cycled.
               </p>
             </div>
             <div className="w-full h-full py-14">
@@ -93,7 +85,7 @@ export default function Home() {
                 <h2 className="headline-3 text-white mb-1">
                   Have Any Questions About Microgreens?
                 </h2>
-                <p className="subtitle-1 text-gray-100 tracking-wide mb-2">
+                <p className="subtitle-1 font-medium text-gray-100 mb-2">
                   Visit our Freqently Asked Questions page to see what people
                   ask us.
                 </p>
@@ -129,11 +121,24 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16">
             <div className="1 md:flex">
-              <div className="my-1 md:mx-2 text-green-800">
-                <ion-icon name="checkmark"></ion-icon>
+              <div className="md:mx-2 text-green-800">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={1.5}
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
               </div>
               <div className="">
-                <h6 className="subtitle-1">Packed With Viteamins</h6>
+                <h6 className="subtitle-1">Packed With Vitamins</h6>
                 <p className="body-1">
                   Microgreens are packed with vitamins, like iron, magnesium,
                   potassium, zinc and copper.
@@ -141,8 +146,21 @@ export default function Home() {
               </div>
             </div>
             <div className="2 md:flex">
-              <div className="my-1 md:mx-2 text-green-800">
-                <ion-icon name="checkmark"></ion-icon>
+              <div className="md:mx-2 text-green-800">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={1.5}
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
               </div>
               <div className="2-item">
                 <h6 className="subtitle-1">Work In Many Dishes</h6>
@@ -153,8 +171,21 @@ export default function Home() {
               </div>
             </div>
             <div className="3 md:flex">
-              <div className="my-1 md:mx-2 text-green-800">
-                <ion-icon name="checkmark"></ion-icon>
+              <div className="md:mx-2 text-green-800">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={1.5}
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
               </div>
               <div className="3-item">
                 <h6 className="subtitle-1">Great For Smoothies And Juices</h6>
@@ -165,37 +196,75 @@ export default function Home() {
               </div>
             </div>
             <div className="4 md:flex">
-              <div className="my-1 md:mx-2 text-green-800">
-                <ion-icon name="checkmark"></ion-icon>
+              <div className="md:mx-2 text-green-800">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={1.5}
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
               </div>
               <div className="">
-                <h6 className="subtitle-1">
-                  Microgreens At An Affordable Price
-                </h6>
+                <h6 className="subtitle-1">Microgreens are affordable</h6>
                 <p className="body-1">
-                  Get them at affordable price, so you don't have to worry about
-                  breaking the bank.
+                  Microgreens are affordable as they are packed with nutrients
+                  and intense flavours which means less product need to be used.
                 </p>
               </div>
             </div>
             <div className="5 md:flex">
               <div className="">
-                <div className="my-1 md:mx-2 text-green-800">
-                  <ion-icon name="checkmark"></ion-icon>
+                <div className="md:mx-2 text-green-800">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}
+                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
                 </div>
               </div>
               <div className="">
                 <h6 className="subtitle-1">Give Flare To Dishes</h6>
                 <p className="body-1">
-                  Cooks of all kinds like to use micorgreens as they come in a
-                  wide array of choices.
+                  Chefs use the many different coloured and flavoured
+                  microgreens to intensify flavour or add visual impacts to
+                  their meals. .
                 </p>
               </div>
             </div>
             <div className="6 md:flex">
               <div className="">
-                <div className="my-1 md:mx-2 text-green-800">
-                  <ion-icon name="checkmark"></ion-icon>
+                <div className="md:mx-2 text-green-800">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}
+                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
                 </div>
               </div>
               <div className="">
