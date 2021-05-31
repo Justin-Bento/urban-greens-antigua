@@ -33,10 +33,10 @@
     @apply align-middle antialiased prose-sm text-gray-900 font-semibold capitalize;
   }
   .body-1 {
-    @apply align-middle antialiased prose max-w-full text-gray-600;
+    @apply align-middle antialiased prose max-w-full text-gray-700;
   }
   .body-2 {
-    @apply align-middle subpixel-antialiased prose-sm max-w-full text-gray-600;
+    @apply align-middle subpixel-antialiased prose-sm max-w-full text-gray-700;
   }
   .caption {
     @apply align-middle subpixel-antialiased prose-sm text-gray-500;
