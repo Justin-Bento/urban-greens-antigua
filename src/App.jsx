@@ -4,7 +4,7 @@ import About from './pages/About.jsx';
 import Product from './pages/Product.jsx';
 import ProductDetail from './pages/ProductDetail.jsx';
 import Contact from './pages/Contact.jsx';
-import Learn from './pages/Learn.jsx';
+import faqs from './pages/faqs.jsx';
 import terms from './pages/terms.jsx';
 import privacy from './pages/privacy.jsx';
 import cookie from './pages/cookie.jsx';
@@ -21,7 +21,7 @@ export default function App() {
       <div>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/learn" component={Learn} />
+          <Route path="/faqs" component={faqs} />
           <Route path="/about" component={About} />
           <Route exact path="/products" component={Product} />
           <Route path="/products/:id" component={ProductDetail} />

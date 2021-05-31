@@ -65,7 +65,7 @@ export default class Header extends Component {
                       </Link>
                     </div>
                     <div className="nav_links">
-                      <Link to="/learn">Learn</Link>
+                      <Link to="/faqs">FAQ'S</Link>
                     </div>
                     <div className="nav_links">
                       <Link to="/about">About</Link>

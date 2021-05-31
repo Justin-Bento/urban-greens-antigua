@@ -18,7 +18,7 @@ export default function Home() {
               <Link to="/products" className="btn-contained m-2">
                 Check Our Greens
               </Link>
-              <Link to="/learn" className="btn-outline">
+              <Link to="/faqs" className="btn-outline">
                 Learn More
               </Link>
             </div>
