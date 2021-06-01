@@ -1,15 +1,15 @@
 import React from 'react';
 import data from '../public/data/data.json';
 
-export default function Learn() {
+export default function faqs() {
   return (
-    <section className="learn">
+    <section className="faqs">
       <div className="wrapper">
-        <div className="my-24">
+        <div className="spacing">
           <h1 className="headline-2">Frequently Asked Questions</h1>
           {data.faqs.map((item, index) => {
             return (
-              <div className="my-12" key={index}>
+              <div className="spacing-md" key={item.id}>
                 <div className="">
                   <h3 className="subtitle-1">{item.headline}</h3>
                 </div>
