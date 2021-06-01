@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="">
       <section className="hero">
-        <div className="my-28">
+        <div className="spacing">
           <div className="wrapper">
             <h1 className="headline-1 md:text-center">
               Enjoy fresh microgreens!
@@ -28,13 +28,13 @@ export default function Home() {
                 alt=""
                 className="w-full aspect-h-4 rounded"
               />
-              <p className="caption text-center my-4">Healty Microgreen</p>
+              <p className="caption center">Healty Microgreen</p>
             </div>
           </div>
         </div>
       </section>
       {/* end of hero section */}
-      <section className="perks my-24">
+      <section className="perks spacing">
         <div className="wrapper">
           <div className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-10 md:gap-x-24">
             <div>
@@ -77,7 +77,7 @@ export default function Home() {
         </div>
       </section>
       {/* end of perks section */}
-      <section className="call-to-action my-24">
+      <section className="call-to-action spacing">
         <div className="text-white bg-green-800">
           <div className="wrapper">
             <div className="flex flex-col items-stretch justify-between px-4 py-20 mx-auto max-w-7xl lg:flex-row sm:items-center">
@@ -109,9 +109,9 @@ export default function Home() {
         </div>
       </section>
       {/* end of call-to-action section */}
-      <section className="benifits my-24">
-        <div className="wrapper">
-          <div className="my-16">
+      <section className="benifits">
+        <div className="wrapper spacing">
+          <div className="spacing-md">
             <h2 className="headline-3 mb-1">
               Incredible Benifits Of Microgreens
             </h2>
@@ -282,7 +282,7 @@ export default function Home() {
       <section className="testimonials my-24">
         <div className="bg-gray-100 py-24">
           <div className="wrapper">
-            <p className="flex overline text-green-800 text-center">
+            <p className="center overline text-green-800">
               See What People Have to say About Urban Greens
             </p>
             <h2 className="headline-3 font-normal italic md:text-center my-4 leading-relaxed">
@@ -295,9 +295,9 @@ export default function Home() {
         </div>
       </section>
       {/* end of testimonials section */}
-      <section className="useage my-24">
+      <section className="useage spacing">
         <div className="wrapper">
-          <div className="my-12">
+          <div className="spacing-md">
             <h2 className="headline-3 mb-1">See how people use Microgreens!</h2>
             <p>
               Follow our community and stay up today to see how people are using
