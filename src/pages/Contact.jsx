@@ -1,84 +1,138 @@
 import React from 'react';
 
 export default function Contact() {
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log('You clicked submit.');
+  }
   return (
-    <div className="Contact">
+    <div className="contact">
       <div className="wrapper">
-        <div className="my-12 md:my-24">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 md:gap-12 lg:gap-20">
+        <div className="spacing">
+          <div className="grid-2">
             <div className="1">
-              <h1 className="headline-3">Contact</h1>
-              <p className="body-1 line-clamp-3">
-                What to learn more about microgreens or purchase them? Submit
-                this form or call us and we will contact you soon.
+              <h1 className="headline-3 mb-2">Contact Us</h1>
+              <p className="body-1">
+                By droping us a message and we will get back to you.
               </p>
-              <div className="my-8">
-                <div className="flex items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-gray-800 mr-2"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                    />
-                  </svg>
-                  <p className="body-1">WhatsApp: +1 662-728-2030</p>
-                </div>
-                <div className="my-2 flex items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5 text-gray-800 mr-2"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M14.243 5.757a6 6 0 10-.986 9.284 1 1 0 111.087 1.678A8 8 0 1118 10a3 3 0 01-4.8 2.401A4 4 0 1114 10a1 1 0 102 0c0-1.537-.586-3.07-1.757-4.243zM12 10a2 2 0 10-4 0 2 2 0 004 0z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  <p className="body-1">Email: hello@urbangreensanu.com</p>
-                </div>
-                <div className="my-2">
-                  <p className="body-1">Direct:+1 268-728-2030 </p>
-                </div>
+              <div className="phone-number flex-items spacing-sm">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="icon-sm"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                  />
+                </svg>
+                <p className="body-1 px-2">+1 (268)-720-8474</p>
               </div>
+              {/* end of phone-number */}
+              <div className="email flex-items spacing-sm">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="icon-sm"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+                  />
+                </svg>
+                <p className="body-1 px-2">urbangreensanu@gmail.com</p>
+              </div>
+              {/* end of email */}
+              <div className="email flex-items spacing-sm">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="icon-sm"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+                <p className="body-1 px-2">St.John's, Antigua &#38; Barbuda</p>
+              </div>
+              {/* end of email */}
             </div>
             <div className="2">
-              <label className="block my-8">
-                <span className="body-2">Name</span>
-                <input
-                  className="form-input rounded  px-2 h-10 block w-full border-1 border-gray-400"
-                  placeholder="Jane Doe"
-                />
-              </label>
-              <label className="block my-8">
-                <span className="body-2">Email</span>
-                <input
-                  className="form-input rounded  px-2 h-10 block w-full border-1 border-gray-400"
-                  placeholder="Jane Doe"
-                />
-              </label>
-              <label className="block my-8">
-                <span className="body-2">Message</span>
-                <input
-                  className="form-input rounded  px-2 h-10 block w-full border-1 border-gray-400"
-                  placeholder="Jane Doe"
-                />
-              </label>
-              <div className="block my-8">
-                <input
-                  type="submit"
-                  value="Send Now"
-                  className="btn-contained"
-                />
-              </div>
+              <form name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact" />
+                <div className="name spacing-sm">
+                  <label htmlFor="name" className="body-2">
+                    Your Name:
+                  </label>
+                  <br />
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    className="input-text"
+                  />
+                </div>
+                {/* end of form name */}
+                <div className="email spacing-sm">
+                  <label htmlFor="email" className="body-2">
+                    Email
+                  </label>
+                  <br />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    className="input-text"
+                  />
+                </div>
+                {/* end of form email */}
+                <div className="message spacing-sm">
+                  <label htmlFor="message" className="body-2">
+                    Message
+                  </label>
+                  <br />
+                  <input
+                    type="text"
+                    name="message"
+                    id="message"
+                    className="input-text"
+                    maxLength="500"
+                    onChange={(event) => setMessage(event.target.value)}
+                  />
+                  <p className="body-2 mt-2 text-gray-600">
+                    Length is 500 Characters
+                  </p>
+                </div>
+                {/* end of form email */}
+                <div className="submit spacing-sm">
+                  <input
+                    type="submit"
+                    value="Submit"
+                    className="btn-contained"
+                    onSubmit={handleSubmit}
+                  />
+                </div>
+                {/* end of form email */}
+              </form>
             </div>
           </div>
         </div>
