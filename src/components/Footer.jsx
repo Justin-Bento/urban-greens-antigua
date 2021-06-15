@@ -23,8 +23,8 @@ export default class Footer extends Component {
                 <Link to="/products" className="flex mb-4 body-2 text-gray-100">
                   Products
                 </Link>
-                <Link to="/learn" className="flex mb-4 body-2 text-gray-100">
-                  Learn
+                <Link to="/faqs" className="flex mb-4 body-2 text-gray-100">
+                 FAQ's 
                 </Link>
                 <Link to="/about" className="flex mb-4 body-2 text-gray-100">
                   About
@@ -59,19 +59,7 @@ export default class Footer extends Component {
                 <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Email
                 </a>
-              </nav>
-              <nav className="mb-8">
-                <p className="mb-4 subtitle-1 text-gray-50">Legal</p>
-                <Link to="/terms" className="flex mb-4 body-2 text-gray-100">
-                  Terms of Service
-                </Link>
-                <Link to="/privacy" className="flex mb-4 body-2 text-gray-100">
-                  Privacy Policy
-                </Link>
-                <Link to="/cookie" className="flex mb-4 body-2 text-gray-100">
-                  Cookie Policy
-                </Link>
-              </nav>
+             </nav>
             </div>
             <p className="subtitle-2 text-green-100 md:text-center">
               © Copyright 2021 Urban Greens Inc. All Rights Reserved.
