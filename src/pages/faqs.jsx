@@ -1,10 +1,9 @@
 import React from 'react';
-import data from '../public/data/data.json';
 
 export default function faqs() {
   return (
     <section className="faqs">
-      <div className="wrapper">
+      <div className="wrapper max-w-5xl">
         <div className="spacing">
           <h1 className="headline-2">Frequently Asked Questions</h1>
           <div className="spacing-sm">
