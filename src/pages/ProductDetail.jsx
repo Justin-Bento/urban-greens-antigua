@@ -26,26 +26,26 @@ export default function ProductDetail() {
         <div className="grid-2">
           <div className="cols-1">
             <div className="my-5">
-              <p className="subtitle-2 text-green-600 tracking-wide">
+              <p className="subtitle-2 uppercase font-bold text-green-600 tracking-wider">
                 {data.Price}
               </p>
               <h1 className="headline-2 mb-4">{data.Microgreen}</h1>
             </div>
             <div className="my-4">
               <h2 className="headline-6">Flavour</h2>
-              <p>{data.Flavour}</p>
+              <p className="body-1">{data.Flavour}</p>
             </div>
             <div className="my-4">
               <h2 className="headline-6">Varieties</h2>
-              <p>{data.Varieties}</p>
+              <p className="body-1">{data.Varieties}</p>
             </div>
             <div className="my-4">
               <h2 className="headline-6">Nutrients</h2>
-              <p>{data.Nutrients}</p>
+              <p className="body-1">{data.Nutrients}</p>
             </div>
             <div className="my-4">
               <h2 className="headline-6">Colour</h2>
-              <p>{data.Colour}</p>
+              <p className="body-1">{data.Colour}</p>
             </div>
           </div>
           <div className="cols-2">
