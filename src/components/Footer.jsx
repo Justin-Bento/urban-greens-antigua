@@ -7,7 +7,7 @@ export default class Footer extends Component {
       <div>
         <footer className="px-4 py-20 text-gray-100 bg-green-800">
           <div className="wrapper">
-            <div className="grid grid-cols-2 gap-4 mb-4 md:grid-cols-5">
+            <div className="grid grid-cols-2 gap-4 mb-4 md:grid-cols-4">
               <Link to="/" className="col-span-2 md:col-span-1">
                 <img
                   src="../../assets/logo/urban-greens-logo-white.png"
@@ -24,7 +24,7 @@ export default class Footer extends Component {
                   Products
                 </Link>
                 <Link to="/faqs" className="flex mb-4 body-2 text-gray-100">
-                 FAQ's 
+                  FAQ's
                 </Link>
                 <Link to="/about" className="flex mb-4 body-2 text-gray-100">
                   About
@@ -47,19 +47,22 @@ export default class Footer extends Component {
               </nav>
               <nav className="mb-8">
                 <p className="mb-4 subtitle-1 text-gray-50">Contact</p>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
+                <a
+                  href="https://www.facebook.com/UrbanGreensANU/"
+                  className="flex mb-4 body-2 text-gray-100"
+                >
                   Facebook
                 </a>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
+                <a
+                  href="https://instagram.com/urbangreensanu?utm_medium=copy_link"
+                  className="flex mb-4 body-2 text-gray-100"
+                >
                   Instagram
-                </a>
-                <a href="#" className="flex mb-4 body-2 text-gray-100">
-                  Twitter
                 </a>
                 <a href="#" className="flex mb-4 body-2 text-gray-100">
                   Email
                 </a>
-             </nav>
+              </nav>
             </div>
             <p className="subtitle-2 text-green-100 md:text-center">
               © Copyright 2021 Urban Greens Inc. All Rights Reserved.
