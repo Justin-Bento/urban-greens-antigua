@@ -25,11 +25,11 @@ export default function Product() {
         setLoading(false);
       });
   }, []);
-  if (loading) {
-    return <Loading />;
-  }
+  // if (loading) {
+  //   return <Loading />;
+  // }
   if (error || !Array.isArray(data)) {
-    return <NotFound />;
+    return <Loading />;
   }
   return (
     <div className="products">
