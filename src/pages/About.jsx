@@ -10,18 +10,14 @@ export default function About() {
               <h1 className="headline-3">About Us</h1>
               <p className="body-1 line-clamp-4 my-4">
                 Urban Greens Antigua started out as a passion project that
-                quickly eveolved into a business. We realzed that our customers
-                wanted to experience enjoy a fresh way of eating vegtables.
+                quickly evolved into a business. We realized that our customers
+                wanted to experience and enjoy a fresh way of using micro
+                greens.
               </p>
               <p className="body-1 line-clamp-4 my-4">
-                That’s why we had to adapt and find a way to improve our
-                equipment and the customer experience. So We are now selling at
-              </p>
-              <p className="body-1 line-clamp-4 my-4">
-                Along the way, we want to share you our journey of learning more
-                things about our community and see how people use our product
-                our Microgreens. So that we can give everyone a change to
-                expreicne microgreens.
+                We want to share the many ways people use our products and
+                invite you to share your recipes through our social media. As we
+                grow, we will share new experiences.
               </p>
             </div>
             <div className="2">
