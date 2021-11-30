@@ -5,7 +5,7 @@ export default function About() {
     <div className="About">
       <section className="wrapper">
         <div className="my-12 md:my-24">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
+          <div className="aboutGrid">
             <div className="1">
               <h1 className="headline-3">About Us</h1>
               <p className="body-1 line-clamp-4 my-4">
