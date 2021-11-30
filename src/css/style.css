@@ -13,22 +13,22 @@
   .center {
     @apply text-center my-4;
   }
-  .flex-items {
+  .flexItems {
     @apply flex items-center;
   }
   .spacing {
     @apply my-8 md:my-12 lg:my-24;
   }
-  .spacing-md {
+  .spacingMd {
     @apply my-8 md:my-12;
   }
-  .spacing-sm {
+  .spacingSm {
     @apply my-8;
   }
-  .grid-2 {
+  .grid2 {
     @apply grid items-center grid-cols-1 md:grid-cols-2 gap-14;
   }
-  .grid-3 {
+  .grid3 {
     @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14;
   }
   .perksGrid {
@@ -49,38 +49,47 @@
   .aboutGrid {
     @apply grid grid-cols-1 md:grid-cols-2 gap-24;
   }
+  .notFoundGrid {
+    @apply grid items-center w-full grid-cols-1 gap-10 mx-auto lg:grid-cols-2 xl:gap-24;
+  }
+  .cardAnimation {
+    @apply transition duration-150 border border-transparent hover:shadow-sm hover:border-gray-100 p-4 rounded;
+  }
+  .cardImage {
+    @apply object-contain w-full h-56 bg-center rounded mb-1;
+  }
 
 }
 
 @layer components {
-  .headline-1 {
+  .headline1 {
     @apply align-middle antialiased text-5xl font-bold capitalize text-black;
   }
-  .headline-2 {
+  .headline2 {
     @apply align-middle antialiased text-4xl font-bold capitalize text-black;
   }
-  .headline-3 {
+  .headline3 {
     @apply align-middle antialiased text-3xl font-bold capitalize text-black;
   }
-  .headline-4 {
+  .headline4 {
     @apply align-middle antialiased prose-2xl font-bold capitalize text-black;
   }
-  .headline-5 {
+  .headline5 {
     @apply align-middle antialiased prose-lg font-bold capitalize text-black;
   }
-  .headline-6 {
+  .headline6 {
     @apply align-middle antialiased prose-sm font-bold capitalize text-black;
   }
-  .subtitle-1 {
+  .subtitle1 {
     @apply align-middle antialiased prose text-gray-900 font-bold capitalize;
   }
-  .subtitle-2 {
+  .subtitle2 {
     @apply align-middle antialiased prose-sm text-gray-900 font-semibold capitalize;
   }
-  .body-1 {
+  .body1 {
     @apply align-middle antialiased prose max-w-full text-gray-800 
   }
-  .body-2 {
+  .body2 {
     @apply align-middle subpixel-antialiased prose-sm max-w-full text-gray-700;
   }
   .caption {
@@ -92,22 +101,25 @@
   .btn {
     @apply text-sm uppercase tracking-wide font-medium;
   }
+  .footerText {
+    @apply body2 mb-4 text-gray-100;
+  }
   .heroText {
     @apply my-8 prose-xl max-w-full capitalize md:text-center
   }
-  .btn-contained {
+  .btnContained {
     @apply bg-green-700 text-green-50 p-3 rounded-sm btn transition-colors duration-150  hover:text-green-50 hover:bg-green-900;
   }
-  .btn-outline {
+  .btnOutline {
     @apply border border-green-700 text-green-700 p-3 btn font-medium transition-colors duration-150  hover:text-green-900 hover:bg-green-100;
   }
-  .btn-text {
+  .btnText {
     @apply border border-transparent text-green-700 p-3 rounded-sm btn transition-colors duration-150  hover:text-green-50 hover:bg-green-700;
   }
-  .input-text {
+  .inputText {
     @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50;
   }
-  .nav_links {
+  .navLinks {
     @apply p-1 duration-200 border-b-2 border-transparent hover:border-b-2 hover:border-green-600 lg:px-2 lg:m-2;
   }
   .avatars {
@@ -116,7 +128,19 @@
   .image {
     @apply w-full h-86 object-cover rounded md:aspect-w-2 md:aspect-w-2;
   }
-  .icon-sm {
+  .iconSm {
     @apply h-5 w-5 text-gray-700;
+  }
+  .footerBackground {
+    @apply px-4 py-20 text-gray-100 bg-green-800;
+  }
+  .footerGrid {
+    @apply grid grid-cols-2 gap-4 mb-4 md:grid-cols-4;
+  }
+  .foterGridOrder {
+    @apply col-span-2 md:col-span-1;
+  }
+  .footerLogo {
+    @apply object-cover bg-contain w-20 h-20 rounded;
   }
 }
