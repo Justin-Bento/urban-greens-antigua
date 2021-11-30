@@ -31,6 +31,25 @@
   .grid-3 {
     @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14;
   }
+  .perksGrid {
+    @apply grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-10 md:gap-x-24;
+  }
+  .benfitsGrid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16;
+  }
+  .ctaGrid {
+    @apply flex flex-col items-stretch justify-between px-4 py-20 mx-auto max-w-7xl lg:flex-row sm:items-center;
+  }
+  .ctaFlex {
+    @apply flex flex-col mb-2 space-x-0 space-y-2 sm:flex-row sm:space-x-2 sm:space-y-0;
+  }
+  .usageGrid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16;
+  }
+  .aboutGrid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-24;
+  }
+
 }
 
 @layer components {
@@ -59,7 +78,7 @@
     @apply align-middle antialiased prose-sm text-gray-900 font-semibold capitalize;
   }
   .body-1 {
-    @apply align-middle antialiased prose max-w-full text-gray-800;
+    @apply align-middle antialiased prose max-w-full text-gray-800 
   }
   .body-2 {
     @apply align-middle subpixel-antialiased prose-sm max-w-full text-gray-700;
@@ -72,6 +91,9 @@
   }
   .btn {
     @apply text-sm uppercase tracking-wide font-medium;
+  }
+  .heroText {
+    @apply my-8 prose-xl max-w-full capitalize md:text-center
   }
   .btn-contained {
     @apply bg-green-700 text-green-50 p-3 rounded-sm btn transition-colors duration-150  hover:text-green-50 hover:bg-green-900;
