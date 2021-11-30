@@ -10,7 +10,7 @@ export default function Home() {
             <h1 className="headline-1 md:text-center">
               Enjoy fresh microgreens!
             </h1>
-            <p className="my-8 prose-xl max-w-full capitalize md:text-center">
+            <p className="heroText">
               Our mission is to produce and supply our locally grown Microgreens
               to consumers, restaurants and hotels.
             </p>
@@ -36,7 +36,7 @@ export default function Home() {
       {/* end of hero section */}
       <section className="perks spacing">
         <div className="wrapper">
-          <div className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-10 md:gap-x-24">
+          <div className="perksGrid">
             <div>
               <h2 className="headline-3 mb-4">Freshly Grown In Antigua</h2>
               <p className="body-1">
@@ -50,7 +50,7 @@ export default function Home() {
               <img src="/assets/home/feature-01.png" alt="" className="image" />
             </div>
           </div>
-          <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-10 md:gap-x-24">
+          <div className="perksGrid">
             <div className="order-none md:order-2">
               <h2 className="headline-3 mb-4">Can Be Used in Many Ways.</h2>
               <p className="body-1">
@@ -63,7 +63,7 @@ export default function Home() {
               <img src="/assets/home/feature-02.png" alt="" className="image" />
             </div>
           </div>
-          <div className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-10 md:gap-x-24">
+          <div className="perksGrid">
             <div>
               <h2 className="headline-3 mb-4">Sustainable Packaging</h2>
               <p className="body-1">
@@ -80,7 +80,7 @@ export default function Home() {
       <section className="call-to-action spacing">
         <div className="text-white bg-green-800">
           <div className="wrapper">
-            <div className="flex flex-col items-stretch justify-between px-4 py-20 mx-auto max-w-7xl lg:flex-row sm:items-center">
+            <div className="ctaGrid">
               <div>
                 <h2 className="headline-3 text-white mb-1">
                   Have Any Questions About Microgreens?
@@ -90,7 +90,7 @@ export default function Home() {
                   ask us.
                 </p>
               </div>
-              <div className="flex flex-col mb-2 space-x-0 space-y-2 sm:flex-row sm:space-x-2 sm:space-y-0">
+              <div className="ctaFlex">
                 <Link
                   to="/learn"
                   className="btn-contained bg-white text-green-700"
@@ -119,7 +119,7 @@ export default function Home() {
               See Why Microgreens are considered the new superfood!
             </h3>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16">
+          <div className="benfitsGrid">
             <div className="1 md:flex">
               <div className="md:mx-2 text-green-800">
                 <svg
@@ -304,13 +304,13 @@ export default function Home() {
               microgreens in their Lifestyle.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16">
+          <div className="usageGrid">
             <div className="1">
               <div className="">
                 <h6 className="subtitle-1">
                   Visit Our Faceebok Microgreen Group!
                 </h6>
-                <p className="body-1  line-clamp-2">
+                <p className="body-1">
                   Got something to share or wating for our lastest update?
                   Interact with our online community, and see how people from
                   all backgrounds are using our greens.
@@ -318,7 +318,7 @@ export default function Home() {
               </div>
               <div className="my-8">
                 <h6 className="subtitle-1">Visit Our Instagram Page!</h6>
-                <p className="body-1 line-clamp-2">
+                <p className="body-1">
                   You can follow our instagram page for insperation on how you
                   can incoperate microgreens into your lifestyle.
                 </p>
