@@ -1,9 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 * {
   font-family: "Public Sans", Arial, Helvetica, sans-serif;
 }
+
 @layer base {
   .wrapper {
     @apply container mx-auto px-4;
@@ -29,9 +31,9 @@
   .grid-3 {
     @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14;
   }
+}
 
-  /* End Of Layout  */
-
+@layer components {
   .headline-1 {
     @apply align-middle antialiased text-5xl font-bold capitalize text-black;
   }
@@ -69,11 +71,8 @@
     @apply align-middle subpixel-antialiased text-xs uppercase tracking-wide font-medium;
   }
   .btn {
-   @apply text-sm uppercase tracking-wide font-medium
+    @apply text-sm uppercase tracking-wide font-medium;
   }
-}
-
-@layer components {
   .btn-contained {
     @apply bg-green-700 text-green-50 p-3 rounded-sm btn transition-colors duration-150  hover:text-green-50 hover:bg-green-900;
   }
