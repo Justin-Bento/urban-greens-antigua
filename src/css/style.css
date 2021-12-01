@@ -144,10 +144,10 @@
     @apply object-cover bg-contain w-20 h-20 rounded;
   }
   .appbarBackground {
-    @apply sticky top-0 z-90 bg-white shadow-sm wrapper mx-auto;
+    @apply sticky top-0 z-90 bg-white shadow-sm ;
   }
   .appbarContainer {
-    @apply sm:container sm:flex sm:flex-row  sm:justify-between sm:items-center py-2;
+    @apply sm:container mx-auto  sm:flex sm:flex-row  sm:justify-between sm:items-center py-2;
   }
   .appbarMenu {
     @apply  flex justify-between items-center;
