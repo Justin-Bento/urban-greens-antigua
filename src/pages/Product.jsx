@@ -34,7 +34,7 @@ export default function Product() {
   return (
     <div className="products">
       <div className="wrapper my-24">
-        <div className="grid-3">
+        <div className="grid3">
           {data.map((data) => {
             return (
               <div key={data.id}>

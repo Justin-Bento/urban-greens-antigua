@@ -1,9 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 * {
-  font-family: 'Public Sans', Arial, Helvetica, sans-serif;
+  font-family: "Public Sans", Arial, Helvetica, sans-serif;
 }
+
 @layer base {
   .wrapper {
     @apply container mx-auto px-4;
@@ -11,89 +13,146 @@
   .center {
     @apply text-center my-4;
   }
-  .flex-items {
+  .flexItems {
     @apply flex items-center;
   }
   .spacing {
     @apply my-8 md:my-12 lg:my-24;
   }
-  .spacing-md {
+  .spacingMd {
     @apply my-8 md:my-12;
   }
-  .spacing-sm {
+  .spacingSm {
     @apply my-8;
   }
-  .grid-2 {
+  .grid2 {
     @apply grid items-center grid-cols-1 md:grid-cols-2 gap-14;
   }
-  .grid-3 {
+  .grid3 {
     @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14;
   }
+  .perksGrid {
+    @apply grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-8 md:gap-y-16 gap-x-10 md:gap-x-24;
+  }
+  .benfitsGrid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16;
+  }
+  .ctaGrid {
+    @apply flex flex-col items-stretch justify-between px-4 py-20 mx-auto max-w-7xl lg:flex-row sm:items-center;
+  }
+  .ctaFlex {
+    @apply flex flex-col mb-2 space-x-0 space-y-2 sm:flex-row sm:space-x-2 sm:space-y-0;
+  }
+  .usageGrid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16;
+  }
+  .aboutGrid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-24;
+  }
+  .notFoundGrid {
+    @apply grid items-center w-full grid-cols-1 gap-10 mx-auto lg:grid-cols-2 xl:gap-24;
+  }
+  .cardAnimation {
+    @apply transition duration-150 border border-transparent hover:shadow-sm hover:border-gray-100 p-4 rounded;
+  }
+  .cardImage {
+    @apply object-contain w-full h-56 bg-center rounded mb-1;
+  }
 
-  /* End Of Layout  */
+}
 
-  .headline-1 {
-    @apply align-middle antialiased text-5xl font-bold capitalize text-black;
+@layer components {
+  .headline1 {
+    @apply align-middle antialiased text-5xl font-bold capitalize text-black leading-normal;
   }
-  .headline-2 {
-    @apply align-middle antialiased text-4xl font-bold capitalize text-black;
+  .headline2 {
+    @apply align-middle antialiased text-4xl font-bold capitalize text-black leading-normal;
   }
-  .headline-3 {
-    @apply align-middle antialiased text-3xl font-bold capitalize text-black;
+  .headline3 {
+    @apply align-middle antialiased text-3xl font-bold capitalize text-black leading-normal;
   }
-  .headline-4 {
-    @apply align-middle antialiased prose-2xl font-bold capitalize text-black;
+  .headline4 {
+    @apply align-middle antialiased prose-2xl font-bold capitalize text-black leading-normal;
   }
-  .headline-5 {
-    @apply align-middle antialiased prose-lg font-bold capitalize text-black;
+  .headline5 {
+    @apply align-middle antialiased prose-lg font-bold capitalize text-black leading-normal;
   }
-  .headline-6 {
-    @apply align-middle antialiased prose-sm font-bold capitalize text-black;
+  .headline6 {
+    @apply align-middle antialiased prose-sm font-bold capitalize text-black leading-normal;
   }
-  .subtitle-1 {
-    @apply align-middle antialiased prose text-gray-900 font-bold capitalize;
+  .subtitle1 {
+    @apply align-middle antialiased prose text-gray-900 font-bold capitalize leading-normal;
   }
-  .subtitle-2 {
-    @apply align-middle antialiased prose-sm text-gray-900 font-semibold capitalize;
+  .subtitle2 {
+    @apply align-middle antialiased prose-sm text-gray-900 font-semibold capitalize leading-normal;
   }
-  .body-1 {
-    @apply align-middle antialiased prose max-w-full text-gray-800;
+  .body1 {
+    @apply align-middle antialiased prose max-w-full text-gray-800 leading-normal;
   }
-  .body-2 {
-    @apply align-middle subpixel-antialiased prose-sm max-w-full text-gray-700;
+  .body2 {
+    @apply align-middle subpixel-antialiased prose-sm max-w-full text-gray-700 leading-normal;
   }
   .caption {
-    @apply align-middle subpixel-antialiased prose-sm text-gray-500;
+    @apply align-middle subpixel-antialiased prose-sm text-gray-500 leading-normal;
   }
   .overline {
-    @apply align-middle subpixel-antialiased text-xs uppercase tracking-wide font-medium;
+    @apply align-middle subpixel-antialiased text-xs uppercase tracking-wide font-medium leading-normal;
   }
-
-  /* End Of Typography */
-
+  .btn {
+    @apply text-sm uppercase tracking-wide font-medium;
+  }
+  .footerText {
+    @apply body2 mb-4 text-gray-100;
+  }
+  .heroText {
+    @apply mt-4 mb-8 prose-xl max-w-full capitalize md:text-center leading-normal;
+  }
+  .btnContained {
+    @apply bg-green-700 text-green-50 p-3 rounded-sm btn transition-colors duration-150  hover:text-green-50 hover:bg-green-900;
+  }
+  .btnOutline {
+    @apply border border-green-700 text-green-700 p-3 btn font-medium transition-colors duration-150  hover:text-green-900 hover:bg-green-100;
+  }
+  .btnText {
+    @apply border border-transparent text-green-700 p-3 rounded-sm btn transition-colors duration-150  hover:text-green-50 hover:bg-green-700;
+  }
+  .inputText {
+    @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50;
+  }
+  .navLinks {
+    @apply m-2 p-2 duration-200 border-b-2 border-transparent hover:border-b-2 hover:bg-gray-200;
+  }
   .avatars {
     @apply inline object-cover w-12 h-12 mr-2 rounded-full;
   }
   .image {
     @apply w-full h-86 object-cover rounded md:aspect-w-2 md:aspect-w-2;
   }
-  .nav_links {
-    @apply p-1 duration-200 border-b-2 border-transparent hover:border-b-2 hover:border-green-600 lg:px-2 lg:m-2;
-  }
-  .btn-contained {
-    @apply bg-green-700 text-green-50 p-3 rounded-sm text-sm uppercase tracking-wide font-medium transition-colors duration-150  hover:text-green-50 hover:bg-green-900;
-  }
-  .btn-outline {
-    @apply border border-green-700 text-green-700 p-3 rounded-sm text-sm uppercase tracking-wide font-medium transition-colors duration-150  hover:text-green-900 hover:bg-green-100;
-  }
-  .btn-text {
-    @apply border border-transparent text-green-700 p-3 rounded-sm text-sm uppercase tracking-wide font-medium transition-colors duration-150  hover:text-green-50 hover:bg-green-700;
-  }
-  .input-text {
-    @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50;
-  }
-  .icon-sm {
+  .iconSm {
     @apply h-5 w-5 text-gray-700;
   }
-  /* End Of Components */
+  .footerBackground {
+    @apply px-4 py-20 text-gray-100 bg-green-800;
+  }
+  .footerGrid {
+    @apply grid grid-cols-2 gap-4 mb-4 md:grid-cols-4;
+  }
+  .foterGridOrder {
+    @apply col-span-2 md:col-span-1;
+  }
+  .footerLogo {
+    @apply object-cover bg-contain w-20 h-20 rounded;
+  }
+  .appbarBackground {
+    @apply sticky top-0 z-90 bg-white shadow-sm ;
+  }
+  .appbarContainer {
+    @apply sm:container mx-auto  sm:flex sm:flex-row  sm:justify-between sm:items-center p-2;
+  }
+  .appbarMenu {
+    @apply  flex justify-between items-center;
+  }
+  .appbarMenuLinks {
+    @apply flex flex-col sm:flex-row hover:cursor-pointer;
+  }
 }
