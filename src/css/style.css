@@ -105,7 +105,7 @@
     @apply body2 mb-4 text-gray-100;
   }
   .heroText {
-    @apply my-8 prose-xl max-w-full capitalize md:text-center leading-normal;
+    @apply mt-4 mb-8 prose-xl max-w-full capitalize md:text-center leading-normal;
   }
   .btnContained {
     @apply bg-green-700 text-green-50 p-3 rounded-sm btn transition-colors duration-150  hover:text-green-50 hover:bg-green-900;
