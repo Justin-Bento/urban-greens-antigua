@@ -19,7 +19,7 @@ export default class Header extends Component {
               </Link>
             </div>
             <div
-              className="text-2xl md:hidden"
+              className="text-2xl sm:hidden"
               onClick={() => {
                 this.setState({
                   toggle: !this.state.toggle,
