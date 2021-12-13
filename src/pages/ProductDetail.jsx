@@ -22,30 +22,30 @@ export default function ProductDetail() {
   }, []);
   return (
     <div>
-      <div className="wrapper my-24">
-        <div className="grid-2">
+      <div className="wrapper my-40">
+        <div className="grid2">
           <div className="cols-1">
-            <div className="my-5">
+            <div className="my-6">
               <p className="subtitle-2 uppercase font-bold text-green-600 tracking-wider">
                 {data.Price}
               </p>
-              <h1 className="headline-2 mb-4">{data.Microgreen}</h1>
+              <h1 className="headline2 mb-4">{data.Microgreen}</h1>
             </div>
-            <div className="my-4">
-              <h2 className="headline-6">Flavour</h2>
-              <p className="body-1">{data.Flavour}</p>
+            <div className="my-6">
+              <h2 className="headline6">Flavour</h2>
+              <p className="body1">{data.Flavour}</p>
             </div>
-            <div className="my-4">
-              <h2 className="headline-6">Varieties</h2>
-              <p className="body-1">{data.Varieties}</p>
+            <div className="my-6">
+              <h2 className="headline6">Varieties</h2>
+              <p className="body1">{data.Varieties}</p>
             </div>
-            <div className="my-4">
-              <h2 className="headline-6">Nutrients</h2>
-              <p className="body-1">{data.Nutrients}</p>
+            <div className="my-6">
+              <h2 className="headline6">Nutrients</h2>
+              <p className="body1">{data.Nutrients}</p>
             </div>
-            <div className="my-4">
-              <h2 className="headline-6">Colour</h2>
-              <p className="body-1">{data.Colour}</p>
+            <div className="my-6">
+              <h2 className="headline6">Colour</h2>
+              <p className="body1">{data.Colour}</p>
             </div>
           </div>
           <div className="cols-2">
