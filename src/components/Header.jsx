@@ -11,7 +11,7 @@ export default function Header() {
   const onClick = () => setIsActive((isActive) => !isActive);
   useEffect(() => {
     const handelResize = () => {
-    if (window.innerWidth >= 700) {
+    if (window.innerWidth >= 640) {
       setIsActive(true);
     } else {
       setIsActive(false);
