@@ -16,10 +16,12 @@ export default function Hero() {
       </p>
       <div className="flex flex-col justify-start gap-8 mt-6 sm:justify-center sm:flex-row">
         <Link to="/products">
-          <Button size="lg">Check Out Greens</Button>
+          <Button size="lg" className="w-full">
+            Check Out Greens
+          </Button>
         </Link>
         <Link to="/about">
-          <Button variant="outline" size="lg">
+          <Button variant="outline" size="lg" className="w-full">
             About Urban Greens
           </Button>
         </Link>
