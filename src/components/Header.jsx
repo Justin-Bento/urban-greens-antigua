@@ -10,7 +10,7 @@ export default function Header() {
   const onClick = () => setIsActive((isActive) => !isActive);
   return (
     <>
-      <header className="relative top-0 z-50 border-b shadow">
+      <header className="relative top-0 z-50 border-b shadow bg-primary-10">
         <div className="container grid grid-cols-1 p-4 mx-auto lg:grid-cols-2">
           <section className="flex items-center justify-between place-items-center">
             <Link to="/">
