@@ -1,32 +1,33 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Button } from '../components/Button';
 
 export default function Home() {
   return (
     <div className="">
       <section className="hero">
         <div className="spacing">
-          <div className="wrapper">
-            <h1 className="headline1 md:text-center">
+          <div className="container p-4 mx-auto">
+            <h1 className="text-5xl font-extrabold tracking-tight capitalize scroll-m-20 md:text-center">
               Enjoy fresh microgreens!
             </h1>
-            <p className="heroText">
+            <p className="my-6 text-xl leading-7 md:text-center">
               Our mission is to produce and supply our locally grown Microgreens
               to consumers, restaurants and hotels.
             </p>
-            <div className="md:text-center">
-              <Link to="/products" className="btnContained m-2">
-                Check Our Greens
-              </Link>
-              <Link to="/faqs" className="btnOutline">
-                Learn More
-              </Link>
+            <div className="flex flex-col justify-start gap-4 mb-8 md:flex-row md:justify-center">
+                <Link to="/products">
+                  <Button variant="default" size="lg" className="w-full">Check Our Greens</Button>
+                </Link>
+                <Link to="/faqs">
+                  <Button variant="outline" size="lg" className="w-full">Learn More</Button>
+                </Link>
             </div>
             <div className="mt-16">
               <img
                 src="/assets/home/hero.png"
                 alt=""
-                className="w-full aspect-h-4 rounded"
+                className="w-full rounded aspect-h-4"
               />
               <p className="caption center">Healty Microgreen</p>
             </div>
@@ -38,7 +39,7 @@ export default function Home() {
         <div className="wrapper">
           <div className="perksGrid">
             <div>
-              <h2 className="headline3 mb-4">Freshly Grown In Antigua</h2>
+              <h2 className="mb-4 headline3">Freshly Grown In Antigua</h2>
               <p className="body1">
                 Most of our plants are harvested in a ten-day to a two-week
                 cycle. We grow and harvest our greens in a controlled
@@ -52,7 +53,7 @@ export default function Home() {
           </div>
           <div className="perksGrid">
             <div className="order-none md:order-2">
-              <h2 className="headline3 mb-4">Can Be Used in Many Ways.</h2>
+              <h2 className="mb-4 headline3">Can Be Used in Many Ways.</h2>
               <p className="body1">
                 Microgreens can be used or consumed on their own, mixed into
                 salads or smoothies, used as a topper for sanwiches or as a
@@ -65,7 +66,7 @@ export default function Home() {
           </div>
           <div className="perksGrid">
             <div>
-              <h2 className="headline3 mb-4">Sustainable Packaging</h2>
+              <h2 className="mb-4 headline3">Sustainable Packaging</h2>
               <p className="body1">
                 All our packaging is either reusable or able to be re-cycled.
               </p>
@@ -82,27 +83,21 @@ export default function Home() {
           <div className="wrapper">
             <div className="ctaGrid">
               <div>
-                <h2 className="headline3 text-white mb-1">
+                <h2 className="mb-1 text-white headline3">
                   Have Any Questions About Microgreens?
                 </h2>
-                <p className="subtitle1 font-medium text-gray-100 mb-2">
+                <p className="mb-2 font-medium text-gray-100 subtitle1">
                   Visit our Freqently Asked Questions page to see what people
                   ask us.
                 </p>
               </div>
               <div className="ctaFlex">
-                <Link
-                  to="/learn"
-                  className="btnContained bg-white text-green-700"
-                >
-                  Learn More
-                </Link>
-                <Link
-                  to="/contact"
-                  className="btnOutline border-green-50 text-green-50"
-                >
-                  Message Us
-                </Link>
+                  <Link to="/learn">
+                    <Button variant="white" size="lg" className="w-full">Learn More</Button>
+                  </Link>
+                  <Link to="/contact">
+                    <Button variant="outlineLight" size="lg" className="w-full">Message Us</Button>
+                  </Link>
               </div>
             </div>
           </div>
@@ -112,19 +107,19 @@ export default function Home() {
       <section className="benifits">
         <div className="wrapper spacing">
           <div className="mb-8">
-            <h2 className="headline3 mb-1">
+            <h2 className="mb-1 headline3">
               Incredible Benifits Of Microgreens
             </h2>
-            <h3 className="headline6 text-gray-600 tracking-wide">
+            <h3 className="tracking-wide text-gray-600 headline6">
               See Why Microgreens are considered the new superfood!
             </h3>
           </div>
           <div className="benfitsGrid">
             <div className="1 md:flex">
-              <div className="md:mx-2 text-green-800">
+              <div className="text-green-800 md:mx-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
+                  className="w-6 h-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -146,10 +141,10 @@ export default function Home() {
               </div>
             </div>
             <div className="2 md:flex">
-              <div className="md:mx-2 text-green-800">
+              <div className="text-green-800 md:mx-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
+                  className="w-6 h-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -171,10 +166,10 @@ export default function Home() {
               </div>
             </div>
             <div className="3 md:flex">
-              <div className="md:mx-2 text-green-800">
+              <div className="text-green-800 md:mx-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
+                  className="w-6 h-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -196,10 +191,10 @@ export default function Home() {
               </div>
             </div>
             <div className="4 md:flex">
-              <div className="md:mx-2 text-green-800">
+              <div className="text-green-800 md:mx-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
+                  className="w-6 h-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -222,10 +217,10 @@ export default function Home() {
             </div>
             <div className="5 md:flex">
               <div className="">
-                <div className="md:mx-2 text-green-800">
+                <div className="text-green-800 md:mx-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
+                    className="w-6 h-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -250,10 +245,10 @@ export default function Home() {
             </div>
             <div className="6 md:flex">
               <div className="">
-                <div className="md:mx-2 text-green-800">
+                <div className="text-green-800 md:mx-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
+                    className="w-6 h-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -279,13 +274,13 @@ export default function Home() {
         </div>
       </section>
       {/* end of benifits section */}
-      <section className="testimonials my-24">
-        <div className="bg-gray-100 py-24">
+      <section className="my-24 testimonials">
+        <div className="py-24 bg-gray-100">
           <div className="wrapper">
-            <p className="center overline text-green-800">
+            <p className="text-green-800 center overline">
               See What People Have to say About Urban Greens
             </p>
-            <h2 className="headline3 font-normal italic md:text-center my-4 leading-relaxed">
+            <h2 className="my-4 italic font-normal leading-relaxed headline3 md:text-center">
               “We endeavour to build a truly human AND high-performing
               workplace, where everyone can do the best work of their lives.
               This product is a key part of facilitating this culture by being
@@ -298,7 +293,7 @@ export default function Home() {
       <section className="useage spacing">
         <div className="wrapper">
           <div className="spacing-md">
-            <h2 className="headline3 mb-1">See how people use Microgreens!</h2>
+            <h2 className="mb-1 headline3">See how people use Microgreens!</h2>
             <p className="body1">
               Follow our community and stay up today to see how people are using
               microgreens in their Lifestyle.

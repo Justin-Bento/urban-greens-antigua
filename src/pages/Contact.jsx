@@ -1,4 +1,6 @@
 import React from 'react';
+import { RiPhoneLine, RiMailLine, RiMapPinLine } from "react-icons/ri";
+import { Button } from "../components/Button";
 
 export default function Contact() {
   function handleSubmit(e) {
@@ -8,78 +10,41 @@ export default function Contact() {
   return (
     <div className="contact">
       <div className="wrapper">
-        <div className="my-24">
-          <div className="grid2">
+        <div className="my-16 lg:my-24">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
             <div className="1">
-              <h1 className="headline3">Contact Us</h1>
-              <p className="body1">
+              <h1 className="pb-2 text-3xl font-bold tracking-tight transition-colors scroll-m-20 first:mt-0">Contact Us</h1>
+              <p className="leading-7 text-gray-800">
                 By droping us a message and we will get back to you.
               </p>
-              <div className="flex phone-number flex-items py-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="iconSm"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d={svg.path1}
-                  />
-                </svg>
-                <p className="body1 px-2">+1 (268)-720-8474</p>
+              <div className="flex flex-col items-start gap-4 mt-4">
+                <div className="flex items-center gap-1">
+                  <Button variant="outline" size="icon">
+                    <RiPhoneLine className="w-4 h-4" />
+                  </Button>
+                  <p className="px-2 body1">+1 (268)-720-8474</p>
+                </div>
+                {/* end of phone-number */}
+                <div className="flex items-center gap-1">
+                  <Button variant="outline" size="icon">
+                    <RiMailLine className="w-4 h-4" />
+                  </Button>
+                  <p className="px-2 body1">urbangreensanu@gmail.com</p>
+                </div>
+                {/* end of email */}
+                <div className="flex items-center gap-1">
+                  <Button variant="outline" size="icon">
+                    <RiMapPinLine className="w-4 h-4" />
+                  </Button>
+                  <p className="px-2 body1">St.John's, Antigua &#38; Barbuda</p>
+                </div>
+                {/* end of email */}
               </div>
-              {/* end of phone-number */}
-              <div className="email flex flex-items py-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="iconSm"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d={svg.path2}
-                  />
-                </svg>
-                <p className="body1 px-2">urbangreensanu@gmail.com</p>
-              </div>
-              {/* end of email */}
-              <div className="email flex flex-items py-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="iconSm"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d={svg.path3}
-                  />
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d={svg.path4}
-                  />
-                </svg>
-                <p className="body1 px-2">St.John's, Antigua &#38; Barbuda</p>
-              </div>
-              {/* end of email */}
             </div>
             <div className="2">
               <form name="contact" method="POST" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
-                <div className="name py-4">
+                <div className="py-4 name">
                   <label htmlFor="name" className="body2">
                     Your Name:
                   </label>
@@ -88,11 +53,11 @@ export default function Contact() {
                     type="text"
                     name="name"
                     id="name"
-                    className="inputText"
+                    className="flex w-full px-3 py-1 text-sm transition-colors border rounded-md shadow-sm h-9 border-input bg-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
                   />
                 </div>
                 {/* end of form name */}
-                <div className="email py-4">
+                <div className="py-4 email">
                   <label htmlFor="email" className="body2">
                     Email
                   </label>
@@ -101,11 +66,11 @@ export default function Contact() {
                     type="email"
                     name="email"
                     id="email"
-                    className="inputText"
+                    className="flex w-full px-3 py-1 text-sm transition-colors border rounded-md shadow-sm h-9 border-input bg-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
                   />
                 </div>
                 {/* end of form email */}
-                <div className="message py-4">
+                <div className="py-4 message">
                   <label htmlFor="message" className="body2">
                     Message
                   </label>
@@ -114,22 +79,17 @@ export default function Contact() {
                     type="text"
                     name="message"
                     id="message"
-                    className="inputText"
+                    className="flex w-full px-3 py-1 text-sm transition-colors border rounded-md shadow-sm h-9 border-input bg-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
                     maxLength="500"
                     onChange={(event) => setMessage(event.target.value)}
                   />
-                  <p className="body2 mt-2 text-gray-600">
+                  <p className="mt-2 text-gray-600 body2">
                     Length is 500 Characters
                   </p>
                 </div>
                 {/* end of form email */}
-                <div className="submit py-4">
-                  <input
-                    type="submit"
-                    value="Submit"
-                    className="btnContained"
-                    onSubmit={handleSubmit}
-                  />
+                <div className="py-4 submit">
+                  <Button size="lg" type="submit" value="Submit" onSubmit={handleSubmit}>Submit</Button>
                 </div>
                 {/* end of form email */}
               </form>
@@ -140,15 +100,6 @@ export default function Contact() {
     </div>
   );
 }
-
-let svg = {
-  path1: "M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z",
-  path2: "M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207",
-  path3: "M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z",
-  path4: "M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-}
-
-
 
 
 
