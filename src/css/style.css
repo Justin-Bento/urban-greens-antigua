@@ -72,28 +72,28 @@
     @apply align-middle antialiased text-3xl font-bold capitalize text-black leading-normal;
   }
   .headline4 {
-    @apply align-middle antialiased prose-2xl font-bold capitalize text-black leading-normal;
+    @apply align-middle antialiased text-2xl font-bold capitalize text-black leading-normal;
   }
   .headline5 {
-    @apply align-middle antialiased prose-lg font-bold capitalize text-black leading-normal;
+    @apply align-middle antialiased text-lg font-bold capitalize text-black leading-normal;
   }
   .headline6 {
-    @apply align-middle antialiased prose-sm font-bold capitalize text-black leading-normal;
+    @apply align-middle antialiased text-base font-bold capitalize text-black leading-normal;
   }
   .subtitle1 {
-    @apply align-middle antialiased prose text-gray-900 font-bold capitalize leading-normal;
+    @apply align-middle antialiased text-base text-gray-900 font-bold capitalize leading-normal;
   }
   .subtitle2 {
-    @apply align-middle antialiased prose-sm text-gray-900 font-semibold capitalize leading-normal;
+    @apply align-middle antialiased text-sm text-gray-900 font-semibold capitalize leading-normal;
   }
   .body1 {
-    @apply align-middle antialiased prose max-w-full text-gray-800 leading-normal;
+    @apply align-middle antialiased text-base max-w-full text-gray-800 leading-normal;
   }
   .body2 {
-    @apply align-middle subpixel-antialiased prose-sm max-w-full text-gray-700 leading-normal;
+    @apply align-middle subpixel-antialiased text-sm max-w-full text-gray-700 leading-normal;
   }
   .caption {
-    @apply align-middle subpixel-antialiased prose-sm text-gray-500 leading-normal;
+    @apply align-middle subpixel-antialiased text-sm text-gray-500 leading-normal;
   }
   .overline {
     @apply align-middle subpixel-antialiased text-xs uppercase tracking-wide font-medium leading-normal;
@@ -105,7 +105,7 @@
     @apply body2 mb-4 text-gray-100;
   }
   .heroText {
-    @apply mt-4 mb-8 prose-xl max-w-full capitalize md:text-center leading-normal;
+    @apply mt-4 mb-8 text-xl max-w-full capitalize md:text-center leading-normal;
   }
   .btnContained {
     @apply bg-green-700 text-green-50 p-3 rounded-sm btn transition-colors duration-150  hover:text-green-50 hover:bg-green-900;
@@ -126,7 +126,7 @@
     @apply inline object-cover w-12 h-12 mr-2 rounded-full;
   }
   .image {
-    @apply w-full h-86 object-cover rounded md:aspect-w-2 md:aspect-w-2;
+    @apply w-full h-96 object-cover rounded aspect-square;
   }
   .iconSm {
     @apply h-5 w-5 text-gray-700;
@@ -144,7 +144,7 @@
     @apply object-cover bg-contain w-20 h-20 rounded;
   }
   .appbarBackground {
-    @apply sticky top-0 z-90 bg-white shadow-sm ;
+    @apply sticky top-0 z-50 bg-white shadow-sm ;
   }
   .appbarContainer {
     @apply sm:container mx-auto  sm:flex sm:flex-row  sm:justify-between sm:items-center p-2;
