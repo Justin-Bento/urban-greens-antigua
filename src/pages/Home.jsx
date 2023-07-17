@@ -7,20 +7,20 @@ export default function Home() {
     <div className="">
       <section className="hero">
         <div className="spacing">
-          <div className="wrapper">
-            <h1 className="headline1 md:text-center">
+          <div className="container p-4 mx-auto">
+            <h1 className="text-5xl font-extrabold tracking-tight capitalize scroll-m-20 md:text-center">
               Enjoy fresh microgreens!
             </h1>
-            <p className="heroText">
+            <p className="my-6 text-xl leading-7 md:text-center">
               Our mission is to produce and supply our locally grown Microgreens
               to consumers, restaurants and hotels.
             </p>
-            <div className="flex flex-col justify-start gap-4 md:flex-row md:justify-center">
+            <div className="flex flex-col justify-start gap-4 mb-8 md:flex-row md:justify-center">
                 <Link to="/products">
-                  <Button variant="default" size="lg">Check Our Greens</Button>
+                  <Button variant="default" size="lg" className="w-full">Check Our Greens</Button>
                 </Link>
                 <Link to="/faqs">
-                  <Button variant="outline" size="lg">Learn More</Button>
+                  <Button variant="outline" size="lg" className="w-full">Learn More</Button>
                 </Link>
             </div>
             <div className="mt-16">
@@ -93,10 +93,10 @@ export default function Home() {
               </div>
               <div className="ctaFlex">
                   <Link to="/learn">
-                    <Button variant="white" size="lg">Learn More</Button>
+                    <Button variant="white" size="lg" className="w-full">Learn More</Button>
                   </Link>
                   <Link to="/contact">
-                    <Button variant="outlineLight" size="lg">Message Us</Button>
+                    <Button variant="outlineLight" size="lg" className="w-full">Message Us</Button>
                   </Link>
               </div>
             </div>
