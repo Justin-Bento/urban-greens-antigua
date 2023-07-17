@@ -31,10 +31,10 @@ export default function Hero() {
         alt=""
         className="object-fill object-center w-full mt-12 rounded sm:rounded-lg aspect-square md:aspect-video"
       />
-      <caption className="w-full mt-4 text-sm italic tracking-wider text-gray-900/70">
+      <p className="w-full mt-4 text-sm italic tracking-wider text-gray-900/70">
         Appetizers at Hodges Bay Club garnished with our Island Microgreens.
         Bravo Chef Leon for this beautiful presentation!
-      </caption>
+      </p>
     </section>
   );
 }
