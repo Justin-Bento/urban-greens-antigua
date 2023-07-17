@@ -1,5 +1,4 @@
 import { defineConfig } from 'vite';
-import WindiCSS from 'vite-plugin-windicss';
 import reactRefresh from '@vitejs/plugin-react-refresh';
 import path from 'path'
 
@@ -7,7 +6,6 @@ import path from 'path'
 export default defineConfig({
   plugins: [
     reactRefresh(),
-    WindiCSS(),
     // <--
   ],
   resolve: {
