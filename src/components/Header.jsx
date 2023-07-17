@@ -1,62 +1,46 @@
-import React, { Component, useEffect, useState } from "react"
-import { Link } from "react-router-dom";
 
-let appbar = {
-  logo: "/assets/logo/urban-greens-logo.png",
-}
-;
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { RiMenuFill, RiCloseFill } from "react-icons/ri"
+import { Button } from '../components/Button';
+
 
 export default function Header() {
   const [isActive, setIsActive] = useState(true);
   const onClick = () => setIsActive((isActive) => !isActive);
-  useEffect(() => {
-    const handelResize = () => {
-    if (window.innerWidth >= 640) {
-      setIsActive(true);
-    } else {
-      setIsActive(false);
-    }
-  };
-    window.addEventListener("resize", handelResize);
-  });
-    return (
-      <nav className="appbarBackground">
-        <div className="appbarContainer">
-          <div className="appbarMenu">
-            <div className="1">
-              <Link to="/">
-                <img src={appbar.logo} alt="" width="86px" height="86px" />
-              </Link>
-            </div>
-            <div className="text-2xl sm:hidden" onClick={onClick}>
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </div>
-          </div>
-          <div id="mobileMenu">
-            {isActive ? (
-              <div className="appbarMenuLinks">
-                <div className="navLinks">
-                  <Link to="/products" className="">
-                    Products
-                  </Link>
-                </div>
-                <div className="navLinks">
-                  <Link to="/faqs">FAQ'S</Link>
-                </div>
-                <div className="navLinks">
-                  <Link to="/about">About</Link>
-                </div>
-                <div className="navLinks">
-                  <Link to="/contact">Contact</Link>
-                </div>
-              </div>
-            ) : null}
-          </div>
+  return (
+    <>
+      <header className="relative top-0 z-50 border-b shadow">
+        <div className="container grid grid-cols-1 p-4 mx-auto lg:grid-cols-2">
+          <section className="flex items-center justify-between place-items-center">
+            <Link to="/">
+              <img src="/assets/logo/urban-greens-logo.png" alt="" className='w-auto h-16' />
+            </Link>
+            {isActive ? <Button variant="outline" className="lg:hidden" size="icon"><RiMenuFill onClick={onClick} /></Button>  : <Button variant="outline" className="lg:hidden" size="icon"><RiCloseFill onClick={onClick} /></Button> }
+          </section>
+          <section className={`${isActive ? 'hidden lg:flex lg:items-center lg:justify-end' : ''}`}>
+            <nav>
+              <ul className="flex flex-col items-start justify-start gap-4 pt-4 lg:gap-1 lg:flex-row">
+                <Link to="/">
+                  <Button variant="white">Home</Button>
+                </Link>
+                <Link to="/products">
+                  <Button variant="white">Products</Button>
+                </Link>
+                <Link to="/faqs">
+                  <Button variant="white">FAQ's</Button>
+                </Link>
+                <Link to="/about">
+                  <Button variant="white">About</Button>
+                </Link>
+                <Link to="/contact">
+                  <Button variant="white">Contact</Button>
+                </Link>
+              </ul>
+            </nav>
+          </section>
         </div>
-      </nav>
-    );
-  }
-
-
+      </header>
+    </>
+  );
+}
