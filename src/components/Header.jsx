@@ -20,7 +20,7 @@ export default function Header() {
           </section>
           <section className={`${isActive ? 'hidden lg:flex lg:items-center lg:justify-end' : ''}`}>
             <nav>
-              <ul className="flex flex-col items-start justify-start gap-4 pt-4 lg:gap-1 lg:flex-row">
+              <ul className="flex flex-col items-start justify-start gap-4 pt-4 lg:p-0 lg:gap-1 lg:flex-row">
                 <Link to="/">
                   <Button variant="white">Home</Button>
                 </Link>
