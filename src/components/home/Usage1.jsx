@@ -60,10 +60,9 @@ export default function Usage1() {
           Sustainable Packaging.
         </h6>
         <p className="leading-7 tracking-wide opacity-75">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-          soluta nam eius iure enim praesentium voluptatem, sint delectus non
-          optio, maiores quae voluptates voluptate dignissimos omnis earum
-          cupiditate dolore.
+          Our packaging aims to fit the three R's of recycling. Reduce, reuse,
+          and recycle. As we aim to have the small impact on the environment in
+          Antigua & Barbuda
         </p>
       </div>
       <div className="max-w-prose">
@@ -111,10 +110,9 @@ export default function Usage1() {
           Chemical Free Microgreens!
         </h6>
         <p className="leading-7 tracking-wide opacity-75">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-          soluta nam eius iure enim praesentium voluptatem, sint delectus non
-          optio, maiores quae voluptates voluptate dignissimos omnis earum
-          cupiditate dolore.
+          Our team ensures that the micogreens we sell are organically farmed
+          and grown fully in soil. This means we abstain from using unnatural
+          chemicals and fertilizers or pesticides.
         </p>
       </div>
       <div className="max-w-prose">
@@ -130,36 +128,53 @@ export default function Usage1() {
           height="48"
         >
           <path
-            style={{fill: 'rgb(175, 233, 201)', strokeWidth: '1px'}}
+            style={{ fill: "rgb(175, 233, 201)", strokeWidth: "1px" }}
             d="M21,10.75a2.25,2.25,0,0,1-4.5,0,2.25,2.25,0,0,1-4.5,0,2.25,2.25,0,0,1-4.5,0,2.25,2.25,0,0,1-4.5,0,5.22,5.22,0,0,1,.21-1.47L4.79,3.73a1,1,0,0,1,1-.73h12.5a1,1,0,0,1,1,.73l1.58,5.55A5.22,5.22,0,0,1,21,10.75Z"
             id="secondary"
           ></path>
           <path
-            style={{fill: 'none', stroke: 'rgb(34, 150, 101)', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1px'}}
+            style={{
+              fill: "none",
+              stroke: "rgb(34, 150, 101)",
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+              strokeWidth: "1px",
+            }}
             d="M19,13v7a1,1,0,0,1-1,1H6a1,1,0,0,1-1-1V13"
             id="primary"
           ></path>
           <path
-            style={{fill: 'none', stroke: 'rgb(34, 150, 101)', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1px'}}
+            style={{
+              fill: "none",
+              stroke: "rgb(34, 150, 101)",
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+              strokeWidth: "1px",
+            }}
             d="M12,3h6.25a1,1,0,0,1,1,.73l1.58,5.55A5.22,5.22,0,0,1,21,10.75h0A2.25,2.25,0,0,1,18.75,13h0a2.25,2.25,0,0,1-2.25-2.25A2.25,2.25,0,0,1,14.25,13h0A2.25,2.25,0,0,1,12,10.75"
             data-name="primary"
             id="primary-2"
           ></path>
           <path
-            style={{fill: 'none', stroke: 'rgb(34, 150, 101)', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1px'}}
+            style={{
+              fill: "none",
+              stroke: "rgb(34, 150, 101)",
+              strokeLinecap: "round",
+              strokeLinejoin: "round",
+              strokeWidth: "1px",
+            }}
             d="M12,3H5.75a1,1,0,0,0-1,.73L3.21,9.28A5.22,5.22,0,0,0,3,10.75H3A2.25,2.25,0,0,0,5.25,13h0A2.25,2.25,0,0,0,7.5,10.75,2.25,2.25,0,0,0,9.75,13h0A2.25,2.25,0,0,0,12,10.75"
             data-name="primary"
             id="primary-3"
           ></path>
         </svg>
         <h6 className="mt-4 mb-2 text-2xl font-extrabold capitalize scroll-m-20">
-          Avilable In Stores across Antigua.
+          Freshly Grown In Antigua.
         </h6>
         <p className="leading-7 tracking-wide opacity-75">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-          soluta nam eius iure enim praesentium voluptatem, sint delectus non
-          optio, maiores quae voluptates voluptate dignissimos omnis earum
-          cupiditate dolore.
+          Our plants are harvested in a ten-day to a two-week cycle. We grow and
+          harvest greens in an environment, without the use of chemicals or
+          pesticides, to ensure a healthy and nutritional product.
         </p>
       </div>
     </section>
