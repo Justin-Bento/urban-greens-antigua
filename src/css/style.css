@@ -5,14 +5,18 @@
 * {
   font-family: "Public Sans", Arial, Helvetica, sans-serif;
 }
-@layer components {
-header {
-  @apply bg-primary-50/50;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
+@layer components {
+  header {
+    @apply bg-primary-50/50;
+  }
   body {
     @apply bg-primary-50/50;
   }
-  
 }
 
 @layer base {
@@ -67,7 +71,6 @@ header {
   .cardImage {
     @apply object-contain w-full h-56 mb-1 bg-center rounded;
   }
-
 }
 
 @layer components {
@@ -153,13 +156,13 @@ header {
     @apply object-cover w-20 h-20 bg-contain rounded;
   }
   .appbarBackground {
-    @apply sticky top-0 z-50 bg-white shadow-sm ;
+    @apply sticky top-0 z-50 bg-white shadow-sm;
   }
   .appbarContainer {
     @apply p-2 mx-auto sm:container sm:flex sm:flex-row sm:justify-between sm:items-center;
   }
   .appbarMenu {
-    @apply  flex items-center justify-between;
+    @apply flex items-center justify-between;
   }
   .appbarMenuLinks {
     @apply flex flex-col sm:flex-row hover:cursor-pointer;
