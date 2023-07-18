@@ -56,10 +56,10 @@ export default function Usage1() {
             id="primary-3"
           ></polyline>
         </svg>
-        <h6 className="mt-4 mb-2 text-2xl font-semibold tracking-tight capitalize scroll-m-20">
+        <h6 className="mt-4 mb-2 text-2xl font-extrabold capitalize scroll-m-20">
           Sustainable Packaging.
         </h6>
-        <p className="leading-7 tracking-wide">
+        <p className="leading-7 tracking-wide opacity-75">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
           soluta nam eius iure enim praesentium voluptatem, sint delectus non
           optio, maiores quae voluptates voluptate dignissimos omnis earum
@@ -107,10 +107,10 @@ export default function Usage1() {
             id="primary-2"
           ></path>
         </svg>
-        <h6 className="mt-4 mb-2 text-2xl font-semibold tracking-tight capitalize scroll-m-20">
+        <h6 className="mt-4 mb-2 text-2xl font-extrabold capitalize scroll-m-20">
           Chemical Free Microgreens!
         </h6>
-        <p className="leading-7 tracking-wide">
+        <p className="leading-7 tracking-wide opacity-75">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
           soluta nam eius iure enim praesentium voluptatem, sint delectus non
           optio, maiores quae voluptates voluptate dignissimos omnis earum
@@ -152,10 +152,10 @@ export default function Usage1() {
             id="primary-3"
           ></path>
         </svg>
-        <h6 className="mt-4 mb-2 text-2xl font-semibold tracking-tight capitalize scroll-m-20">
+        <h6 className="mt-4 mb-2 text-2xl font-extrabold capitalize scroll-m-20">
           Avilable In Stores across Antigua.
         </h6>
-        <p className="leading-7 tracking-wide">
+        <p className="leading-7 tracking-wide opacity-75">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
           soluta nam eius iure enim praesentium voluptatem, sint delectus non
           optio, maiores quae voluptates voluptate dignissimos omnis earum
