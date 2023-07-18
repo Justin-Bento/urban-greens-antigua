@@ -4,17 +4,19 @@ import Features from "../components/home/Features";
 import CallToAction from "../components/home/CallToAction";
 import Benefits from "../components/home/Benefits";
 import Testimonial from "../components/home/Testimonial";
+import Usage1 from "../components/home/Usage1";
 import Usage from "../components/home/Usage";
 
 export default function Home() {
   return (
     <>
-      <main className="container p-4 py-12 mx-auto space-y-12 bg-primary-10">
+      <main className="p-4 my-20 space-y-24 lg:mx-auto lg:container">
         <Hero />
-        <Features />
+        <Usage1 />
         <CallToAction />
-        <Benefits />
+        <Features />
         <Testimonial />
+        <Benefits />
         <Usage />
       </main>
     </>
