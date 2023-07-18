@@ -7,10 +7,10 @@
 }
 @layer components {
 header {
-  @apply bg-primary-50/30;
+  @apply bg-primary-50/50;
 }
   body {
-    @apply bg-primary-50/30;
+    @apply bg-primary-50/50;
   }
   
 }
