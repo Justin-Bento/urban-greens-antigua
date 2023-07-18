@@ -5,7 +5,6 @@ import CallToAction from "../components/home/CallToAction";
 import Benefits from "../components/home/Benefits";
 import Testimonial from "../components/home/Testimonial";
 import Usage1 from "../components/home/Usage1";
-import Usage from "../components/home/Usage";
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
         <Features />
         <Testimonial />
         <Benefits />
-        <Usage />
       </main>
     </>
   );

@@ -5,8 +5,8 @@ export default function Features() {
     <section className="space-y-20">
       <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 content-evenly">
         <div className="flex flex-col place-content-center">
-          <h2 className="pb-2 mt-10 text-3xl font-extrabold tracking-tight transition-colors scroll-m-20 first:mt-0">Make Microgreens Part Of Your Diet Today!</h2>
-          <p className="text-lg max-w-prose text-gray-950/80">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facere tempore assumenda sunt voluptatibus nostrum, et quis eos ipsa placeat repellendus accusantium dolorem excepturi error corporis?</p>
+          <h4 className="pb-2 mt-10 text-3xl font-extrabold tracking-tight transition-colors scroll-m-20 first:mt-0">A Fun Way To Include Greens Into Your Diet!</h4>
+          <p className="text-lg max-w-prose text-gray-950/80">These are super versatile food that you can incorporate into your diet in a bunch of different ways. They are vibrant colour to your dish, packed with flavour, and add a new texture to saldas  and dsish.</p>
           <div className="mt-4">
             <Button variant="outline">Hello World</Button>
           </div>
@@ -15,7 +15,7 @@ export default function Features() {
       </div>
       <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 content-evenly">
         <div className="flex flex-col place-content-center">
-          <h2 className="pb-2 mt-10 text-3xl font-extrabold tracking-tight capitalize transition-colors scroll-m-20 first:mt-0">Give Colour To Your Dish!</h2>
+          <h4 className="pb-2 mt-10 text-3xl font-extrabold tracking-tight capitalize transition-colors scroll-m-20 first:mt-0">Concentrated sources of vitamins and minerals!</h4>
           <p className="text-lg max-w-prose text-gray-950/80">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facere tempore assumenda sunt voluptatibus nostrum, et quis eos ipsa placeat repellendus accusantium dolorem excepturi error corporis?</p>
           <div className="mt-4">
             <Button variant="outline">Hello World</Button>
@@ -25,7 +25,7 @@ export default function Features() {
       </div>
       <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 content-evenly">
         <div className="flex flex-col place-content-center">
-          <h2 className="pb-2 mt-10 text-3xl font-extrabold tracking-tight transition-colors scroll-m-20 first:mt-0">Make Microgreens Part Of Your Diet Today!</h2>
+          <h4 className="pb-2 mt-10 text-3xl font-extrabold tracking-tight transition-colors scroll-m-20 first:mt-0">Make Microgreens Part Of Your Diet Today!</h4>
           <p className="text-lg max-w-prose text-gray-950/80">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facere tempore assumenda sunt voluptatibus nostrum, et quis eos ipsa placeat repellendus accusantium dolorem excepturi error corporis?</p>
           <div className="mt-4">
             <Button variant="outline">Hello World</Button>

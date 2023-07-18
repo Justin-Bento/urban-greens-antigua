@@ -56,9 +56,9 @@ export default function Usage1() {
             id="primary-3"
           ></polyline>
         </svg>
-        <h6 className="mt-4 mb-2 text-2xl font-extrabold capitalize scroll-m-20">
+        <h2 className="mt-4 mb-2 text-2xl font-extrabold capitalize scroll-m-20">
           Sustainable Packaging.
-        </h6>
+        </h2>
         <p className="leading-7 tracking-wide opacity-75">
           Our packaging aims to fit the three R's of recycling. Reduce, reuse,
           and recycle. As we aim to have the small impact on the environment in
@@ -106,9 +106,9 @@ export default function Usage1() {
             id="primary-2"
           ></path>
         </svg>
-        <h6 className="mt-4 mb-2 text-2xl font-extrabold capitalize scroll-m-20">
+        <h2 className="mt-4 mb-2 text-2xl font-extrabold capitalize scroll-m-20">
           Chemical Free Microgreens!
-        </h6>
+        </h2>
         <p className="leading-7 tracking-wide opacity-75">
           Our team ensures that the micogreens we sell are organically farmed
           and grown fully in soil. This means we abstain from using unnatural
@@ -168,9 +168,9 @@ export default function Usage1() {
             id="primary-3"
           ></path>
         </svg>
-        <h6 className="mt-4 mb-2 text-2xl font-extrabold capitalize scroll-m-20">
+        <h2 className="mt-4 mb-2 text-2xl font-extrabold capitalize scroll-m-20">
           Freshly Grown In Antigua.
-        </h6>
+        </h2>
         <p className="leading-7 tracking-wide opacity-75">
           Our plants are harvested in a ten-day to a two-week cycle. We grow and
           harvest greens in an environment, without the use of chemicals or
