@@ -4,17 +4,17 @@ import { Button } from "../Button";
 
 export default function Hero() {
   return (
-    <section className="text-start sm:text-center">
+    <section className="text-start lg:text-center">
       <h1 className="text-5xl font-extrabold tracking-tight capitalize scroll-m-20">
         Sustainable Microgreens, Unbeatable Flavor!
       </h1>
-      <p className="text-lg leading-7 max-w-[80ch] mx-auto mt-4 lg:text-xl text-gray-950/80 tracking-wide">
+      <p className="text-lg leading-7 max-w-[80ch] lg:mx-auto mt-4 lg:text-xl text-gray-950/80 tracking-wide">
         Our microgreens are packed with nutrients and flavor, making them the
         perfect addition to your meals. From salads to smoothies, sandwiches to
         sushi, the possibilities are endless. Easily incorporate microgreens
         into your diet without leaving your home.
       </p>
-      <div className="flex flex-col justify-start gap-8 mt-6 sm:justify-center sm:flex-row">
+      <div className="flex flex-col justify-start gap-8 mt-6 lg:justify-center sm:flex-row">
         <Link to="/products">
           <Button size="lg" className="w-full">
             Check Out Greens
