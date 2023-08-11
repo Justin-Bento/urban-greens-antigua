@@ -5,25 +5,25 @@ import { Link } from 'react-router-dom';
 const navigation = {
   solutions: [
     { name: 'Facebook', href: '#' },
-    { name: 'Instagram', href: '#' },
+    { name: 'Instagram', href: 'https://www.instagram.com/urbangreensanu/' },
     { name: 'Twitter', href: '#' },
     { name: "WhatsApp", href: '#' },
   ],
   support: [
-    { name: 'Pricing', href: '#' },
-    { name: 'Delivery', href: '#' },
-    { name: 'Testimonials', href: '#' },
+    { name: 'Pricing', href: '/pricing' },
+    { name: 'Delivery', href: '/delivery' },
+    { name: 'Testimonials', href: '/testimonials' },
   ],
   company: [
-    { name: 'About', href: '#' },
-    { name: 'Products', href: '#' },
-    { name: 'Contact', href: '#' },
-    { name: 'Press', href: '#' },
+    { name: 'About', href: '/about' },
+    { name: 'Products', href: '/products' },
+    { name: 'Contact', href: '/contact' },
+    { name: 'Press', href: '/press' },
   ],
   legal: [
-    { name: 'Claim', href: '#' },
-    { name: 'Privacy', href: '#' },
-    { name: 'Terms', href: '#' },
+    { name: 'Claim', href: '/claim' },
+    { name: 'Privacy', href: '/privacy' },
+    { name: 'Terms', href: '/trerms' },
   ],
 }
 
