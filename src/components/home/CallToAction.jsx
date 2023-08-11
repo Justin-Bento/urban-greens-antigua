@@ -9,7 +9,7 @@ export default function CallToaction() {
         <p className="mx-auto mt-4 text-xl leading-7 opacity-80 max-w-prose text-start lg:text-center">Want to know when we deliever our first bactch of microgreens? Join our waitlist to stay notified when our microgreens harvested are ready to go..</p>
         <div className="inline-flex flex-col justify-start gap-6 mt-6 md:flex-row md:justify-center">
           <Button>Join Our Whatsapp Group</Button>
-          <Button variant="outline">Hello World</Button>
+          <Button variant="outline">Know Our Next Delivery</Button>
         </div>
       </div>
     </section>
