@@ -1,0 +1,42 @@
+import React from 'react'
+import { Link } from 'react-router-dom';
+import { Button } from "../Button"
+export default function Features() {
+  return (
+    <section className="space-y-20">
+      <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 content-evenly">
+        <div className="flex flex-col place-content-center">
+          <h4 className="pb-2 mt-10 text-3xl font-extrabold tracking-tight transition-colors scroll-m-20 first:mt-0">A Fun Way To Include Greens Into Your Diet!</h4>
+          <p className="text-lg max-w-prose text-gray-950/80">These are super versatile food that you can incorporate into your diet in a bunch of different ways. They are vibrant colour to your dish, packed with flavour, and add a new texture to saldas  and dsish.</p>
+          <div className="mt-4">
+            <Link href="/products">
+              <Button variant="outline">View Products Now</Button>
+            </Link>
+          </div>
+        </div>
+        <img src="/public/assets/home/diet-microgreens.png" alt="" className="object-cover object-center w-full border shadow-sm aspect-square rounded-2xl" />
+      </div>
+      <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 content-evenly">
+        <div className="flex flex-col place-content-center">
+          <h4 className="pb-2 mt-10 text-3xl font-extrabold tracking-tight capitalize transition-colors scroll-m-20 first:mt-0">Concentrated sources of vitamins and minerals!</h4>
+          <p className="text-lg max-w-prose text-gray-950/80">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facere tempore assumenda sunt voluptatibus nostrum, et quis eos ipsa placeat repellendus accusantium dolorem excepturi error corporis?</p>
+          <div className="mt-4">
+            <Button variant="outline">Read About Their Health Benifits</Button>
+          </div>
+        </div>
+        <img src="/public/assets/home/micro-greens-with-steak.jpg" alt="" className="order-1 object-cover object-center w-full border shadow-sm aspect-square rounded-2xl lg:order-first" />
+      </div>
+      <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 content-evenly">
+        <div className="flex flex-col place-content-center">
+          <h4 className="pb-2 mt-10 text-3xl font-extrabold tracking-tight transition-colors scroll-m-20 first:mt-0">Make Microgreens Part Of Your Diet Today!</h4>
+          <p className="text-lg max-w-prose text-gray-950/80">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facere tempore assumenda sunt voluptatibus nostrum, et quis eos ipsa placeat repellendus accusantium dolorem excepturi error corporis?</p>
+          <div className="mt-4">
+            <Button variant="outline">Share Recipies</Button>
+          </div>
+        </div>
+        <img src="/public/assets/home/urban-greens-auntigua.jpg" alt="" className="object-cover object-center w-full border shadow-sm aspect-square rounded-2xl" />
+      </div>
+
+    </section>
+  )
+}
