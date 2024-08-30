@@ -48,7 +48,7 @@ export default function Home() {
               </p>
             </div>
             <div className="w-full h-full py-14">
-              <img src="/assets/home/feature-01.png" alt="" className="image" />
+              <img src="/assets/home/freshly-grown.png" alt="" className="object-fill object-bottom rounded-xl aspect-square" />
             </div>
           </div>
           <div className="perksGrid">
@@ -61,7 +61,7 @@ export default function Home() {
               </p>
             </div>
             <div className="w-full h-full py-14">
-              <img src="/assets/home/feature-02.png" alt="" className="image" />
+              <img src="/assets/home/microgreens-variety.png" alt="" className="object-fill object-bottom rounded-xl aspect-square" />
             </div>
           </div>
           <div className="perksGrid">
@@ -72,7 +72,7 @@ export default function Home() {
               </p>
             </div>
             <div className="w-full h-full py-14">
-              <img src="/assets/home/feature-03.png" alt="" className="image" />
+              <img src="/assets/home/feature-03.png" alt="" className="object-fill object-bottom rounded-xl aspect-square" />
             </div>
           </div>
         </div>
