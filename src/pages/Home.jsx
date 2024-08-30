@@ -7,7 +7,7 @@ export default function Home() {
     <div className="">
       <section className="hero">
         <div className="spacing">
-          <div className="container p-4 mx-auto">
+          <div className="container mx-auto sm:px-6 lg:px-8">
             <h1 className="text-5xl font-extrabold tracking-tight capitalize scroll-m-20 md:text-center">
               Enjoy fresh microgreens!
             </h1>
@@ -25,7 +25,7 @@ export default function Home() {
             </div>
             <div className="mt-16">
               <img
-                src="/assets/home/hero.png"
+                src="/assets/home/urban-greens-antigua-hero.jpg"
                 alt=""
                 className="w-full rounded aspect-h-4"
               />
@@ -36,7 +36,7 @@ export default function Home() {
       </section>
       {/* end of hero section */}
       <section className="perks spacing">
-        <div className="wrapper">
+        <div className="container mx-auto sm:px-6 lg:px-8">
           <div className="perksGrid">
             <div>
               <h2 className="mb-4 headline3">Freshly Grown In Antigua</h2>
@@ -80,7 +80,7 @@ export default function Home() {
       {/* end of perks section */}
       <section className="call-to-action spacing">
         <div className="text-white bg-green-800">
-          <div className="wrapper">
+          <div className="container mx-auto sm:px-6 lg:px-8">
             <div className="ctaGrid">
               <div>
                 <h2 className="mb-1 text-white headline3">
@@ -105,7 +105,7 @@ export default function Home() {
       </section>
       {/* end of call-to-action section */}
       <section className="benifits">
-        <div className="wrapper spacing">
+        <div className="container mx-auto sm:px-6 lg:px-8 spacing">
           <div className="mb-8">
             <h2 className="mb-1 headline3">
               Incredible Benifits Of Microgreens
@@ -276,7 +276,7 @@ export default function Home() {
       {/* end of benifits section */}
       <section className="my-24 testimonials">
         <div className="py-24 bg-gray-100">
-          <div className="wrapper">
+          <div className="container mx-auto sm:px-6 lg:px-8">
             <p className="text-green-800 center overline">
               See What People Have to say About Urban Greens
             </p>
@@ -291,7 +291,7 @@ export default function Home() {
       </section>
       {/* end of testimonials section */}
       <section className="useage spacing">
-        <div className="wrapper">
+        <div className="container mx-auto sm:px-6 lg:px-8">
           <div className="spacing-md">
             <h2 className="mb-1 headline3">See how people use Microgreens!</h2>
             <p className="body1">
