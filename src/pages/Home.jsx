@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </section>
       {/* end of hero section */}
-      <section className="m-4">
+      <section className="m-4 my-24">
         <div className="mx-auto xl:container sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 text-pretty md:gap-16">
           {/* First Row */}
           <div className="mb-12 lg:aspect-square w-full place-content-center md:order-1">
@@ -192,7 +192,7 @@ export default function Home() {
         </div>
       </section>
       {/* end of testimonials section */}
-      <section className="my-8 md:my-12 lg:my-24">
+      <section className="m-4 my-24">
         <div className="xl:container mx-auto sm:px-6 lg:px-8">
           <h2 className="scroll-m-20 pb-2 text-3xl font-bold capitalize tracking-tight first:mt-0">See how people use Microgreens!</h2>
           <p className="leading-7 text-lg">
