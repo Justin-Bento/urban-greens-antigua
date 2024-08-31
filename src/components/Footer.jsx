@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default class Footer extends Component {
   render() {
     return (
-      <div>
+      <>
         <footer className="footerBackground">
           <div className="wrapper">
             <div className="footerGrid">
@@ -60,7 +60,7 @@ export default class Footer extends Component {
             <p className="footerText text-center">© Copyright 2021 Urban Greens Inc. All Rights Reserved.</p>
           </div>
         </footer>
-      </div>
+      </>
     );
   }
 }
