@@ -1,46 +1,49 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/Button';
-import { TbCircleCheck } from "react-icons/tb";
+import { TbCircleCheck } from 'react-icons/tb';
 
 export default function Home() {
   return (
     <div className="">
       <section className="hero">
         <div className="spacing">
-        <div className="mx-auto xl:container sm:px-6 lg:px-8">
-  <div className="text-left md:text-center">
-    <h1 className="text-4xl md:text-5xl font-bold text-dark mb-3">
-      Sustainable Microgreens, Unbeatable Flavor!!
-    </h1>
-    <p className="lg:text-xl lg:leading-8 tracking-wide max-w-[90ch] mx-auto mb-6">
-      Our microgreens are packed with nutrients and flavor, making them the perfect addition to any meal. From salads to smoothies,
-      sandwiches to sushi, the possibilities are endless. Plus, with our convenient delivery service, you can easily incorporate
-      microgreens into your diet without leaving your home.
-    </p>
-    <div className="flex flex-col gap-4 mb-8 md:flex-row md:justify-center">
-      <Link to="/products">
-        <button 
-          type="button" 
-          className="w-full lg:w-auto rounded-md bg-green-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 hover:underline">
-          View Our Microgreens
-        </button>
-      </Link>
-      <Link to="/about">
-        <button
-          type="button"
-          className="w-full lg:w-auto rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 hover:underline">
-          Learn About Microgreens
-        </button>
-      </Link>
-    </div>
-  </div>
-  <div className="mt-16">
-    <img src="/assets/home/urban-greens-antigua-hero.jpg" alt="Healthy Microgreens" className="w-full aspect-square lg:aspect-video object-cover object-top rounded-2xl" />
-    <p className="caption text-center">Healthy Microgreens</p>
-  </div>
-</div>
-
+          <div className="mx-auto xl:container sm:px-6 lg:px-8">
+            <div className="text-left md:text-center">
+              <h1 className="text-4xl md:text-5xl font-bold text-dark mb-3">Sustainable Microgreens, Unbeatable Flavor!!</h1>
+              <p className="lg:text-xl lg:leading-8 tracking-wide max-w-[90ch] mx-auto mb-6">
+                Our microgreens are packed with nutrients and flavor, making them the perfect addition to any meal. From salads to
+                smoothies, sandwiches to sushi, the possibilities are endless. Plus, with our convenient delivery service, you can easily
+                incorporate microgreens into your diet without leaving your home.
+              </p>
+              <div className="flex flex-col gap-4 mb-8 md:flex-row md:justify-center">
+                <Link to="/products">
+                  <button
+                    type="button"
+                    className="w-full lg:w-auto rounded-md bg-green-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 hover:underline"
+                  >
+                    View Our Microgreens
+                  </button>
+                </Link>
+                <Link to="/about">
+                  <button
+                    type="button"
+                    className="w-full lg:w-auto rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 hover:underline"
+                  >
+                    Learn About Microgreens
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div className="mt-16">
+              <img
+                src="/assets/home/urban-greens-antigua-hero.jpg"
+                alt="Healthy Microgreens"
+                className="w-full aspect-square lg:aspect-video object-cover object-top rounded-2xl"
+              />
+              <p className="caption text-center">Healthy Microgreens</p>
+            </div>
+          </div>
         </div>
       </section>
       {/* end of hero section */}
@@ -49,21 +52,41 @@ export default function Home() {
           {/* First Row */}
           <div class="mb-12 lg:aspect-square w-full place-content-center md:order-1">
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Freshly Grown In Antigua</h2>
-            <p className="leading-7 tracking-wide mt-1">Most of our plants are harvested in a ten-day to a two-week cycle. We grow and harvest our greens in a controlled environment, without the use of chemicals or pesticides, to ensure a healthy and nutritional product.</p>
+            <p className="leading-7 tracking-wide mt-1">
+              Most of our plants are harvested in a ten-day to a two-week cycle. We grow and harvest our greens in a controlled environment,
+              without the use of chemicals or pesticides, to ensure a healthy and nutritional product.
+            </p>
           </div>
-          <img src="/assets/home/freshly-grown.png" className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-2" />
+          <img
+            src="/assets/home/freshly-grown.png"
+            className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-2"
+          />
           {/* Second Row */}
           <div class="mb-12 mt-32 lg:mt-0 lg:mb-0 lg:aspect-square w-full place-content-center md:order-4">
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">A Tiny Ingredient with Big Uses</h2>
-            <p className="leading-7 tracking-wide mt-1">Enjoy them on their own or mix them into salads and smoothies for a nutrient boost. They make fantastic toppers for sandwiches and add a burst of flavor as a garnish or decoration for your plates.</p>
+            <p className="leading-7 tracking-wide mt-1">
+              Enjoy them on their own or mix them into salads and smoothies for a nutrient boost. They make fantastic toppers for sandwiches
+              and add a burst of flavor as a garnish or decoration for your plates.
+            </p>
           </div>
-          <img src="/assets/home/microgreens-variety.png" className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-3" />
+          <img
+            src="/assets/home/microgreens-variety.png"
+            className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-3"
+          />
           {/* Third Row */}
           <div class="mb-12 mt-32 lg:mt-0 lg:mb-0 lg:aspect-square w-full place-content-center md:order-5">
-            <h2 ctext-green-800 md:mx-2lassName="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Sustainable Packaging</h2>
-            <p className="leading-7 tracking-wide mt-1">Our packaging is designed with the environment in mind. Each item is either reusable or fully recyclable, ensuring that we reduce waste and promote sustainability in every step of our process.</p>
+            <h2 ctext-green-800 md:mx-2lassName="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+              Sustainable Packaging
+            </h2>
+            <p className="leading-7 tracking-wide mt-1">
+              Our packaging is designed with the environment in mind. Each item is either reusable or fully recyclable, ensuring that we
+              reduce waste and promote sustainability in every step of our process.
+            </p>
           </div>
-          <img src="/assets/home/feature-03.png" className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-6" />
+          <img
+            src="/assets/home/feature-03.png"
+            className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-6"
+          />
         </div>
       </section>
 
@@ -104,7 +127,7 @@ export default function Home() {
           <div className="benfitsGrid">
             <div className="1 md:flex">
               <div className="">
-                <TbCircleCheck className='text-green-800 md:mx-2 size-6' />
+                <TbCircleCheck className="text-green-800 md:mx-2 size-6" />
               </div>
               <div className="">
                 <h6 className="subtitle1">Packed With Vitamins</h6>
@@ -113,7 +136,7 @@ export default function Home() {
             </div>
             <div className="2 md:flex">
               <div className="">
-                <TbCircleCheck className='text-green-800 md:mx-2 size-6' />
+                <TbCircleCheck className="text-green-800 md:mx-2 size-6" />
               </div>
               <div className="2-item">
                 <h6 className="subtitle1">Work In Many Dishes</h6>
@@ -122,7 +145,7 @@ export default function Home() {
             </div>
             <div className="3 md:flex">
               <div className="">
-                <TbCircleCheck className='text-green-800 md:mx-2 size-6' />
+                <TbCircleCheck className="text-green-800 md:mx-2 size-6" />
               </div>
               <div className="3-item">
                 <h6 className="subtitle1">Great For Smoothies And Juices</h6>
@@ -131,7 +154,7 @@ export default function Home() {
             </div>
             <div className="4 md:flex">
               <div className="">
-                <TbCircleCheck className='text-green-800 md:mx-2 size-6' />
+                <TbCircleCheck className="text-green-800 md:mx-2 size-6" />
               </div>
               <div className="">
                 <h6 className="subtitle1">Microgreens are affordable</h6>
@@ -143,7 +166,7 @@ export default function Home() {
             </div>
             <div className="5 md:flex">
               <div className="">
-                <TbCircleCheck className='text-green-800 md:mx-2 size-6' />
+                <TbCircleCheck className="text-green-800 md:mx-2 size-6" />
               </div>
               <div className="">
                 <h6 className="subtitle1">Give Flare To Dishes</h6>
@@ -154,8 +177,8 @@ export default function Home() {
               </div>
             </div>
             <div className="6 md:flex">
-             <div className="">
-                <TbCircleCheck className='text-green-800 md:mx-2 size-6' />
+              <div className="">
+                <TbCircleCheck className="text-green-800 md:mx-2 size-6" />
               </div>
               <div className="">
                 <h6 className="subtitle1">Great For Your Health</h6>
@@ -181,22 +204,30 @@ export default function Home() {
       <section className="my-8 md:my-12 lg:my-24">
         <div className="xl:container mx-auto sm:px-6 lg:px-8">
           <h2 className="scroll-m-20 pb-2 text-3xl font-bold capitalize tracking-tight first:mt-0">See how people use Microgreens!</h2>
-          <p className="leading-7 text-lg">Follow our community and stay up today to see how people are using microgreens in their Lifestyle.</p>
+          <p className="leading-7 text-lg">
+            Follow our community and stay up today to see how people are using microgreens in their Lifestyle.
+          </p>
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 mt-8">
             <div className="w-full space-y-6 ">
               <div className="">
                 <h3 className="text-lg font-semibold mb-2">Visit Our Facebook Microgreens Group!</h3>
-                <p className="">Got something to share or waiting for our latest update? Interact with our online community, and see how people from all backgrounds are using our greens.</p>
+                <p className="">
+                  Got something to share or waiting for our latest update? Interact with our online community, and see how people from all
+                  backgrounds are using our greens.
+                </p>
               </div>
               <div className="border border-green-700 w-20"></div>
               <div className="">
                 <h3 className="text-lg font-semibold mb-2">Visit Our Facebook Microgreens Group!</h3>
-                <p className="">Got something to share or waiting for our latest update? Interact with our online community, and see how people from all backgrounds are using our greens.</p>
+                <p className="">
+                  Got something to share or waiting for our latest update? Interact with our online community, and see how people from all
+                  backgrounds are using our greens.
+                </p>
               </div>
             </div>
-            <img src="/assets/home/share-microgreens.png" alt='' className="w-full aspect-square object-cover object-top rounded-2xl"/>
-            </div>
+            <img src="/assets/home/share-microgreens.png" alt="" className="w-full aspect-square object-cover object-top rounded-2xl" />
           </div>
+        </div>
       </section>
       {/* end of testimonials section */}
     </div>
