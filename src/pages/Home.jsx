@@ -47,10 +47,10 @@ export default function Home() {
         </div>
       </section>
       {/* end of hero section */}
-      <section class="mx-auto xl:container sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-2 text-pretty md:gap-16">
+      <section className="mx-auto xl:container sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 text-pretty md:gap-16">
           {/* First Row */}
-          <div class="mb-12 lg:aspect-square w-full place-content-center md:order-1">
+          <div className="mb-12 lg:aspect-square w-full place-content-center md:order-1">
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Freshly Grown In Antigua</h2>
             <p className="leading-7 tracking-wide mt-1">
               Most of our plants are harvested in a ten-day to a two-week cycle. We grow and harvest our greens in a controlled environment,
@@ -62,7 +62,7 @@ export default function Home() {
             className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-2"
           />
           {/* Second Row */}
-          <div class="mb-12 mt-32 lg:mt-0 lg:mb-0 lg:aspect-square w-full place-content-center md:order-4">
+          <div className="mb-12 mt-32 lg:mt-0 lg:mb-0 lg:aspect-square w-full place-content-center md:order-4">
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">A Tiny Ingredient with Big Uses</h2>
             <p className="leading-7 tracking-wide mt-1">
               Enjoy them on their own or mix them into salads and smoothies for a nutrient boost. They make fantastic toppers for sandwiches
@@ -74,7 +74,7 @@ export default function Home() {
             className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-3"
           />
           {/* Third Row */}
-          <div class="mb-12 mt-32 lg:mt-0 lg:mb-0 lg:aspect-square w-full place-content-center md:order-5">
+          <div className="mb-12 mt-32 lg:mt-0 lg:mb-0 lg:aspect-square w-full place-content-center md:order-5">
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
               Sustainable Packaging
             </h2>
