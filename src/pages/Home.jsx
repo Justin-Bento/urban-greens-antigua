@@ -6,7 +6,7 @@ import { TbCircleCheck } from 'react-icons/tb';
 export default function Home() {
   return (
     <>
-      <section className="hero">
+      <section className="m-4">
         <div className="spacing">
           <div className="mx-auto xl:container sm:px-6 lg:px-8">
             <div className="text-left md:text-center">
@@ -47,8 +47,8 @@ export default function Home() {
         </div>
       </section>
       {/* end of hero section */}
-      <section className="mx-auto xl:container sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 text-pretty md:gap-16">
+      <section className="m-4">
+        <div className="mx-auto xl:container sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 text-pretty md:gap-16">
           {/* First Row */}
           <div className="mb-12 lg:aspect-square w-full place-content-center md:order-1">
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Freshly Grown In Antigua</h2>
@@ -91,8 +91,8 @@ export default function Home() {
       </section>
 
       {/* end of perks section */}
-      <section id="call-to-action" className="mx-auto xl:container sm:px-6 lg:px-24 rounded-2xl bg-green-800 py-32 my-32">
-        <div className="grid grid-cols-1 lg:grid-cols-2 lg:items-center">
+      <section id="call-to-action" className="m-4">
+        <div className="mx-auto xl:container sm:px-6 lg:px-24 rounded-2xl bg-green-800 py-32 my-32 grid grid-cols-1 lg:grid-cols-2 lg:items-center">
           <div className="text-white">
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Have Any Questions About Microgreens?</h2>
             <p className="leading-7 tracking-wide">Visit our Frequently Asked Questions page to see what people ask us.</p>
@@ -112,8 +112,8 @@ export default function Home() {
         </div>
       </section>
       {/* end of call-to-action section */}
-      <section className="benefits">
-        <div className="lg:container mx-auto sm:px-6 lg:px-8 spacing">
+      <section className="m-4">
+        <div className="lg:container mx-auto sm:px-6 lg:px-8">
           <div className="mb-8">
             <h2 className="mb-1 scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Incredible Benefits Of Microgreens</h2>
             <h3 className="tracking-wide text-gray-600">See Why Microgreens are considered the new superfood!</h3>
@@ -183,7 +183,7 @@ export default function Home() {
         </div>
       </section>
       {/* end of benefits section */}
-      <section id='testimonials' className="my-24">
+      <section id='testimonials' className="m-4 my-24">
         <div className="lg:container mx-auto xl:container sm:px-6 lg:px-24 py-32 my-32 bg-gray-100 rounded-2xl">
           <div className="">
             <p className="text-green-800 text-center mb-4 uppercase">See What People Have to say About Urban Greens</p>
