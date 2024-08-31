@@ -5,7 +5,7 @@ import { TbCircleCheck } from 'react-icons/tb';
 
 export default function Home() {
   return (
-    <div className="">
+    <>
       <section className="hero">
         <div className="spacing">
           <div className="mx-auto xl:container sm:px-6 lg:px-8">
@@ -228,6 +228,6 @@ export default function Home() {
         </div>
       </section>
       {/* end of testimonials section */}
-    </div>
+    </>
   );
 }
