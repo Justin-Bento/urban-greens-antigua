@@ -103,14 +103,12 @@ export default function Home() {
               </div>
               <div className="ctaFlex">
                 <Link to="/learn">
-                  <Button variant="white" size="lg" className="w-full">
-                    Learn More
-                  </Button>
+                  <button className="w-full lg:w-auto rounded-md bg-white px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 hover:underline">Learn More</button>
                 </Link>
                 <Link to="/contact">
-                  <Button variant="outlineLight" size="lg" className="w-full">
+                  <button className="w-full lg:w-auto rounded-md bg-transparent px-3 py-2 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50/10 hover:underline">
                     Message Us
-                  </Button>
+                  </button>
                 </Link>
               </div>
             </div>
@@ -121,10 +119,10 @@ export default function Home() {
       <section className="benefits">
         <div className="lg:container mx-auto sm:px-6 lg:px-8 spacing">
           <div className="mb-8">
-            <h2 className="mb-1 headline3">Incredible Benefits Of Microgreens</h2>
-            <h3 className="tracking-wide text-gray-600 headline6">See Why Microgreens are considered the new superfood!</h3>
+            <h2 className="mb-1 scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Incredible Benefits Of Microgreens</h2>
+            <h3 className="tracking-wide text-gray-600">See Why Microgreens are considered the new superfood!</h3>
           </div>
-          <div className="benfitsGrid">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16">
             <div className="1 md:flex">
               <div className="">
                 <TbCircleCheck className="text-green-800 md:mx-2 size-6" />
