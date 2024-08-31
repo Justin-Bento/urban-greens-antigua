@@ -6,17 +6,16 @@ import { TbCircleCheck } from 'react-icons/tb';
 export default function Home() {
   return (
     <>
-      <section className="m-4">
-        <div className="spacing">
+      <section className="m-4 mt-24">
           <div className="mx-auto xl:container sm:px-6 lg:px-8">
-            <div className="text-left md:text-center">
+            <div className="text-left lg:text-center">
               <h1 className="text-4xl md:text-5xl font-bold text-dark mb-3">Sustainable Microgreens, Unbeatable Flavor!!</h1>
               <p className="lg:text-xl tracking-wide max-w-[90ch] mx-auto mb-6">
                 Our microgreens are packed with nutrients and flavor, making them the perfect addition to any meal. From salads to
                 smoothies, sandwiches to sushi, the possibilities are endless. Plus, with our convenient delivery service, you can easily
                 incorporate microgreens into your diet without leaving your home.
               </p>
-              <div className="flex flex-col gap-4 mb-8 md:flex-row md:justify-center">
+              <div className="flex flex-col gap-4 mb-8 md:flex-row lg:justify-center">
                 <Link to="/products">
                   <button
                     type="button"
@@ -44,7 +43,6 @@ export default function Home() {
               <p className="caption text-center">Healthy Microgreens</p>
             </div>
           </div>
-        </div>
       </section>
       {/* end of hero section */}
       <section className="m-4">
