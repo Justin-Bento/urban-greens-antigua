@@ -41,43 +41,29 @@ export default function Home() {
         </div>
       </section>
       {/* end of hero section */}
-      <section className="perks spacing">
-        <div className="lg:container mx-auto sm:px-6 lg:px-8">
-          <div className="perksGrid">
-            <div>
-              <h2 className="mb-4 headline3">Freshly Grown In Antigua</h2>
-              <p className="body1">
-                Most of our plants are harvested in a ten-day to a two-week cycle. We grow and harvest our greens in a controlled
-                environment, without the use of chemicals or pesticides, to ensure a healthy and nutritional product.
-              </p>
-            </div>
-            <div className="w-full h-full py-14">
-              <img src="/assets/home/freshly-grown.png" alt="" className="object-fill object-bottom rounded-xl aspect-square" />
-            </div>
+      <section class="mx-auto xl:container sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 text-pretty sm:grid-cols-2 gap-16">
+          {/* First Row */}
+          <div class="aspect-square w-full sm:order-1 place-content-center">
+            <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Freshly Grown In Antigua</h2>
+            <p className="leading-7 tracking-wide mt-1">Most of our plants are harvested in a ten-day to a two-week cycle. We grow and harvest our greens in a controlled environment, without the use of chemicals or pesticides, to ensure a healthy and nutritional product.</p>
           </div>
-          <div className="perksGrid">
-            <div className="order-none md:order-2">
-              <h2 className="mb-4 headline3">Can Be Used in Many Ways.</h2>
-              <p className="body1">
-                Microgreens can be used or consumed on their own, mixed into salads or smoothies, used as a topper for sanwiches or as a
-                garnish or decoration for a plate.
-              </p>
-            </div>
-            <div className="w-full h-full py-14">
-              <img src="/assets/home/microgreens-variety.png" alt="" className="object-fill object-bottom rounded-xl aspect-square" />
-            </div>
+          <img src="/assets/home/freshly-grown.png" class="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 sm:order-2" />
+          {/* Second Row */}
+          <div class="aspect-square w-full sm:order-4 place-content-center">
+            <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">A Tiny Ingredient with Big Uses</h2>
+            <p className="leading-7 tracking-wide mt-1">Enjoy them on their own or mix them into salads and smoothies for a nutrient boost. They make fantastic toppers for sandwiches and add a burst of flavor as a garnish or decoration for your plates.</p>
           </div>
-          <div className="perksGrid">
-            <div>
-              <h2 className="mb-4 headline3">Sustainable Packaging</h2>
-              <p className="body1">All our packaging is either reusable or able to be re-cycled.</p>
-            </div>
-            <div className="w-full h-full py-14">
-              <img src="/assets/home/feature-03.png" alt="" className="object-fill object-bottom rounded-xl aspect-square" />
-            </div>
+          <img src="/assets/home/microgreens-variety.png" class="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 sm:order-3" />
+          {/* Third Row */}
+          <div class="aspect-square w-full sm:order-5 place-content-center">
+            <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Sustainable Packaging</h2>
+            <p className="leading-7 tracking-wide mt-1">Our packaging is designed with the environment in mind. Each item is either reusable or fully recyclable, ensuring that we reduce waste and promote sustainability in every step of our process.</p>
           </div>
+          <img src="/assets/home/feature-03.png" class="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 sm:order-6" />
         </div>
       </section>
+
       {/* end of perks section */}
       <section className="call-to-action spacing">
         <div className="text-white bg-green-800">
