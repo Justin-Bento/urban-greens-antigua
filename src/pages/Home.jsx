@@ -183,11 +183,12 @@ export default function Home() {
         </div>
       </section>
       {/* end of benefits section */}
-      <section className="my-24 testimonials">
-        <div className="py-24 bg-gray-100">
-          <div className="lg:container mx-auto sm:px-6 lg:px-8">
-            <p className="text-green-800 center overline">See What People Have to say About Urban Greens</p>
-            <h2 className="my-4 italic font-normal leading-relaxed headline3 md:text-center">
+      <section id='testimonials' className="my-24">
+        <div className="lg:container mx-auto xl:container sm:px-6 lg:px-24 py-32 my-32 bg-gray-100 rounded-2xl">
+          <div className="">
+            <p className="text-green-800 text-center mb-4 uppercase">See What People Have to say About Urban Greens</p>
+            <div className="border w-20 mx-auto border-green-700"></div>
+            <h2 className="my-4 italic font-normal leading-relaxed text-3xl md:text-center">
               “We endeavour to build a truly human AND high-performing workplace, where everyone can do the best work of their lives. This
               product is a key part of facilitating this culture by being our one-stop-shop for all things performance development.”
             </h2>
