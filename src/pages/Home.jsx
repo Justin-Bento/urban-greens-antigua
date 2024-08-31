@@ -7,7 +7,7 @@ export default function Home() {
     <div className="">
       <section className="hero">
         <div className="spacing">
-          <div className="container mx-auto sm:px-6 lg:px-8">
+          <div className="lg:container mx-auto sm:px-6 lg:px-8">
             <div className="text-balance md:text-center">
               <h1 className="text-4xl font-bold text-dark mb-3">
                 Sustainable Microgreens, Unbeatable Flavor!!
@@ -42,7 +42,7 @@ export default function Home() {
       </section>
       {/* end of hero section */}
       <section className="perks spacing">
-        <div className="container mx-auto sm:px-6 lg:px-8">
+        <div className="lg:container mx-auto sm:px-6 lg:px-8">
           <div className="perksGrid">
             <div>
               <h2 className="mb-4 headline3">Freshly Grown In Antigua</h2>
@@ -81,7 +81,7 @@ export default function Home() {
       {/* end of perks section */}
       <section className="call-to-action spacing">
         <div className="text-white bg-green-800">
-          <div className="container mx-auto sm:px-6 lg:px-8">
+          <div className="lg:container mx-auto sm:px-6 lg:px-8">
             <div className="ctaGrid">
               <div>
                 <h2 className="mb-1 text-white headline3">Have Any Questions About Microgreens?</h2>
@@ -107,7 +107,7 @@ export default function Home() {
       </section>
       {/* end of call-to-action section */}
       <section className="benifits">
-        <div className="container mx-auto sm:px-6 lg:px-8 spacing">
+        <div className="lg:container mx-auto sm:px-6 lg:px-8 spacing">
           <div className="mb-8">
             <h2 className="mb-1 headline3">Incredible Benifits Of Microgreens</h2>
             <h3 className="tracking-wide text-gray-600 headline6">See Why Microgreens are considered the new superfood!</h3>
@@ -205,7 +205,7 @@ export default function Home() {
       {/* end of benifits section */}
       <section className="my-24 testimonials">
         <div className="py-24 bg-gray-100">
-          <div className="container mx-auto sm:px-6 lg:px-8">
+          <div className="lg:container mx-auto sm:px-6 lg:px-8">
             <p className="text-green-800 center overline">See What People Have to say About Urban Greens</p>
             <h2 className="my-4 italic font-normal leading-relaxed headline3 md:text-center">
               “We endeavour to build a truly human AND high-performing workplace, where everyone can do the best work of their lives. This
@@ -216,7 +216,7 @@ export default function Home() {
       </section>
       {/* end of testimonials section */}
       <section className="useage spacing">
-        <div className="container mx-auto sm:px-6 lg:px-8">
+        <div className="lg:container mx-auto sm:px-6 lg:px-8">
           <div className="spacing-md">
             <h2 className="mb-1 headline3">See how people use Microgreens!</h2>
             <p className="body1">Follow our community and stay up today to see how people are using microgreens in their Lifestyle.</p>
