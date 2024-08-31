@@ -7,37 +7,39 @@ export default function Home() {
     <div className="">
       <section className="hero">
         <div className="spacing">
-          <div className="xl:container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-balance text-center">
-              <h1 className="text-4xl font-bold text-dark mb-3">
-                Sustainable Microgreens, Unbeatable Flavor!!
-              </h1>
-              <p className="text-lg max-w-[100ch] mx-auto mb-6">
-                Our microgreens are packed with nutrients and flavor, making them the perfect addition to any meal. From salads to smoothies,
-                sandwiches to sushi, the possibilities are endless. Plus, with our convenient delivery service, you can easily incorporate
-                microgreens into your diet without leaving your home.
-              </p>
-              <div className="flex flex-col justify-start gap-4 mb-8 md:flex-row md:justify-center">
-                <Link to="/products">
-                <button type="button" 
-                  className="w-full lg:w-auto rounded-md bg-green-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 hover:underline">
-                  View Our Microgreens
-                </button>
-                </Link>
-                <Link to="/about">
-                  <button
-                    type="button"
-                    className="w-full lg:w-auto rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 hover:underline">
-                      Learn About Microgreens
-                  </button>
-                </Link>
-              </div>
-            </div>
-            <div className="mt-16">
-              <img src="/assets/home/urban-greens-antigua-hero.jpg" alt="" className="w-full aspect-square lg:aspect-video object-fit object-top rounded-2xl" />
-              <p className="caption center">Healty Microgreen</p>
-            </div>
-          </div>
+        <div className="mx-auto xl:container sm:px-6 lg:px-8">
+  <div className="text-left md:text-center">
+    <h1 className="text-4xl md:text-5xl font-bold text-dark mb-3">
+      Sustainable Microgreens, Unbeatable Flavor!!
+    </h1>
+    <p className="lg:text-xl lg:leading-8 tracking-wide max-w-[90ch] mx-auto mb-6">
+      Our microgreens are packed with nutrients and flavor, making them the perfect addition to any meal. From salads to smoothies,
+      sandwiches to sushi, the possibilities are endless. Plus, with our convenient delivery service, you can easily incorporate
+      microgreens into your diet without leaving your home.
+    </p>
+    <div className="flex flex-col gap-4 mb-8 md:flex-row md:justify-center">
+      <Link to="/products">
+        <button 
+          type="button" 
+          className="w-full lg:w-auto rounded-md bg-green-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 hover:underline">
+          View Our Microgreens
+        </button>
+      </Link>
+      <Link to="/about">
+        <button
+          type="button"
+          className="w-full lg:w-auto rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 hover:underline">
+          Learn About Microgreens
+        </button>
+      </Link>
+    </div>
+  </div>
+  <div className="mt-16">
+    <img src="/assets/home/urban-greens-antigua-hero.jpg" alt="Healthy Microgreens" className="w-full aspect-square lg:aspect-video object-cover object-top rounded-2xl" />
+    <p className="caption text-center">Healthy Microgreens</p>
+  </div>
+</div>
+
         </div>
       </section>
       {/* end of hero section */}
