@@ -7,7 +7,7 @@ export default function Home() {
     <div className="">
       <section className="hero">
         <div className="spacing">
-          <div className="lg:container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="xl:container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-balance text-center">
               <h1 className="text-4xl font-bold text-dark mb-3">
                 Sustainable Microgreens, Unbeatable Flavor!!
@@ -34,7 +34,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-16">
-              <img src="/assets/home/urban-greens-antigua-hero.jpg" alt="" className="w-full rounded aspect-h-4" />
+              <img src="/assets/home/urban-greens-antigua-hero.jpg" alt="" className="w-full aspect-square lg:aspect-video object-fit object-top rounded-2xl" />
               <p className="caption center">Healty Microgreen</p>
             </div>
           </div>
@@ -42,25 +42,25 @@ export default function Home() {
       </section>
       {/* end of hero section */}
       <section class="mx-auto xl:container sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 text-pretty sm:grid-cols-2 gap-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 text-pretty md:gap-16">
           {/* First Row */}
-          <div class="aspect-square w-full sm:order-1 place-content-center">
+          <div class="mb-12 lg:aspect-square w-full place-content-center md:order-1">
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Freshly Grown In Antigua</h2>
             <p className="leading-7 tracking-wide mt-1">Most of our plants are harvested in a ten-day to a two-week cycle. We grow and harvest our greens in a controlled environment, without the use of chemicals or pesticides, to ensure a healthy and nutritional product.</p>
           </div>
-          <img src="/assets/home/freshly-grown.png" class="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 sm:order-2" />
+          <img src="/assets/home/freshly-grown.png" className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-2" />
           {/* Second Row */}
-          <div class="aspect-square w-full sm:order-4 place-content-center">
+          <div class="mb-12 mt-32 lg:mt-0 lg:mb-0 lg:aspect-square w-full place-content-center md:order-4">
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">A Tiny Ingredient with Big Uses</h2>
             <p className="leading-7 tracking-wide mt-1">Enjoy them on their own or mix them into salads and smoothies for a nutrient boost. They make fantastic toppers for sandwiches and add a burst of flavor as a garnish or decoration for your plates.</p>
           </div>
-          <img src="/assets/home/microgreens-variety.png" class="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 sm:order-3" />
+          <img src="/assets/home/microgreens-variety.png" className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-3" />
           {/* Third Row */}
-          <div class="aspect-square w-full sm:order-5 place-content-center">
+          <div class="mb-12 mt-32 lg:mt-0 lg:mb-0 lg:aspect-square w-full place-content-center md:order-5">
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Sustainable Packaging</h2>
             <p className="leading-7 tracking-wide mt-1">Our packaging is designed with the environment in mind. Each item is either reusable or fully recyclable, ensuring that we reduce waste and promote sustainability in every step of our process.</p>
           </div>
-          <img src="/assets/home/feature-03.png" class="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 sm:order-6" />
+          <img src="/assets/home/feature-03.png" className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-6" />
         </div>
       </section>
 
