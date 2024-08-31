@@ -11,7 +11,7 @@ export default function Home() {
           <div className="mx-auto xl:container sm:px-6 lg:px-8">
             <div className="text-left md:text-center">
               <h1 className="text-4xl md:text-5xl font-bold text-dark mb-3">Sustainable Microgreens, Unbeatable Flavor!!</h1>
-              <p className="lg:text-xl lg:leading-8 tracking-wide max-w-[90ch] mx-auto mb-6">
+              <p className="lg:text-xl tracking-wide max-w-[90ch] mx-auto mb-6">
                 Our microgreens are packed with nutrients and flavor, making them the perfect addition to any meal. From salads to
                 smoothies, sandwiches to sushi, the possibilities are endless. Plus, with our convenient delivery service, you can easily
                 incorporate microgreens into your diet without leaving your home.
@@ -22,7 +22,7 @@ export default function Home() {
                     type="button"
                     className="w-full lg:w-auto rounded-md bg-green-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 hover:underline"
                   >
-                    View Our Microgreens
+                    View Our Microgreenstext-xl
                   </button>
                 </Link>
                 <Link to="/about">
