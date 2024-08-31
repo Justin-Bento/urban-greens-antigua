@@ -20,7 +20,7 @@ export default function Home() {
                   type="button"
                   className="w-full lg:w-auto rounded-md bg-green-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 hover:underline"
                 >
-                  View Our Microgreenstext-xl
+                  View Our Microgreens
                 </button>
               </Link>
               <Link to="/about">
@@ -109,7 +109,7 @@ export default function Home() {
       <section id="benefits" className="m-4">
         <div className="lg:container mx-auto sm:px-6 lg:px-8">
           <div className="mb-8">
-            <h2 className="mb-1 scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Incredible Benefits Of Microgreens</h2>
+            <h2 className="mb-1 scroll-m-2>0 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Incredible Benefits Of Microgreens</h2>
             <h3 className="tracking-wide text-gray-600">See Why Microgreens are considered the new superfood!</h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16">
@@ -187,7 +187,7 @@ export default function Home() {
               product is a key part of facilitating this culture by being our one-stop-shop for all things performance development.”
             </h2>
           </div>
-        </div>
+        </div>>
       </section>
       {/* End of Section */}
       <section id="socials" className="m-4 my-24">
