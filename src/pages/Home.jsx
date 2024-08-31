@@ -75,7 +75,7 @@ export default function Home() {
           />
           {/* Third Row */}
           <div class="mb-12 mt-32 lg:mt-0 lg:mb-0 lg:aspect-square w-full place-content-center md:order-5">
-            <h2 ctext-green-800 md:mx-2lassName="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+            <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
               Sustainable Packaging
             </h2>
             <p className="leading-7 tracking-wide mt-1">
@@ -98,7 +98,7 @@ export default function Home() {
               <div>
                 <h2 className="mb-1 text-white headline3">Have Any Questions About Microgreens?</h2>
                 <p className="mb-2 font-medium text-gray-100 subtitle1">
-                  Visit our Freqently Asked Questions page to see what people ask us.
+                  Visit our Frequently Asked Questions page to see what people ask us.
                 </p>
               </div>
               <div className="ctaFlex">
@@ -118,10 +118,10 @@ export default function Home() {
         </div>
       </section>
       {/* end of call-to-action section */}
-      <section className="benifits">
+      <section className="benefits">
         <div className="lg:container mx-auto sm:px-6 lg:px-8 spacing">
           <div className="mb-8">
-            <h2 className="mb-1 headline3">Incredible Benifits Of Microgreens</h2>
+            <h2 className="mb-1 headline3">Incredible Benefits Of Microgreens</h2>
             <h3 className="tracking-wide text-gray-600 headline6">See Why Microgreens are considered the new superfood!</h3>
           </div>
           <div className="benfitsGrid">
@@ -140,7 +140,7 @@ export default function Home() {
               </div>
               <div className="2-item">
                 <h6 className="subtitle1">Work In Many Dishes</h6>
-                <p className="body1">Microgreens have many families which vary in taste, smell, colour and presintation.</p>
+                <p className="body1">Microgreens have many families which vary in taste, smell, color and presentation.</p>
               </div>
             </div>
             <div className="3 md:flex">
@@ -188,7 +188,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* end of benifits section */}
+      {/* end of benefits section */}
       <section className="my-24 testimonials">
         <div className="py-24 bg-gray-100">
           <div className="lg:container mx-auto sm:px-6 lg:px-8">
