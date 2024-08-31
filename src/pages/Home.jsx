@@ -91,27 +91,23 @@ export default function Home() {
       </section>
 
       {/* end of perks section */}
-      <section className="call-to-action spacing">
-        <div className="text-white bg-green-800">
-          <div className="lg:container mx-auto sm:px-6 lg:px-8">
-            <div className="ctaGrid">
-              <div>
-                <h2 className="mb-1 text-white headline3">Have Any Questions About Microgreens?</h2>
-                <p className="mb-2 font-medium text-gray-100 subtitle1">
-                  Visit our Frequently Asked Questions page to see what people ask us.
-                </p>
-              </div>
-              <div className="ctaFlex">
-                <Link to="/learn">
-                  <button className="w-full lg:w-auto rounded-md bg-white px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 hover:underline">Learn More</button>
-                </Link>
-                <Link to="/contact">
-                  <button className="w-full lg:w-auto rounded-md bg-transparent px-3 py-2 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50/10 hover:underline">
-                    Message Us
-                  </button>
-                </Link>
-              </div>
-            </div>
+      <section id="call-to-action" className="mx-auto xl:container sm:px-6 lg:px-24 rounded-2xl bg-green-800 py-32 my-32">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:items-center">
+          <div className="text-white">
+            <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Have Any Questions About Microgreens?</h2>
+            <p className="leading-7 tracking-wide">Visit our Frequently Asked Questions page to see what people ask us.</p>
+          </div>
+          <div className="mt-8 flex items-center gap-4 lg:justify-end">
+            <Link to="/FAQs">
+              <button className="w-full lg:w-auto rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 hover:underline">
+                Learn More
+              </button>
+            </Link>
+            <Link to="/Contact">
+              <button className="w-full lg:w-auto rounded-md bg-transparent text-white px-3 py-2 text-sm font-semibold shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50/10 hover:underline">
+                Message Urban Greens
+              </button>
+            </Link>
           </div>
         </div>
       </section>
