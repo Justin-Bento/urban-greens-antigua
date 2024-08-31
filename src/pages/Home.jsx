@@ -108,7 +108,7 @@ export default function Home() {
         </div>
       </section>
       {/* end of call-to-action section */}
-      <section className="m-4">
+      <section id='benefits' className="m-4">
         <div className="lg:container mx-auto sm:px-6 lg:px-8">
           <div className="mb-8">
             <h2 className="mb-1 scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Incredible Benefits Of Microgreens</h2>
@@ -192,7 +192,7 @@ export default function Home() {
         </div>
       </section>
       {/* end of testimonials section */}
-      <section className="m-4 my-24">
+      <section id="socials" className="m-4 my-24">
         <div className="xl:container mx-auto sm:px-6 lg:px-8">
           <h2 className="scroll-m-20 pb-2 text-3xl font-bold capitalize tracking-tight first:mt-0">See how people use Microgreens!</h2>
           <p className="leading-7 text-lg">
