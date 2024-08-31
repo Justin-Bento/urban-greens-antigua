@@ -44,7 +44,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* end of hero section */}
+      {/* End of Section */}
       <section className="m-4 my-24">
         <div className="mx-auto xl:container sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 text-pretty md:gap-16">
           {/* First Row */}
@@ -85,8 +85,7 @@ export default function Home() {
           />
         </div>
       </section>
-
-      {/* end of perks section */}
+      {/* End of Section */}
       <section id="call-to-action" className="m-4">
         <div className="mx-auto xl:container sm:px-6 lg:px-24 rounded-2xl bg-green-800 py-32 my-32 grid grid-cols-1 lg:grid-cols-2 lg:items-center">
           <div className="text-white">
@@ -107,7 +106,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* end of call-to-action section */}
+      {/* End of Section */}
       <section id='benefits' className="m-4">
         <div className="lg:container mx-auto sm:px-6 lg:px-8">
           <div className="mb-8">
@@ -178,7 +177,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* end of benefits section */}
+      {/* End of Section */}
       <section id="testimonials" className="m-4 my-24">
         <div className="lg:container mx-auto xl:container sm:px-6 lg:px-24 py-32 my-32 bg-gray-100 rounded-2xl">
           <div className="">
@@ -191,7 +190,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* end of testimonials section */}
+      {/* End of Section */}
       <section id="socials" className="m-4 my-24">
         <div className="xl:container mx-auto sm:px-6 lg:px-8">
           <h2 className="scroll-m-20 pb-2 text-3xl font-bold capitalize tracking-tight first:mt-0">See how people use Microgreens!</h2>
@@ -220,7 +219,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* end of testimonials section */}
+      {/* End of Section */}
     </>
   );
 }
