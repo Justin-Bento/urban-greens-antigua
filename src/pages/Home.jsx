@@ -222,7 +222,7 @@ export default function Home() {
             <p className="body1">Follow our community and stay up today to see how people are using microgreens in their Lifestyle.</p>
           </div>
           <div className="usageGrid">
-            <div className="1">
+            <div className="">
               <div className="my-8 space-y-2">
                 <h6 className="subtitle1">Visit Our Faceebok Microgreen Group!</h6>
                 <p className="body1">
@@ -240,7 +240,7 @@ export default function Home() {
               </div>
             </div>
             <div className="2">
-              <img src="/assets/home/feature-04.png" alt="" className="image" />
+              <img src="/assets/home/share-microgreens.png" alt="" className="object-fill object-bottom rounded-xl aspect-square" />
             </div>
           </div>
         </div>
