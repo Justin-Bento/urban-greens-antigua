@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/Button';
+import { TbCircleCheck } from "react-icons/tb";
 
 export default function Home() {
   return (
@@ -59,7 +60,7 @@ export default function Home() {
           <img src="/assets/home/microgreens-variety.png" className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-3" />
           {/* Third Row */}
           <div class="mb-12 mt-32 lg:mt-0 lg:mb-0 lg:aspect-square w-full place-content-center md:order-5">
-            <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Sustainable Packaging</h2>
+            <h2 ctext-green-800 md:mx-2lassName="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Sustainable Packaging</h2>
             <p className="leading-7 tracking-wide mt-1">Our packaging is designed with the environment in mind. Each item is either reusable or fully recyclable, ensuring that we reduce waste and promote sustainability in every step of our process.</p>
           </div>
           <img src="/assets/home/feature-03.png" className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-6" />
@@ -102,10 +103,8 @@ export default function Home() {
           </div>
           <div className="benfitsGrid">
             <div className="1 md:flex">
-              <div className="text-green-800 md:mx-2">
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+              <div className="">
+                <TbCircleCheck className='text-green-800 md:mx-2 size-6' />
               </div>
               <div className="">
                 <h6 className="subtitle1">Packed With Vitamins</h6>
@@ -113,10 +112,8 @@ export default function Home() {
               </div>
             </div>
             <div className="2 md:flex">
-              <div className="text-green-800 md:mx-2">
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+              <div className="">
+                <TbCircleCheck className='text-green-800 md:mx-2 size-6' />
               </div>
               <div className="2-item">
                 <h6 className="subtitle1">Work In Many Dishes</h6>
@@ -124,10 +121,8 @@ export default function Home() {
               </div>
             </div>
             <div className="3 md:flex">
-              <div className="text-green-800 md:mx-2">
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+              <div className="">
+                <TbCircleCheck className='text-green-800 md:mx-2 size-6' />
               </div>
               <div className="3-item">
                 <h6 className="subtitle1">Great For Smoothies And Juices</h6>
@@ -135,10 +130,8 @@ export default function Home() {
               </div>
             </div>
             <div className="4 md:flex">
-              <div className="text-green-800 md:mx-2">
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+              <div className="">
+                <TbCircleCheck className='text-green-800 md:mx-2 size-6' />
               </div>
               <div className="">
                 <h6 className="subtitle1">Microgreens are affordable</h6>
@@ -150,16 +143,7 @@ export default function Home() {
             </div>
             <div className="5 md:flex">
               <div className="">
-                <div className="text-green-800 md:mx-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </div>
+                <TbCircleCheck className='text-green-800 md:mx-2 size-6' />
               </div>
               <div className="">
                 <h6 className="subtitle1">Give Flare To Dishes</h6>
@@ -170,17 +154,8 @@ export default function Home() {
               </div>
             </div>
             <div className="6 md:flex">
-              <div className="">
-                <div className="text-gpx-4 py-5 sm:p-6reen-800 md:mx-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </div>
+             <div className="">
+                <TbCircleCheck className='text-green-800 md:mx-2 size-6' />
               </div>
               <div className="">
                 <h6 className="subtitle1">Great For Your Health</h6>
