@@ -223,18 +223,20 @@ export default function Home() {
           </div>
           <div className="usageGrid">
             <div className="1">
-              <div className="">
+              <div className="my-8 space-y-2">
                 <h6 className="subtitle1">Visit Our Faceebok Microgreen Group!</h6>
                 <p className="body1">
                   Got something to share or wating for our lastest update? Interact with our online community, and see how people from all
                   backgrounds are using our greens.
                 </p>
+                <a href="https://www.instagram.com/urbangreensanu/" className='block underline text-green-700 mt-6'>Visit Our Instagram Page.</a>
               </div>
-              <div className="my-8">
+              <div className="my-8 space-y-2">
                 <h6 className="subtitle1">Visit Our Instagram Page!</h6>
                 <p className="body1">
                   You can follow our instagram page for insperation on how you can incoperate microgreens into your lifestyle.
                 </p>
+                <a href="https://www.instagram.com/urbangreensanu/" className='block underline text-green-700'>Visit Our Instagram Page.</a>
               </div>
             </div>
             <div className="2">
