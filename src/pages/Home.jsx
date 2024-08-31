@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from '../components/Button';
 import { TbCircleCheck } from 'react-icons/tb';
 
 export default function Home() {
@@ -107,7 +106,7 @@ export default function Home() {
         </div>
       </section>
       {/* End of Section */}
-      <section id='benefits' className="m-4">
+      <section id="benefits" className="m-4">
         <div className="lg:container mx-auto sm:px-6 lg:px-8">
           <div className="mb-8">
             <h2 className="mb-1 scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">Incredible Benefits Of Microgreens</h2>
