@@ -171,7 +171,7 @@ export default function Home() {
             </div>
             <div className="6 md:flex">
               <div className="">
-                <div className="text-green-800 md:mx-2">
+                <div className="text-gpx-4 py-5 sm:p-6reen-800 md:mx-2">
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path
                       strokeLinecap="round"
@@ -203,35 +203,25 @@ export default function Home() {
         </div>
       </section>
       {/* end of testimonials section */}
-      <section className="useage spacing">
-        <div className="lg:container mx-auto sm:px-6 lg:px-8">
-          <div className="spacing-md">
-            <h2 className="mb-1 headline3">See how people use Microgreens!</h2>
-            <p className="body1">Follow our community and stay up today to see how people are using microgreens in their Lifestyle.</p>
-          </div>
-          <div className="usageGrid">
-            <div className="">
-              <div className="my-8 space-y-2">
-                <h6 className="subtitle1">Visit Our Faceebok Microgreen Group!</h6>
-                <p className="body1">
-                  Got something to share or wating for our lastest update? Interact with our online community, and see how people from all
-                  backgrounds are using our greens.
-                </p>
-                <a href="https://www.instagram.com/urbangreensanu/" className='block underline text-green-700 mt-6'>Visit Our Instagram Page.</a>
+      <section className="my-8 md:my-12 lg:my-24">
+        <div className="xl:container mx-auto sm:px-6 lg:px-8">
+          <h2 className="scroll-m-20 pb-2 text-3xl font-bold capitalize tracking-tight first:mt-0">See how people use Microgreens!</h2>
+          <p className="leading-7 text-lg">Follow our community and stay up today to see how people are using microgreens in their Lifestyle.</p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 mt-8">
+            <div className="w-full space-y-6 ">
+              <div className="">
+                <h3 className="text-lg font-semibold mb-2">Visit Our Facebook Microgreens Group!</h3>
+                <p className="">Got something to share or waiting for our latest update? Interact with our online community, and see how people from all backgrounds are using our greens.</p>
               </div>
-              <div className="my-8 space-y-2">
-                <h6 className="subtitle1">Visit Our Instagram Page!</h6>
-                <p className="body1">
-                  You can follow our instagram page for insperation on how you can incoperate microgreens into your lifestyle.
-                </p>
-                <a href="https://www.instagram.com/urbangreensanu/" className='block underline text-green-700'>Visit Our Instagram Page.</a>
+              <div className="border border-green-700 w-20"></div>
+              <div className="">
+                <h3 className="text-lg font-semibold mb-2">Visit Our Facebook Microgreens Group!</h3>
+                <p className="">Got something to share or waiting for our latest update? Interact with our online community, and see how people from all backgrounds are using our greens.</p>
               </div>
             </div>
-            <div className="2">
-              <img src="/assets/home/share-microgreens.png" alt="" className="object-fill object-bottom rounded-xl aspect-square" />
+            <img src="/assets/home/share-microgreens.png" alt='' className="w-full aspect-square object-cover object-top rounded-2xl"/>
             </div>
           </div>
-        </div>
       </section>
       {/* end of testimonials section */}
     </div>
