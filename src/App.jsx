@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Product from './pages/Product.jsx';
@@ -15,7 +15,7 @@ import NotFound from './components/NotFound.jsx';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import ReactGA from 'react-ga4';
 
-ReactGA.initialize(process.env.GOOGLE_ANALYTICS_TRACKING_ID);
+ReactGA.initialize('G-WCZPKJM8X1');
 
 export default function App() {
   useEffect(() => {
