@@ -13,8 +13,14 @@ import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 import NotFound from './components/NotFound.jsx';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import ReactGA from 'react-ga4';
+
+ReactGA.initialize(process.env.GOOGLE_ANALYTICS_TRACKING_ID);
 
 export default function App() {
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
   return (
     <Router>
       <Header />
