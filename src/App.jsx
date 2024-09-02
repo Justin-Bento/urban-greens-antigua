@@ -19,26 +19,24 @@ ReactGA.initialize('G-WCZPKJM8X1');
 
 export default function App() {
   useEffect(() => {
-    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+    ReactGA.send({ hitType: 'pageview', page: window.location.pathname });
   }, []);
   return (
     <Router>
       <Header />
-      <div>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/faqs" component={faqs} />
-          <Route path="/about" component={About} />
-          <Route exact path="/products" component={Product} />
-          <Route path="/products/:id" component={ProductDetail} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/community" component={Community} />
-          <Route path="/terms" component={terms} />
-          <Route path="/privacy" component={privacy} />
-          <Route path="/cookie" component={cookie} />
-          <Route path="*" component={NotFound} />
-        </Switch>
-      </div>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/faqs" component={faqs} />
+        <Route path="/about" component={About} />
+        <Route exact path="/products" component={Product} />
+        <Route path="/products/:id" component={ProductDetail} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/community" component={Community} />
+        <Route path="/terms" component={terms} />
+        <Route path="/privacy" component={privacy} />
+        <Route path="/cookie" component={cookie} />
+        <Route path="*" component={NotFound} />
+      </Switch>
       <Footer />
     </Router>
   );
