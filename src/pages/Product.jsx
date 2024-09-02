@@ -34,6 +34,10 @@ export default function Product() {
   return (
     <div className="products">
       <div className="wrapper my-24">
+        <div className="mb-12 space-y-2">
+          <h1 className="scroll-m-20 text-3xl font-semibold tracking-tight">Fresh Microgreens: Nutrient-Packed Greens for Every Dish</h1>
+          <p className="leading-5 tracking-wide text-balance">Our fresh, microgreens are the perfect way to enhance your meals with vibrant flavors. Whether you&#39;re looking to add a crisp touch to salads, a flavorful boost to sandwiches, or a nutritious garnish to your favorite dishes, our microgreens are grown with care.</p>
+        </div>
         <div className="grid3">
           {data.map((data) => {
             return (
