@@ -13,51 +13,51 @@ export default class Footer extends Component {
               </Link>
               <nav className="mb-8">
                 <p className="mb-4 subtitle-1 text-gray-50">Pages</p>
-                <div className="flex flex-col">
-                  <Link to="/products" className="footerText">
+                <div className="flex flex-col gap-4">
+                  <Link to="/products" className="text-sm leading-5 text-gray-100 align-middle subpixel-antialiased hover:underline">
                     Products
                   </Link>
-                  <Link to="/faqs" className="footerText">
+                  <Link to="/faqs" className="text-sm leading-5 text-gray-100 align-middle subpixel-antialiased hover:underline">
                     FAQ's
                   </Link>
-                  <Link to="/about" className="footerText">
+                  <Link to="/about" className="text-sm leading-5 text-gray-100 align-middle subpixel-antialiased hover:underline">
                     About
                   </Link>
-                  <Link to="/contact" className="footerText">
+                  <Link to="/contact" className="text-sm leading-5 text-gray-100 align-middle subpixel-antialiased hover:underline">
                     Contact
                   </Link>
                 </div>
               </nav>
               <div className="mb-8">
                 <p className="mb-4 subtitle-1 text-gray-50">About</p>
-                <div className="flex flex-col">
-                  <Link to="/about" className="footerText">
+                <div className="flex flex-col gap-4">
+                  <Link to="/about" className="text-sm leading-5 text-gray-100 align-middle subpixel-antialiased hover:underline">
                     Company
                   </Link>
-                  <Link to="/about" className="footerText">
+                  <Link to="/about" className="text-sm leading-5 text-gray-100 align-middle subpixel-antialiased hover:underline">
                     Story
                   </Link>
-                  <Link to="/about" className="footerText">
+                  <Link to="/about" className="text-sm leading-5 text-gray-100 align-middle subpixel-antialiased hover:underline">
                     Values
                   </Link>
                 </div>
               </div>
               <div className="mb-8">
                 <p className="mb-4 subtitle-1 text-gray-50">Contact</p>
-                <div className="flex flex-col">
-                  <a href={footer.socialMedia.facebook} className="footerText">
+                <div className="flex flex-col gap-4">
+                  <a href={footer.socialMedia.facebook} className="text-sm leading-5 text-gray-100 align-middle subpixel-antialiased hover:underline">
                     Facebook
                   </a>
-                  <a href={footer.socialMedia.instgram} className="footerText">
+                  <a href={footer.socialMedia.instgram} className="text-sm leading-5 text-gray-100 align-middle subpixel-antialiased hover:underline">
                     Instagram
                   </a>
-                  <a href="#" className="footerText">
+                  <a href="#" className="text-sm leading-5 text-gray-100 align-middle subpixel-antialiased hover:underline">
                     Email
                   </a>
                 </div>
               </div>
             </div>
-            <p className="footerText text-center">© Copyright 2021 Urban Greens Inc. All Rights Reserved.</p>
+            <p className="text-sm leading-5 text-gray-100 align-middle subpixel-antialiased text-center">© Copyright 2021 Urban Greens Inc. All Rights Reserved.</p>
           </div>
         </footer>
       </>
