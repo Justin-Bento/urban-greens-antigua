@@ -8,8 +8,8 @@ export default class Footer extends Component {
         <footer className="footerBackground">
           <div className="wrapper">
             <div className="footerGrid">
-              <Link to="/" className="footerGridOrder">
-                <img src={footer.logoWhite} alt="" className="footerLogo" loading="lazy" width="96px" height="96px" />
+              <Link to="/">
+                <img src="/assets/logo/urban-greens-logo.png" alt="" className='w-auto h-20 grayscale brightness-200' />
               </Link>
               <nav className="mb-8">
                 <p className="mb-4 subtitle-1 text-gray-50">Pages</p>
