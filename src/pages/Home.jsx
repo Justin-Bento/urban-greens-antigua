@@ -187,7 +187,7 @@ export default function Home() {
               product is a key part of facilitating this culture by being our one-stop-shop for all things performance development.”
             </h2>
           </div>
-        </div>>
+        </div>
       </section>
       {/* End of Section */}
       <section id="socials" className="m-4 my-24">
