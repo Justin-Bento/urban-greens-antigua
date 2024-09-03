@@ -9,11 +9,11 @@ export default function faqs() {
           <p className="text-lg tracking-wide pb-4">If you can&#39;t find what you&#39;re looking for, email our support team and if you&#39;re lucky someone will get back to you.</p>
           <span className="block border-2 w-24 border-green-700 rounded-full"></span>
         </div>
-        <div className="pt-6">
+        <div className="pt-6 space-y-6">
         {faq.map((item, index) => (
         <div key={index}>
-          <h2>{item.question}</h2>
-          <p>{item.answer}</p>
+          <h2 className="text-xl font-semibold capitalize">{item.question}</h2>
+          <p className="tracking-wide text-balance max-w-6xl">{item.answer}</p>
         </div>
       ))}
         </div>
