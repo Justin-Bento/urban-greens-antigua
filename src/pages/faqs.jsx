@@ -1,21 +1,26 @@
-import React from 'react';
+import React from "react";
 
 export default function faqs() {
   return (
     <>
       <main className="mx-auto xl:container sm:px-6 min-h-dvh">
         <div className="">
-          <h1 className="scroll-m-20 pb-2 text-4xl font-semibold tracking-tight first:mt-0 capitalize">Frequently asked questions</h1>
-          <p className="text-lg tracking-wide pb-4">If you can&#39;t find what you&#39;re looking for, email our support team and if you&#39;re lucky someone will get back to you.</p>
+          <h1 className="scroll-m-20 pb-2 text-4xl font-semibold tracking-tight first:mt-0 capitalize">
+            Frequently asked questions
+          </h1>
+          <p className="text-lg tracking-wide pb-4">
+            If you can&#39;t find what you&#39;re looking for, email our support team and if you&#39;re lucky someone
+            will get back to you.
+          </p>
           <span className="block border-2 w-24 border-green-700 rounded-full"></span>
         </div>
         <div className="pt-6 space-y-6">
-        {faq.map((item, index) => (
-        <div key={index}>
-          <h2 className="text-xl font-semibold capitalize">{item.question}</h2>
-          <p className="tracking-wide text-balance max-w-6xl">{item.answer}</p>
-        </div>
-      ))}
+          {faq.map((item, index) => (
+            <div key={index}>
+              <h2 className="text-xl font-semibold capitalize">{item.question}</h2>
+              <p className="tracking-wide text-balance max-w-6xl">{item.answer}</p>
+            </div>
+          ))}
         </div>
       </main>
     </>
@@ -52,4 +57,3 @@ const faq = [
     answer: "You can reach us via email at urbangreensanu@gmail.com or by phone/WhatsApp at (268) 720-8474.",
   },
 ];
-
