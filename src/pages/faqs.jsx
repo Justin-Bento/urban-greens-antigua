@@ -3,7 +3,8 @@ import React from 'react';
 export default function faqs() {
   return (
     <>
-      <main className="">
+      <main className="mx-auto xl:container sm:px-6 min-h-dvh">
+        <div className=""></div>
       </main>
     </>
   );
