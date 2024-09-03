@@ -4,7 +4,7 @@ export default function faqs() {
   return (
     <>
       <main className="mx-auto xl:container sm:px-6 min-h-dvh">
-        <div className="">
+        <section className="">
           <h1 className="scroll-m-20 pb-2 text-4xl font-semibold tracking-tight first:mt-0 capitalize">
             Frequently asked questions
           </h1>
@@ -13,15 +13,15 @@ export default function faqs() {
             will get back to you.
           </p>
           <span className="block border-2 w-24 border-green-700 rounded-full"></span>
-        </div>
-        <div className="pt-6 space-y-6">
+        </section>
+        <section className="pt-6 space-y-6">
           {faq.map((item, index) => (
             <div key={index}>
               <h2 className="text-xl font-semibold capitalize">{item.question}</h2>
               <p className="tracking-wide text-balance max-w-6xl">{item.answer}</p>
             </div>
           ))}
-        </div>
+        </section>
       </main>
     </>
   );
