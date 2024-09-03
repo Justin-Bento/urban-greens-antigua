@@ -4,7 +4,14 @@ export default function faqs() {
   return (
     <>
       <main className="mx-auto xl:container sm:px-6 min-h-dvh">
-        <div className=""></div>
+        <div className="">
+        {faq.map((item, index) => (
+        <div key={index}>
+          <h3>{item.question}</h3>
+          <p>{item.answer}</p>
+        </div>
+      ))}
+        </div>
       </main>
     </>
   );
