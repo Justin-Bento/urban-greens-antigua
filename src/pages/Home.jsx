@@ -37,7 +37,7 @@ export default function Home() {
             <div className="mt-16">
               <img
                 src="/assets/home/urban-greens-antigua-hero.jpg"
-                alt="Healthy Microgreens"
+                alt="Microgreens plated and served on a dish."
                 className="w-full aspect-square lg:aspect-video object-cover object-top rounded-2xl"
               />
               <p className="caption text-center">Healthy Microgreens</p>
@@ -57,6 +57,7 @@ export default function Home() {
             </div>
             <img
               src="/assets/home/freshly-grown.png"
+              alt="A person holding a bunch of microgreens."
               className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-2"
             />
             {/* Second Row */}
@@ -68,6 +69,7 @@ export default function Home() {
               </p>
             </div>
             <img
+              alt="Colorful plates from @saltplageantigua garnished with fresh microgreens from Urban Greens Antigua's Farm. "
               src="/assets/home/microgreens-variety.png"
               className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-3"
             />
@@ -80,6 +82,7 @@ export default function Home() {
               </p>
             </div>
             <img
+              alt="Showing off our sustainable packaging that we use to keep microgreens fresh."
               src="/assets/home/feature-03.png"
               className="aspect-square w-full rounded-2xl object-fill object-bottom bg-red-300 md:order-6"
             />
@@ -217,7 +220,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <img src="/assets/home/share-microgreens.png" alt="" className="w-full aspect-square object-cover object-top rounded-2xl" />
+              <img src="/assets/home/share-microgreens.png" alt="Woman holding a salad with microgreens, tomato, and other ingredients." className="w-full aspect-square object-cover object-top rounded-2xl" />
             </div>
           </div>
         </section>
