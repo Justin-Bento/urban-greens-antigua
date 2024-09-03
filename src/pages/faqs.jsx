@@ -4,37 +4,6 @@ export default function faqs() {
   return (
     <>
       <main className="">
-        <section className="faqs">
-          <div className="wrapper max-w-5xl">
-            <div className="spacing">
-              <h1 className="headline2">Frequently Asked Questions</h1>
-              <div className="my-8">
-                <h3 className="subtitle1">What Are Microgreens?</h3>
-                <p className="body1">{faq.q1}</p>
-              </div>
-              <div className="my-8">
-                <h3 className="subtitle1">How are Microgreens used?</h3>
-                <p className="body1">{faq.q2}</p>
-              </div>
-              <div className="my-8">
-                <h3 className="subtitle1">What are the health benefits?</h3>
-                <p className="body1">{faq.q3}</p>
-              </div>
-              <div className="my-8">
-                <h3 className="subtitle1">Where Can you purchase microgreens?</h3>
-                <p className="body1">{faq.q4}</p>
-              </div>
-              <div className="my-8">
-                <h3 className="subtitle1">Is Your Packaging recyclable?</h3>
-                <p className="body1">{faq.q5}</p>
-              </div>
-              <div className="my-8">
-                <h3 className="subtitle1">What Is Your Contact Infromation?</h3>
-                <p className="body1">{faq.q6}</p>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
     </>
   );
