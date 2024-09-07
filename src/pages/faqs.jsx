@@ -1,20 +1,12 @@
 import React from "react";
+import Title from "../components/Title";
 
 export default function faqs() {
   return (
     <>
       <main className="mx-auto xl:container sm:px-6 min-h-dvh">
-        <section className="mt-20">
-          <h1 className="scroll-m-20 pb-2 text-4xl font-semibold tracking-tight first:mt-0 capitalize">
-            Frequently asked questions
-          </h1>
-          <p className="text-lg tracking-wide pb-4">
-            If you can&#39;t find what you&#39;re looking for, email our support team and if you&#39;re lucky someone
-            will get back to you.
-          </p>
-          <span className="block border-2 w-24 border-green-700 rounded-full"></span>
-        </section>
-        <section className="pt-12 space-y-8">
+        <Title Headline="Fresh Frequently asked questions" Description="If you can&#39;t find what you&#39;re looking for, email our support team and if you&#39;re lucky someone will get back to you." />
+        <section className="space-y-8">
           {faq.map((item, index) => (
             <div key={index}>
               <h2 className="text-xl font-semibold capitalize">{item.question}</h2>
