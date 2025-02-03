@@ -54,3 +54,6 @@ Start the server
   npm run dev
 ```
 
+## Lessons Learned
+
+When I started to build this project and ship it into production, I frequently switched between different hosting platforms, always eager to try new tools and services. While this helped me gain a surface level understanding of various platforms, I soon realized that jumping from one to the next hindered my ability to effecively use any one of them. The challenge I faced was learning how to commit to a single platform for a longer period, so I could truly understand its nuances and capabilities. By focusing on one platform, I was able to deepen my expertise and improve the overall quality and stability of my deployments, and take time to explore platform settings and capeabilities.
