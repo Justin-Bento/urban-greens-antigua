@@ -21,5 +21,10 @@ Urban Greens Antigua is an online catalog that specializes in showcasing and sel
 - Implimented Sanity Content Manamgnet System
 - Implimented Google Analytics.
 - Cross platform from mobile phones to desktop screens.
-- 
 
+
+## Tech Stack
+
+1. **Client:** React, Next.js, TailwindCSS, Shadcn/ui, React Icons, FormSpree, 
+2. **Server:** Node, Express, Sanity,
+3. **Production:** Vercel, Namecheap, Vite, 
