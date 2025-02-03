@@ -6,3 +6,20 @@ Urban Greens Antigua is an online catalog that specializes in showcasing and sel
 - Project End Date
 - Project Figma File
 
+## Features
+
+- Utilized Next.js
+  - Live previews
+  - Fetch stanity lake data after 60s.
+  - The Pages Router has a file-system based router built on concepts of pages.
+  - Used layouts for repeated data.
+    - Product Display based on custom slug
+    - Error Detection for non recognized slug. 
+- Installed Tailwind CSS
+  - Light/dark mode toggle.
+  - Mobile first approach.
+- Implimented Sanity Content Manamgnet System
+- Implimented Google Analytics.
+- Cross platform from mobile phones to desktop screens.
+- 
+
