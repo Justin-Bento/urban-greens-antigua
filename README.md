@@ -22,9 +22,35 @@ Urban Greens Antigua is an online catalog that specializes in showcasing and sel
 - Implimented Google Analytics.
 - Cross platform from mobile phones to desktop screens.
 
-
 ## Tech Stack
 
 1. **Client:** React, Next.js, TailwindCSS, Shadcn/ui, React Icons, FormSpree, 
 2. **Server:** Node, Express, Sanity,
 3. **Production:** Vercel, Namecheap, Vite, 
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone git@github.com:Justin-Bento/urban-greens-antigua.git
+```
+
+Go to the project directory
+
+```bash
+  cd /path/to/my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
