@@ -2,7 +2,7 @@ import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Button } from "@/components/ui/button";
-import { CardFooter } from "@/components/ui/card";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import Image from "next/image";
 
 export default function Page() {
@@ -106,10 +106,30 @@ export default function Page() {
          * End of websites hero section.
          */}
         <section className="">
-          <h3 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
-            Hello Section #3
-          </h3>
-          <p className=""></p>
+          <Card className="shadow-none border-none bg-green-700 text-white">
+            <CardContent className="py-32 px-24 flex flex-col lg:flex-row justify-between gap-8">
+              <div className="">
+                <h3 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
+                  Have Any Questions About Microgreens?
+                </h3>
+                <p className="">
+                  Visit our Frequently Asked Questions page to see what people
+                  ask us.
+                </p>
+              </div>
+              <div className="space-x-4">
+                <Button variant="secondary" className="capitalize">
+                  Visit our FAQ
+                </Button>
+                <Button
+                  variant="outline"
+                  className="bg-transparent text-white shadow-none capitalize"
+                >
+                  Send us an email
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
         </section>
         <section className="">
           <h4 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
