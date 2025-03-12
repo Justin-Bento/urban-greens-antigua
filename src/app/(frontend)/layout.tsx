@@ -31,7 +31,7 @@ export default function DashboardLayout({
         {/* Layout UI */}
         {/* Place children where you want to render a page or nested layout */}
         <Navigation />
-        <main className="container mx-auto px-6 space-y-20 min-h-dvh grid items-center py-20">
+        <main className="container mx-auto px-6 space-y-20 min-h-dvh my-20">
           {children}
         </main>
         <Footer />
