@@ -14,7 +14,7 @@ export default function Page() {
           <h1 className="scroll-m-20 text-4xl font-bold lg:text-5xl">
             Sustainable Microgreens, Unbeatable Flavor!
           </h1>
-          <p className="lg:text-xl tracking-wide max-w-[90ch] mx-auto text-balance">
+          <p className="text-xl/7 lg:text-center tracking-wide max-w-[90ch] mx-auto text-balance">
             Our microgreens are packed with nutrients and flavor, making them
             the perfect addition to any meal. From salads to smoothies,
             sandwiches to sushi, the possibilities are endless. Plus, with our
@@ -22,10 +22,13 @@ export default function Page() {
             into your diet without leaving your home.
           </p>
           <div className="flex flex-col lg:flex-row gap-4">
-            <Button>View Our Microgreens</Button>
+            <Button className="bg-green-700">View Our Microgreens</Button>
             <Button variant="secondary">Learn About Our Product</Button>
           </div>
-          <AspectRatio ratio={16 / 9} className="relative overflow-hidden">
+          <AspectRatio
+            ratio={16 / 9}
+            className="relative overflow-hidden mt-12"
+          >
             <Image
               fill
               src="/media/urban-greens-antigua-hero.jpg"
