@@ -181,12 +181,18 @@ export default function Page() {
           </h5>
           <p className=""></p>
         </section>
+        {/*
+         * End of websites client testimonials.
+         */}
         <section className="">
           <h6 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
             Hello Section #6
           </h6>
           <p className=""></p>
         </section>
+        {/*
+         * End of websites community usages.
+         */}
       </main>
       <Footer />
     </>
