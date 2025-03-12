@@ -40,5 +40,10 @@ export const microgreens = defineType({
       title: "Price By Ounces",
       type: "string",
     }),
+    defineField({
+      name: "flavour",
+      title: "Overview of Microgreen Flavour",
+      type: "string",
+    }),
   ],
 });
