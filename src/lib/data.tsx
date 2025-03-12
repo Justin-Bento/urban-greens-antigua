@@ -1,3 +1,12 @@
+import {
+  TbRocket,
+  TbHandStop,
+  TbUsers,
+  TbSchool,
+  TbStars,
+  TbSun,
+} from "react-icons/tb";
+
 export const microgreen_benifits = [
   {
     id: 1,
@@ -63,4 +72,43 @@ export const faqs = [
       "Because they're so good at it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
   },
   // More questions...
+];
+
+export const values = [
+  {
+    name: "Be world-class.",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.",
+    icon: TbRocket,
+  },
+  {
+    name: "Take responsibility.",
+    description:
+      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+    icon: TbHandStop,
+  },
+  {
+    name: "Be supportive.",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus voluptas blanditiis et.",
+    icon: TbUsers,
+  },
+  {
+    name: "Always learning.",
+    description:
+      "Iure sed ab. Aperiam optio placeat dolor facere. Officiis pariatur eveniet atque et dolor.",
+    icon: TbSchool,
+  },
+  {
+    name: "Share everything you know.",
+    description:
+      "Laudantium tempora sint ut consectetur ratione. Ut illum ut rem numquam fuga delectus.",
+    icon: TbStars,
+  },
+  {
+    name: "Enjoy downtime.",
+    description:
+      "Culpa dolorem voluptatem velit autem rerum qui et corrupti. Quibusdam quo placeat.",
+    icon: TbSun,
+  },
 ];
