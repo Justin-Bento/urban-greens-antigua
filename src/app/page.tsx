@@ -56,6 +56,7 @@ export default function Page() {
                 alt="Photo by Drew Beamer"
                 fill
                 className="rounded-md object-cover"
+                quality={70}
               />
             </AspectRatio>
           </div>
@@ -76,6 +77,7 @@ export default function Page() {
                 src="/media/microgreens-variety.png"
                 alt="Photo by Drew Beamer"
                 fill
+                quality={70}
                 className="rounded-md object-cover"
               />
             </AspectRatio>
@@ -97,6 +99,7 @@ export default function Page() {
                 src="/media/sustainable-packageing.png"
                 alt="Photo by Drew Beamer"
                 fill
+                quality={70}
                 className="rounded-md object-cover"
               />
             </AspectRatio>
