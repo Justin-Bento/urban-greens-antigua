@@ -45,5 +45,10 @@ export const microgreens = defineType({
       title: "Overview of Microgreen Flavour",
       type: "string",
     }),
+    defineField({
+      name: "nutrients",
+      title: "Nutrients for this Microgreen",
+      type: "string",
+    }),
   ],
 });
