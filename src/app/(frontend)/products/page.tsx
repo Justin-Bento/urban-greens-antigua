@@ -14,7 +14,6 @@ import { Separator } from "@/components/ui/separator";
 
 export default async function Page() {
   const { data: posts } = await sanityFetch({ query: POSTS_QUERY });
-
   return (
     <>
       <div className="">
@@ -46,13 +45,9 @@ export default async function Page() {
                       className="h-full w-full rounded-md object-cover"
                     />
                   </AspectRatio>
-                  <CardTitle className="mb-3">Product Title</CardTitle>
+                  <CardTitle className="mb-3">{post?.name}</CardTitle>
                   <CardDescription className="line-clamp-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Minus aliquid, impedit rerum magnam, repudiandae molestias
-                    cum, labore veritatis aut officiis consequuntur. Enim cum
-                    perferendis optio nesciunt laboriosam corporis adipisci
-                    recusandae?
+                    {post.description}
                   </CardDescription>
                   <Button
                     variant="link"
