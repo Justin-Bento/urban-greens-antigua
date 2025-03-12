@@ -178,7 +178,7 @@ export default function Page() {
             We have worked with amazing people
           </p>
         </div>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 divide-x-2">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 divide-x-2 divide-x-reverse">
           {new Array(6).fill(null).map((_, index) => (
             <li key={index}>
               <Card className="shadow-none border-none">
