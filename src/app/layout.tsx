@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Public_Sans, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { SanityLive } from "@/sanity/lib/live";
 
 const geistPublicSans = Public_Sans({
   variable: "--font-Public_Sans",
@@ -29,6 +30,7 @@ export default function RootLayout({
         className={`${geistPublicSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <SanityLive />
       </body>
     </html>
   );
