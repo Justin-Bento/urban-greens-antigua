@@ -2,8 +2,15 @@ import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardFooter } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardTitle,
+} from "@/components/ui/card";
+import { TbCircleCheck } from "react-icons/tb";
 import Image from "next/image";
+import { microgreen_benifits } from "@/lib/data";
 
 export default function Page() {
   return (
@@ -38,7 +45,7 @@ export default function Page() {
           </AspectRatio>
         </section>
         {/*
-         * End of websites hero section.
+         * End of websites hero.
          */}
         <section className="space-y-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
@@ -109,7 +116,7 @@ export default function Page() {
           </div>
         </section>
         {/*
-         * End of websites hero section.
+         * End of websites feature.
          */}
         <section className="">
           <Card className="shadow-none border-none bg-green-700 text-white">
@@ -137,11 +144,33 @@ export default function Page() {
             </CardContent>
           </Card>
         </section>
-        <section className="">
-          <h4 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
-            Hello Section #4
-          </h4>
-          <p className=""></p>
+        {/*
+         * End of websites call to action.
+         */}
+        <section className="space-y-8">
+          <div className="">
+            <h4 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
+              Incredible Benefits Of Microgreens
+            </h4>
+            <p className="text-lg/7 opacity-70">
+              Here are some reasons why Microgreens are considered superfood!
+            </p>
+          </div>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {microgreen_benifits.map((benifit) => (
+              <li key={benifit.id}>
+                <Card className="shadow-none">
+                  <CardContent className="inline-flex items-start gap-x-2">
+                    <TbCircleCheck className="text-green-800 mt-1.5 size-5" />
+                    <span className="line-clamp-2">
+                      <CardTitle className="text-lg">{benifit.title}</CardTitle>
+                      <CardDescription>{benifit.description}</CardDescription>
+                    </span>
+                  </CardContent>
+                </Card>
+              </li>
+            ))}
+          </ul>
         </section>
         <section className="">
           <h5 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
