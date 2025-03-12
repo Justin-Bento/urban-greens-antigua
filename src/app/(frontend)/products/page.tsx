@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
+import { urlFor } from "@/sanity/lib/image";
 
 export default async function Page() {
   const { data: posts } = await sanityFetch({ query: POSTS_QUERY });
@@ -37,12 +38,12 @@ export default async function Page() {
             <Link href={`/products/${post?.slug?.current}`}>
               <Card className="shadow-none group hover:bg-muted transition-all">
                 <CardContent>
-                  <AspectRatio ratio={16 / 9} className="bg-muted mb-6">
+                  <AspectRatio ratio={16 / 9} className="relative mb-6">
                     <Image
-                      src="https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?w=800&dpr=2&q=80"
-                      alt="Photo by Drew Beamer"
+                      src={urlFor(post.mainImage).url()}
+                      alt={post.mainImage.alt}
                       fill
-                      className="h-full w-full rounded-md object-cover"
+                      className="w-full h-full rounded-mdv object-contain"
                     />
                   </AspectRatio>
                   <CardTitle className="mb-3">{post?.name}</CardTitle>

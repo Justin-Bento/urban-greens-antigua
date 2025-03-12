@@ -162,18 +162,30 @@ export type AllSanitySchemaTypes = SanityImagePaletteSwatch | SanityImagePalette
 export declare const internalGroqTypeReferenceTo: unique symbol;
 // Source: ./src/sanity/lib/queries.ts
 // Variable: POSTS_QUERY
-// Query: *[_type == "microgreens"]{     _id,     name,     description,     slug,      }
+// Query: *[_type == "microgreens"]{     _id,     name,     description,     slug,    mainImage,}
 export type POSTS_QUERYResult = Array<{
   _id: string;
   name: string | null;
   description: string | null;
   slug: Slug | null;
+  mainImage: {
+    asset?: {
+      _ref: string;
+      _type: "reference";
+      _weak?: boolean;
+      [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
+    };
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    alt?: string;
+    _type: "image";
+  } | null;
 }>;
 
 // Query TypeMap
 import "@sanity/client";
 declare module "@sanity/client" {
   interface SanityQueries {
-    "*[_type == \"microgreens\"]{ \n    _id, \n    name, \n    description, \n    slug,\n    \n  }": POSTS_QUERYResult;
+    "*[_type == \"microgreens\"]{ \n    _id, \n    name, \n    description, \n    slug,\n    mainImage,\n}": POSTS_QUERYResult;
   }
 }

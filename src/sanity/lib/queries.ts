@@ -5,5 +5,5 @@ export const POSTS_QUERY = defineQuery(`*[_type == "microgreens"]{
     name, 
     description, 
     slug,
-    
-  }`);
+    mainImage,
+}`);
