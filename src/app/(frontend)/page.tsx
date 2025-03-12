@@ -210,18 +210,24 @@ export default function Page() {
                 our &nbsp;
                 <Link
                   href="#"
-                  className="font-semibold text-green-600 hover:text-green-500 hover:underline"
+                  className="font-semibold text-green-600 hover:text-green-500 hover:underline hover:cursor-pointer"
                 >
                   customer support
                 </Link>
                 &nbsp; team.
               </p>
+              <Button
+                variant="link"
+                className="pl-0 hover:text-green-500 hover:underline hover:cursor-pointer"
+              >
+                See More Questions &rarr;
+              </Button>
             </div>
             <div className="mt-10 lg:col-span-7 lg:mt-0">
               <dl className="space-y-10">
                 {faqs.map((faq) => (
-                  <div key={faq.question}>
-                    <dt className="text-base/7 font-semibold text-gray-900">
+                  <div key={faq.id}>
+                    <dt className="text-base/7 font-semibold text-gray-900 capitalize">
                       {faq.question}
                     </dt>
                     <dd className="mt-2 text-base/7 text-gray-600">
