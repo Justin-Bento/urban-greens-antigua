@@ -10,8 +10,9 @@ export const frequentlyAskedQuestions = defineType({
       type: "string",
     }),
     defineField({
-      name: "body",
-      type: "blockContent",
+      name: "details",
+      type: "array",
+      of: [{ type: "block" }],
     }),
   ],
 });

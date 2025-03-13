@@ -7,3 +7,10 @@ export const POSTS_QUERY = defineQuery(`*[_type == "microgreens"]{
     slug,
     mainImage,
 }`);
+
+export const All_Questions =
+  defineQuery(`*[_type == "frequentlyAskedQuestions"]{
+  _id, 
+  question, 
+  details, 
+}`);
