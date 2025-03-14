@@ -2,12 +2,6 @@ import { sanityFetch } from "@/sanity/lib/live";
 import { POST_QUERY } from "@/sanity/lib/queries";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardTitle,
-} from "@/components/ui/card";
 import { urlFor } from "@/sanity/lib/image";
 import {
   Accordion,
