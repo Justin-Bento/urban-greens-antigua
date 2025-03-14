@@ -23,7 +23,7 @@ export default async function page() {
           </h1>
         </span>
         <p className="max-w-[120ch] opacity-70 text-balance my-4 text-lg">
-          If you can't find what you're looking for, email our team and if
+          If you can&#39;t find what you're looking for, email our team and if
           you're lucky someone will get back to you.
         </p>
         <Separator className="max-w-[40ch] mt-12" />
