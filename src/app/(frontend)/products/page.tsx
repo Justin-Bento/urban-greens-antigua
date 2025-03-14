@@ -8,7 +8,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { AspectRatio } from "@/components/ui/aspect-ratio";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import { urlFor } from "@/sanity/lib/image";
