@@ -28,7 +28,7 @@ export default async function page() {
         </p>
         <Separator className="max-w-[40ch] mt-12" />
         <ul className="space-y-8 mt-16">
-          {questions.map((question: any) => {
+          {questions.map((question) => {
             return (
               <li key={question?._id}>
                 <Accordion type="single" collapsible>
