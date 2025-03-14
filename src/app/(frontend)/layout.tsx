@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
+import { Toaster } from "@/components/ui/sonner";
 import type { Metadata } from "next";
 import { Public_Sans, Geist_Mono } from "next/font/google";
 
@@ -33,6 +34,7 @@ export default function DashboardLayout({
         <Navigation />
         <main className="container mx-auto px-6 space-y-20 min-h-dvh my-20">
           {children}
+          <Toaster />
         </main>
         <Footer />
       </body>
