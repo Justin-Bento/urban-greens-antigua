@@ -38,14 +38,14 @@ export default async function Page() {
             <Link href={`/products/${post?.slug?.current}`}>
               <Card className="shadow-none group hover:bg-muted transition-all">
                 <CardContent>
-                  <AspectRatio ratio={16 / 9} className="relative mb-6">
+                  <div className="relative w-full aspect-video mb-6">
                     <Image
                       src={urlFor(post.mainImage).url()}
-                      alt={post.mainImage.alt}
+                      alt={"Default alternative text describing the image."}
                       fill
                       className="w-full h-full rounded-mdv object-contain"
                     />
-                  </AspectRatio>
+                  </div>
                   <CardTitle className="mb-3">{post?.name}</CardTitle>
                   <CardDescription className="line-clamp-3">
                     {post.description}

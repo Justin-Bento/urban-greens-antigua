@@ -1,8 +1,6 @@
 import { sanityFetch } from "@/sanity/lib/live";
 import { POST_QUERY } from "@/sanity/lib/queries";
 import { notFound } from "next/navigation";
-import Link from "next/link";
-import { AspectRatio } from "@/components/ui/aspect-ratio";
 import Image from "next/image";
 import {
   Card,
@@ -52,7 +50,7 @@ export default async function Page({
           <div className="relative w-full aspect-video col-span-12 lg:col-span-6">
             <Image
               src={urlFor(post.mainImage).url()}
-              alt="Photo by Drew Beamer"
+              alt={"Default alternative text describing the image."}
               fill
               className="h-full w-full rounded-md object-contain"
             />
