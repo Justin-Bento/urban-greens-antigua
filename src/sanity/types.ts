@@ -192,7 +192,7 @@ export type AllSanitySchemaTypes = SanityImagePaletteSwatch | SanityImagePalette
 export declare const internalGroqTypeReferenceTo: unique symbol;
 // Source: ./src/sanity/lib/queries.ts
 // Variable: POSTS_QUERY
-// Query: *[_type == "microgreens"]{     _id,     name,     description,     slug,    mainImage,}
+// Query: *[_type == "microgreens"]{     _id,     name,     description,     slug,    mainImage ,}
 export type POSTS_QUERYResult = Array<{
   _id: string;
   name: string | null;
@@ -212,7 +212,7 @@ export type POSTS_QUERYResult = Array<{
   } | null;
 }>;
 // Variable: POST_QUERY
-// Query: *[_type == "microgreens" && slug.current == $slug][0]{    _id,     name,      description,     price {      product,       size,    },    mainImage  // ...}
+// Query: *[_type == "microgreens" && slug.current == $slug][0]{    _id,     name,      description,     price {      product,       size,    },    mainImage {      alt    },    flavour,    colour,    nutrients  // ...}
 export type POST_QUERYResult = {
   _id: string;
   name: string | null;
@@ -222,17 +222,11 @@ export type POST_QUERYResult = {
     size: number | null;
   } | null;
   mainImage: {
-    asset?: {
-      _ref: string;
-      _type: "reference";
-      _weak?: boolean;
-      [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
-    };
-    hotspot?: SanityImageHotspot;
-    crop?: SanityImageCrop;
-    alt?: string;
-    _type: "image";
+    alt: string | null;
   } | null;
+  flavour: string | null;
+  colour: string | null;
+  nutrients: string | null;
 } | null;
 // Variable: All_Questions
 // Query: *[_type == "frequentlyAskedQuestions"]{  _id,   question,   details, }
@@ -263,8 +257,8 @@ export type All_QuestionsResult = Array<{
 import "@sanity/client";
 declare module "@sanity/client" {
   interface SanityQueries {
-    "*[_type == \"microgreens\"]{ \n    _id, \n    name, \n    description, \n    slug,\n    mainImage,\n}": POSTS_QUERYResult;
-    "*[_type == \"microgreens\" && slug.current == $slug][0]{\n    _id, \n    name,  \n    description, \n    price {\n      product, \n      size,\n    },\n    mainImage\n  // ...\n}": POST_QUERYResult;
+    "*[_type == \"microgreens\"]{ \n    _id, \n    name, \n    description, \n    slug,\n    mainImage ,\n}": POSTS_QUERYResult;
+    "*[_type == \"microgreens\" && slug.current == $slug][0]{\n    _id, \n    name,  \n    description, \n    price {\n      product, \n      size,\n    },\n    mainImage {\n      alt\n    },\n    flavour,\n    colour,\n    nutrients\n  // ...\n}": POST_QUERYResult;
     "*[_type == \"frequentlyAskedQuestions\"]{\n  _id, \n  question, \n  details, \n}": All_QuestionsResult;
   }
 }
