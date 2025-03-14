@@ -43,7 +43,9 @@ export default function page() {
                 <Button variant="outline" size="icon">
                   <RiMapPinLine className="w-4 h-4" />
                 </Button>
-                <p className="px-2 body1">St.John's, Antigua &#38; Barbuda</p>
+                <p className="px-2 body1">
+                  St.John&#39;s, Antigua &#38; Barbuda
+                </p>
               </li>
               {/* end of email */}
             </ul>
