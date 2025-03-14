@@ -116,7 +116,7 @@ export type Microgreens = {
     alt?: string;
     _type: "image";
   };
-  price?: string;
+  price?: number;
   flavour?: string;
   nutrients?: string;
   colour?: string;
@@ -208,11 +208,57 @@ export type POSTS_QUERYResult = Array<{
     _type: "image";
   } | null;
 }>;
+// Variable: POST_QUERY
+// Query: *[_type == "microgreens" && slug.current == $slug][0]{    _id,     name,      description,     price,    mainImage  // ...}
+export type POST_QUERYResult = {
+  _id: string;
+  name: string | null;
+  description: string | null;
+  price: number | null;
+  mainImage: {
+    asset?: {
+      _ref: string;
+      _type: "reference";
+      _weak?: boolean;
+      [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
+    };
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    alt?: string;
+    _type: "image";
+  } | null;
+} | null;
+// Variable: All_Questions
+// Query: *[_type == "frequentlyAskedQuestions"]{  _id,   question,   details, }
+export type All_QuestionsResult = Array<{
+  _id: string;
+  question: string | null;
+  details: Array<{
+    children?: Array<{
+      marks?: Array<string>;
+      text?: string;
+      _type: "span";
+      _key: string;
+    }>;
+    style?: "blockquote" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "normal";
+    listItem?: "bullet" | "number";
+    markDefs?: Array<{
+      href?: string;
+      _type: "link";
+      _key: string;
+    }>;
+    level?: number;
+    _type: "block";
+    _key: string;
+  }> | null;
+}>;
 
 // Query TypeMap
 import "@sanity/client";
 declare module "@sanity/client" {
   interface SanityQueries {
     "*[_type == \"microgreens\"]{ \n    _id, \n    name, \n    description, \n    slug,\n    mainImage,\n}": POSTS_QUERYResult;
+    "*[_type == \"microgreens\" && slug.current == $slug][0]{\n    _id, \n    name,  \n    description, \n    price,\n    mainImage\n  // ...\n}": POST_QUERYResult;
+    "*[_type == \"frequentlyAskedQuestions\"]{\n  _id, \n  question, \n  details, \n}": All_QuestionsResult;
   }
 }

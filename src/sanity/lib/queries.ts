@@ -8,6 +8,16 @@ export const POSTS_QUERY = defineQuery(`*[_type == "microgreens"]{
     mainImage,
 }`);
 
+export const POST_QUERY =
+  defineQuery(`*[_type == "microgreens" && slug.current == $slug][0]{
+    _id, 
+    name,  
+    description, 
+    price,
+    mainImage
+  // ...
+}`);
+
 export const All_Questions =
   defineQuery(`*[_type == "frequentlyAskedQuestions"]{
   _id, 
