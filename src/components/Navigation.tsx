@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Card, CardContent, CardDescription } from "./ui/card";
 import { Button } from "./ui/button";
 import Link from "next/link";
-import { RiCloseLine, RiExternalLinkLine, RiMenuLine } from "react-icons/ri";
+import { RiCloseLine, RiMenuLine } from "react-icons/ri";
 import Image from "next/image";
 
 export default function Header() {
