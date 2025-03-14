@@ -677,7 +677,23 @@
       "price": {
         "type": "objectAttribute",
         "value": {
-          "type": "number"
+          "type": "object",
+          "attributes": {
+            "product": {
+              "type": "objectAttribute",
+              "value": {
+                "type": "number"
+              },
+              "optional": true
+            },
+            "size": {
+              "type": "objectAttribute",
+              "value": {
+                "type": "number"
+              },
+              "optional": true
+            }
+          }
         },
         "optional": true
       },

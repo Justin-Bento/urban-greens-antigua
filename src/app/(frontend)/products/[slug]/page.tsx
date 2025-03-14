@@ -10,6 +10,7 @@ import {
   CardDescription,
   CardTitle,
 } from "@/components/ui/card";
+import { urlFor } from "@/sanity/lib/image";
 
 export default async function Page({
   params,
@@ -27,7 +28,7 @@ export default async function Page({
   return (
     <>
       <div className="container mx-auto my-40">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div className="grid grid-cols-12 gap-12 items-center">
           <div className="my-6 space-y-4 col-span-12 lg:col-span-6">
             <h1 className="scroll-m-20 text-4xl font-bold capitalize lg:text-5xl">
               {post?.name}
@@ -35,23 +36,33 @@ export default async function Page({
             <p className="text-pretty text-lg font-medium text-foreground sm:text-xl/8">
               {post.description}
             </p>
-            <p className="text-base/7 font-semibold text-foreground">
-              {new Intl.NumberFormat("en-CA", {
-                style: "currency",
-                currency: "CAD",
-              }).format(post.price)}
-              per-once
-            </p>
+            <span className="inline-flex items-center gap-2">
+              <p className="text-base/7 font-semibold text-foreground">
+                Price varies by size, starting at&nbsp;
+                {typeof post?.price?.product === "number"
+                  ? new Intl.NumberFormat("en-XC", {
+                      style: "currency",
+                      currency: "XCD",
+                    }).format(post.price.product)
+                  : "$0.00"}{" "}
+                per {post?.price?.size ?? "unit"} ounces
+              </p>
+            </span>
           </div>
-          <div className="w-full aspect-video bg-gray-300 col-span-12 lg:col-span-6">
-            <p className="opacity-0">hello</p>
+          <div className="relative w-full aspect-video col-span-12 lg:col-span-6">
+            <Image
+              src={urlFor(post.mainImage).url()}
+              alt="Photo by Drew Beamer"
+              fill
+              className="h-full w-full rounded-md object-contain"
+            />
           </div>
           <div className="col-span-12 space-y-12">
             <Card className="shadow-none ">
               <CardContent className="space-y-2">
                 <CardTitle className="m-0 p-0">Flavour</CardTitle>
                 <CardDescription className="m-0 p-0">
-                  A general description of the products flavour.
+                  {post.flavour}
                 </CardDescription>
               </CardContent>
             </Card>
@@ -67,7 +78,7 @@ export default async function Page({
               <CardContent className="space-y-2">
                 <CardTitle className="m-0 p-0">Nutrients</CardTitle>
                 <CardDescription className="m-0 p-0">
-                  A general description of the products nutrients.
+                  {post.nutrients}
                 </CardDescription>
               </CardContent>
             </Card>
@@ -75,7 +86,7 @@ export default async function Page({
               <CardContent className="space-y-2">
                 <CardTitle className="m-0 p-0">Colour</CardTitle>
                 <CardDescription className="m-0 p-0">
-                  A general description of the products colour.
+                  {post.colour}
                 </CardDescription>
               </CardContent>
             </Card>

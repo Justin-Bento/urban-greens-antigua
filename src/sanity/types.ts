@@ -116,7 +116,10 @@ export type Microgreens = {
     alt?: string;
     _type: "image";
   };
-  price?: number;
+  price?: {
+    product?: number;
+    size?: number;
+  };
   flavour?: string;
   nutrients?: string;
   colour?: string;
@@ -209,12 +212,15 @@ export type POSTS_QUERYResult = Array<{
   } | null;
 }>;
 // Variable: POST_QUERY
-// Query: *[_type == "microgreens" && slug.current == $slug][0]{    _id,     name,      description,     price,    mainImage  // ...}
+// Query: *[_type == "microgreens" && slug.current == $slug][0]{    _id,     name,      description,     price {      product,       size,    },    mainImage  // ...}
 export type POST_QUERYResult = {
   _id: string;
   name: string | null;
   description: string | null;
-  price: number | null;
+  price: {
+    product: number | null;
+    size: number | null;
+  } | null;
   mainImage: {
     asset?: {
       _ref: string;
@@ -258,7 +264,7 @@ import "@sanity/client";
 declare module "@sanity/client" {
   interface SanityQueries {
     "*[_type == \"microgreens\"]{ \n    _id, \n    name, \n    description, \n    slug,\n    mainImage,\n}": POSTS_QUERYResult;
-    "*[_type == \"microgreens\" && slug.current == $slug][0]{\n    _id, \n    name,  \n    description, \n    price,\n    mainImage\n  // ...\n}": POST_QUERYResult;
+    "*[_type == \"microgreens\" && slug.current == $slug][0]{\n    _id, \n    name,  \n    description, \n    price {\n      product, \n      size,\n    },\n    mainImage\n  // ...\n}": POST_QUERYResult;
     "*[_type == \"frequentlyAskedQuestions\"]{\n  _id, \n  question, \n  details, \n}": All_QuestionsResult;
   }
 }

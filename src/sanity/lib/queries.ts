@@ -13,8 +13,14 @@ export const POST_QUERY =
     _id, 
     name,  
     description, 
-    price,
-    mainImage
+    price {
+      product, 
+      size,
+    },
+    mainImage,
+    flavour,
+    colour,
+    nutrients
   // ...
 }`);
 
