@@ -9,6 +9,12 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { urlFor } from "@/sanity/lib/image";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionTrigger,
+  AccordionContent,
+} from "@/components/ui/accordion";
 
 export default async function Page({
   params,
@@ -55,40 +61,44 @@ export default async function Page({
               className="h-full w-full rounded-md object-contain"
             />
           </div>
-          <div className="col-span-12 space-y-12">
-            <Card className="shadow-none ">
-              <CardContent className="space-y-2">
-                <CardTitle className="m-0 p-0">Flavour</CardTitle>
-                <CardDescription className="m-0 p-0">
-                  {post.flavour}
-                </CardDescription>
-              </CardContent>
-            </Card>
-            <Card className="shadow-none">
-              <CardContent className="space-y-2">
-                <CardTitle className="m-0 p-0">Varieties</CardTitle>
-                <CardDescription className="m-0 p-0">
-                  A general description of the products varieties.
-                </CardDescription>
-              </CardContent>
-            </Card>
-            <Card className="shadow-none">
-              <CardContent className="space-y-2">
-                <CardTitle className="m-0 p-0">Nutrients</CardTitle>
-                <CardDescription className="m-0 p-0">
-                  {post.nutrients}
-                </CardDescription>
-              </CardContent>
-            </Card>
-            <Card className="shadow-none">
-              <CardContent className="space-y-2">
-                <CardTitle className="m-0 p-0">Colour</CardTitle>
-                <CardDescription className="m-0 p-0">
-                  {post.colour}
-                </CardDescription>
-              </CardContent>
-            </Card>
-          </div>
+          <Accordion
+            type="single"
+            collapsible
+            className="w-full col-span-12 space-y-12"
+          >
+            <AccordionItem value="item-1" className="space-y-2">
+              <AccordionTrigger className="text-xl hover:cursor-pointer">
+                Flavour
+              </AccordionTrigger>
+              <AccordionContent className="prose text-balance text-muted-foreground">
+                {post.flavour}
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-2" className="space-y-2">
+              <AccordionTrigger className="text-xl hover:cursor-pointer">
+                Varieties
+              </AccordionTrigger>
+              <AccordionContent className="prose text-balance text-muted-foreground">
+                A general description of the products varieties.
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-3" className="space-y-2">
+              <AccordionTrigger className="text-xl hover:cursor-pointer">
+                Nutrients
+              </AccordionTrigger>
+              <AccordionContent className="prose text-balance text-muted-foreground">
+                {post.nutrients}
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-4" className="space-y-2">
+              <AccordionTrigger className="text-xl hover:cursor-pointer">
+                Colour
+              </AccordionTrigger>
+              <AccordionContent className="prose text-balance text-muted-foreground">
+                {post.colour}
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         </div>
       </div>
     </>
