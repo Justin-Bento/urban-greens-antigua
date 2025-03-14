@@ -25,7 +25,7 @@ export default async function Page() {
         </span>
         <p className="max-w-[120ch] opacity-70 text-balance my-4 text-lg">
           Our fresh, microgreens are the perfect way to enhance your meals with
-          vibrant flavors. Whether you're looking to add a crisp touch to
+          vibrant flavors. Whether you&#39;re looking to add a crisp touch to
           salads, a flavorful boost to sandwiches, or a nutritious garnish to
           your favorite dishes, our microgreens are grown with care.
         </p>
