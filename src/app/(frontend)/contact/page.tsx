@@ -6,6 +6,7 @@ import { Label } from "@/components/ui/label";
 import React from "react";
 import { RiMailLine, RiMapPinLine, RiPhoneLine } from "react-icons/ri";
 import { Textarea } from "@/components/ui/textarea";
+import ContactForm from "@/components/ContactForm";
 
 export default function page() {
   return (
@@ -52,21 +53,7 @@ export default function page() {
           </div>
         </section>
         <section className="">
-          <form action="" className="space-y-8">
-            <legend className="space-y-2">
-              <Label htmlFor="email">Full Name</Label>
-              <Input type="email" placeholder="eg - john doe" />
-            </legend>
-            <legend className="space-y-2">
-              <Label htmlFor="email">Email</Label>
-              <Input type="email" placeholder="eg - john.doe@example.com" />
-            </legend>
-            <legend className="space-y-2">
-              <Label htmlFor="email">Message</Label>
-              <Textarea placeholder="Type your message here." />
-            </legend>
-            <Button>Send Form</Button>
-          </form>
+          <ContactForm />
         </section>
       </section>
     </>
