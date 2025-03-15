@@ -31,7 +31,7 @@ export default function Page() {
         <div className="w-full aspect-16/9 relative overflow-hidden mt-12">
           <Image
             fill
-            src="/media/urban-greens-antigua-hero.jpg"
+            src="/media/marketing/urban-greens-antigua-hero.jpg"
             alt=""
             className="rounded-md"
           />
@@ -55,7 +55,7 @@ export default function Page() {
           </div>
           <div className="relative w-full aspect-16/16 overflow-hidden">
             <Image
-              src="/media/freshly-grown.png"
+              src="/media/marketing/freshly-grown.png"
               alt="Photo by Drew Beamer"
               fill
               className="rounded-md object-cover"
@@ -76,7 +76,7 @@ export default function Page() {
           </div>
           <div className="relative w-full aspect-16/16 overflow-hidden">
             <Image
-              src="/media/microgreens-variety.png"
+              src="/media/marketing/microgreens-variety.png"
               alt="Photo by Drew Beamer"
               fill
               quality={70}
