@@ -8,7 +8,6 @@ import {
 import { TbCircleCheck } from "react-icons/tb";
 import Image from "next/image";
 import { microgreen_benifits } from "@/lib/data";
-import { PortableText } from "next-sanity";
 import FAQS from "@/components/FAQS";
 
 export default function Page() {
