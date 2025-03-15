@@ -68,6 +68,29 @@ export type Geopoint = {
   alt?: number;
 };
 
+export type Testimonials = {
+  _id: string;
+  _type: "testimonials";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  statement?: string;
+  name?: string;
+  handle?: string;
+  mainImage?: {
+    asset?: {
+      _ref: string;
+      _type: "reference";
+      _weak?: boolean;
+      [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
+    };
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    alt?: string;
+    _type: "image";
+  };
+};
+
 export type FrequentlyAskedQuestions = {
   _id: string;
   _type: "frequentlyAskedQuestions";
@@ -188,7 +211,7 @@ export type Slug = {
   source?: string;
 };
 
-export type AllSanitySchemaTypes = SanityImagePaletteSwatch | SanityImagePalette | SanityImageDimensions | SanityFileAsset | Geopoint | FrequentlyAskedQuestions | Microgreens | SanityImageCrop | SanityImageHotspot | SanityImageAsset | SanityAssetSourceData | SanityImageMetadata | Slug;
+export type AllSanitySchemaTypes = SanityImagePaletteSwatch | SanityImagePalette | SanityImageDimensions | SanityFileAsset | Geopoint | Testimonials | FrequentlyAskedQuestions | Microgreens | SanityImageCrop | SanityImageHotspot | SanityImageAsset | SanityAssetSourceData | SanityImageMetadata | Slug;
 export declare const internalGroqTypeReferenceTo: unique symbol;
 // Source: ./src/sanity/lib/queries.ts
 // Variable: POSTS_QUERY
