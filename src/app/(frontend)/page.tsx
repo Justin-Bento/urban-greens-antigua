@@ -87,18 +87,17 @@ export default function Page() {
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
           <div className="">
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
-              Freshly Grown In Antigua
+              Sustainable Packaging
             </h2>
             <p className="max-w-prose text-balance">
-              Most of our plants are harvested in a ten-day to a two-week cycle.
-              We grow and harvest our greens in a controlled environment,
-              without the use of chemicals or pesticides, to ensure a healthy
-              and nutritional product.
+              Our packaging is designed with the environment in mind. Each item
+              is either reusable or fully recyclable, ensuring that we reduce
+              waste and promote sustainability in every step of our process.
             </p>
           </div>
           <div className="relative w-full aspect-16/16 overflow-hidden">
             <Image
-              src="/media/sustainable-packageing.png"
+              src="/media/marketing/sustainable-packageing.png"
               alt="Photo by Drew Beamer"
               fill
               quality={70}
