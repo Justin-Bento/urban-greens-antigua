@@ -27,8 +27,8 @@ export default async function Page({
   return (
     <>
       <div className="container mx-auto my-40">
-        <div className="grid grid-cols-12 gap-12 items-center">
-          <div className="my-6 space-y-4 col-span-12 lg:col-span-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="my-6 space-y-4 ">
             <h1 className="scroll-m-20 text-4xl font-bold capitalize lg:text-5xl">
               {post?.name}
             </h1>
@@ -48,7 +48,7 @@ export default async function Page({
               </p>
             </span>
           </div>
-          <div className="relative w-full aspect-video col-span-12 lg:col-span-6">
+          <div className="relative w-full aspect-video ">
             {post.mainImage ? (
               <Image
                 src={urlFor(post.mainImage).url()}
@@ -62,11 +62,7 @@ export default async function Page({
               </div>
             )}
           </div>
-          <Accordion
-            type="single"
-            collapsible
-            className="w-full col-span-12 space-y-12"
-          >
+          <Accordion type="single" collapsible className="w-full space-y-12">
             <AccordionItem value="item-1" className="space-y-2">
               <AccordionTrigger className="text-xl hover:cursor-pointer">
                 Flavour
