@@ -28,7 +28,7 @@ export default function Page() {
           <Button className="bg-green-700">View Our Microgreens</Button>
           <Button variant="secondary">Learn About Our Product</Button>
         </div>
-        <div className="w-full aspecti-[16/9] relative overflow-hidden mt-12">
+        <div className="w-full aspect-16/9 relative overflow-hidden mt-12">
           <Image
             fill
             src="/media/urban-greens-antigua-hero.jpg"
@@ -53,7 +53,7 @@ export default function Page() {
               and nutritional product.
             </p>
           </div>
-          <div className="relative w-full aspect-[16/26] bg-muted">
+          <div className="relative w-full aspect-16/16 overflow-hidden">
             <Image
               src="/media/freshly-grown.png"
               alt="Photo by Drew Beamer"
@@ -74,7 +74,7 @@ export default function Page() {
               add a burst of flavor as a garnish or decoration for your plates.
             </p>
           </div>
-          <div className="relative w-full aspect-[16/26] bg-muted">
+          <div className="relative w-full aspect-16/16 overflow-hidden">
             <Image
               src="/media/microgreens-variety.png"
               alt="Photo by Drew Beamer"
@@ -96,7 +96,7 @@ export default function Page() {
               and nutritional product.
             </p>
           </div>
-          <div className="relative w-full aspect-[16/16] overflow-hidden bg-muted">
+          <div className="relative w-full aspect-16/16 overflow-hidden">
             <Image
               src="/media/sustainable-packageing.png"
               alt="Photo by Drew Beamer"
