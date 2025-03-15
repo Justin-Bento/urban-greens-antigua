@@ -5,8 +5,6 @@ import {
   CardDescription,
   CardTitle,
 } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
-import { values } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
