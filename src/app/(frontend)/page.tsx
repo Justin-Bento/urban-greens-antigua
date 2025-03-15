@@ -1,4 +1,3 @@
-import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -29,14 +28,14 @@ export default function Page() {
           <Button className="bg-green-700">View Our Microgreens</Button>
           <Button variant="secondary">Learn About Our Product</Button>
         </div>
-        <AspectRatio ratio={16 / 9} className="relative overflow-hidden mt-12">
+        <div className="w-full aspecti-[16/9] relative overflow-hidden mt-12">
           <Image
             fill
             src="/media/urban-greens-antigua-hero.jpg"
             alt=""
             className="rounded-md"
           />
-        </AspectRatio>
+        </div>
       </section>
       {/*
        * End of websites hero.
@@ -54,7 +53,7 @@ export default function Page() {
               and nutritional product.
             </p>
           </div>
-          <AspectRatio ratio={16 / 16} className="bg-muted">
+          <div className="relative w-full aspect-[16/26] bg-muted">
             <Image
               src="/media/freshly-grown.png"
               alt="Photo by Drew Beamer"
@@ -62,7 +61,7 @@ export default function Page() {
               className="rounded-md object-cover"
               quality={70}
             />
-          </AspectRatio>
+          </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
           <div className="lg:order-2">
@@ -75,7 +74,7 @@ export default function Page() {
               add a burst of flavor as a garnish or decoration for your plates.
             </p>
           </div>
-          <AspectRatio ratio={16 / 16} className="bg-muted">
+          <div className="relative w-full aspect-[16/26] bg-muted">
             <Image
               src="/media/microgreens-variety.png"
               alt="Photo by Drew Beamer"
@@ -83,7 +82,7 @@ export default function Page() {
               quality={70}
               className="rounded-md object-cover"
             />
-          </AspectRatio>
+          </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
           <div className="">
@@ -97,7 +96,7 @@ export default function Page() {
               and nutritional product.
             </p>
           </div>
-          <AspectRatio ratio={16 / 16} className="bg-muted">
+          <div className="relative w-full aspect-[16/16] overflow-hidden bg-muted">
             <Image
               src="/media/sustainable-packageing.png"
               alt="Photo by Drew Beamer"
@@ -105,7 +104,7 @@ export default function Page() {
               quality={70}
               className="rounded-md object-cover"
             />
-          </AspectRatio>
+          </div>
         </div>
       </section>
       {/*
