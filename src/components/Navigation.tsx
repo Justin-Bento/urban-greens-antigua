@@ -18,14 +18,14 @@ export default function Header() {
         <CardContent className="container mx-auto grid grid-cols-1 items-center gap-4 lg:grid-cols-2">
           {/* Logo and Mobile Menu Toggle */}
           <div className="flex w-full items-center justify-between">
-            <div className="relative w-24 aspect-[16/11]">
+            <Link href="/" className="relative w-24 aspect-[16/11]">
               <Image
                 fill
                 src="/media/logo/urban-greens-logo.png"
                 alt=""
                 className="object-center"
               />
-            </div>
+            </Link>
             <Button
               variant="outline"
               size="icon"
