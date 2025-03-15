@@ -13,6 +13,7 @@ import React from "react";
 
 export default async function page() {
   const { data: questions } = await sanityFetch({ query: All_Questions });
+
   return (
     <>
       <section className="">
@@ -28,22 +29,20 @@ export default async function page() {
         </p>
         <Separator className="max-w-[40ch] mt-12" />
         <ul className="space-y-8 mt-16">
-          {questions.map((question) => {
-            return (
-              <li key={question?._id}>
-                <Accordion type="single" collapsible>
-                  <AccordionItem value="item-1">
-                    <AccordionTrigger className="text-xl hover:cursor-pointer">
-                      Qusetion - {question.question}
-                    </AccordionTrigger>
-                    <AccordionContent className="prose text-balance text-muted-foreground">
-                      <PortableText value={question.details} />
-                    </AccordionContent>
-                  </AccordionItem>
-                </Accordion>
-              </li>
-            );
-          })}
+          {questions?.map((question) => (
+            <li key={question?._id}>
+              <Accordion type="single" collapsible>
+                <AccordionItem value={question._id}>
+                  <AccordionTrigger className="text-xl hover:cursor-pointer">
+                    Question - {question?.question || "No question available"}
+                  </AccordionTrigger>
+                  <AccordionContent className="prose text-balance text-muted-foreground">
+                    <PortableText value={question?.details || []} />
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+            </li>
+          ))}
         </ul>
       </section>
     </>
