@@ -1,12 +1,8 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Separator } from "@/components/ui/separator";
-import { Label } from "@/components/ui/label";
-
 import React from "react";
-import { RiMailLine, RiMapPinLine, RiPhoneLine } from "react-icons/ri";
-import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/components/ui/button";
+import { Separator } from "@/components/ui/separator";
 import ContactForm from "@/components/ContactForm";
+import { RiMailLine, RiMapPinLine, RiPhoneLine } from "react-icons/ri";
 
 export default function page() {
   return (
