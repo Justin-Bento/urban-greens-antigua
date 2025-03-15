@@ -261,6 +261,30 @@ export type All_QuestionsResult = Array<{
     _key: string;
   }> | null;
 }>;
+// Variable: frontpage_questions
+// Query: *[_type == "frequentlyAskedQuestions"][0...6]{  _id,   question,   details, }
+export type Frontpage_questionsResult = Array<{
+  _id: string;
+  question: string | null;
+  details: Array<{
+    children?: Array<{
+      marks?: Array<string>;
+      text?: string;
+      _type: "span";
+      _key: string;
+    }>;
+    style?: "blockquote" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "normal";
+    listItem?: "bullet" | "number";
+    markDefs?: Array<{
+      href?: string;
+      _type: "link";
+      _key: string;
+    }>;
+    level?: number;
+    _type: "block";
+    _key: string;
+  }> | null;
+}>;
 
 // Query TypeMap
 import "@sanity/client";
@@ -269,5 +293,6 @@ declare module "@sanity/client" {
     "*[_type == \"microgreens\"]{ \n    _id, \n    name, \n    description, \n    slug,\n    mainImage,\n}": POSTS_QUERYResult;
     "*[_type == \"microgreens\" && slug.current == $slug][0]{\n    _id, \n    name,  \n    description, \n    price {\n      product, \n      size,\n    },\n    mainImage,\n    flavour,\n    colour,\n    nutrients\n  // ...\n}": POST_QUERYResult;
     "*[_type == \"frequentlyAskedQuestions\"]{\n  _id, \n  question, \n  details, \n}": All_QuestionsResult;
+    "*[_type == \"frequentlyAskedQuestions\"][0...6]{\n  _id, \n  question, \n  details, \n}": Frontpage_questionsResult;
   }
 }

@@ -7,8 +7,9 @@ import {
 } from "@/components/ui/card";
 import { TbCircleCheck } from "react-icons/tb";
 import Image from "next/image";
-import { microgreen_benifits, faqs } from "@/lib/data";
-import Link from "next/link";
+import { microgreen_benifits } from "@/lib/data";
+import { PortableText } from "next-sanity";
+import FAQS from "@/components/FAQS";
 
 export default function Page() {
   return (
@@ -197,46 +198,7 @@ export default function Page() {
        * End of websites client testimonials.
        */}
       <section className="">
-        <div className="container mx-auto">
-          <div className="lg:grid lg:grid-cols-12 lg:gap-8">
-            <div className="lg:col-span-5">
-              <h6 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0 capitalize">
-                Frequently asked questions
-              </h6>
-              <p className="mt-4 text-pretty text-base/7 text-gray-600">
-                Can&#39;t find the answer you&#39;re looking for? Reach out to
-                our &nbsp;
-                <Link
-                  href="#"
-                  className="font-semibold text-green-600 hover:text-green-500 hover:underline hover:cursor-pointer"
-                >
-                  customer support
-                </Link>
-                &nbsp; team.
-              </p>
-              <Button
-                variant="link"
-                className="pl-0 hover:text-green-500 hover:underline hover:cursor-pointer"
-              >
-                See More Questions &rarr;
-              </Button>
-            </div>
-            <div className="mt-10 lg:col-span-7 lg:mt-0">
-              <dl className="space-y-10">
-                {faqs.map((faq) => (
-                  <div key={faq.id}>
-                    <dt className="text-base/7 font-semibold text-gray-900 capitalize">
-                      {faq.question}
-                    </dt>
-                    <dd className="mt-2 text-base/7 text-gray-600">
-                      {faq.answer}
-                    </dd>
-                  </div>
-                ))}
-              </dl>
-            </div>
-          </div>
-        </div>
+        <FAQS />
       </section>
       {/*
        * End of websites community usages.

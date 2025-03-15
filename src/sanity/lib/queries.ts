@@ -30,3 +30,10 @@ export const All_Questions =
   question, 
   details, 
 }`);
+
+export const frontpage_questions =
+  defineQuery(`*[_type == "frequentlyAskedQuestions"][0...6]{
+  _id, 
+  question, 
+  details, 
+}`);

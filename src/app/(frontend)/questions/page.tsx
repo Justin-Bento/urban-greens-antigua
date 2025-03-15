@@ -13,7 +13,6 @@ import React from "react";
 
 export default async function page() {
   const { data: questions } = await sanityFetch({ query: All_Questions });
-
   return (
     <>
       <section className="">
