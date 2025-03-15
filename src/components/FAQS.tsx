@@ -6,7 +6,7 @@ import { frontpage_questions } from "@/sanity/lib/queries";
 import { PortableText } from "next-sanity";
 
 export default async function FAQS() {
-  const { data: faqs } = await sanityFetch({ query: frontpage_questions });
+  const { data: questions } = await sanityFetch({ query: frontpage_questions });
   return (
     <div className="container mx-auto">
       <div className="lg:grid lg:grid-cols-12 lg:gap-8">
@@ -34,12 +34,12 @@ export default async function FAQS() {
         </div>
         <div className="mt-10 lg:col-span-7 lg:mt-0">
           <dl className="space-y-10">
-            {faqs.map((faq) => (
-              <div key={faq.id}>
+            {questions.map((faq) => (
+              <div key={faq._id}>
                 <dt className="text-base/7 font-semibold text-gray-900 capitalize">
                   {faq.question}
                 </dt>
-                <PortableText value={faq.details || []} />
+                <PortableText value={faq?.details || []} />
               </div>
             ))}
           </dl>
