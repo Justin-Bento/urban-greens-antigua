@@ -23,6 +23,7 @@ export default async function Page({
   if (!post) {
     notFound();
   }
+
   return (
     <>
       <div className="container mx-auto my-40">
@@ -48,12 +49,18 @@ export default async function Page({
             </span>
           </div>
           <div className="relative w-full aspect-video col-span-12 lg:col-span-6">
-            <Image
-              src={urlFor(post.mainImage).url()}
-              alt={"Default alternative text describing the image."}
-              fill
-              className="h-full w-full rounded-md object-contain"
-            />
+            {post.mainImage ? (
+              <Image
+                src={urlFor(post.mainImage).url()}
+                alt={"Default alternative text describing the image."}
+                fill
+                className="h-full w-full rounded-md object-contain"
+              />
+            ) : (
+              <div className="h-full w-full rounded-md bg-gray-200 flex items-center justify-center">
+                <span>No image available</span>
+              </div>
+            )}
           </div>
           <Accordion
             type="single"
