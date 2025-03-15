@@ -14,6 +14,7 @@ import { urlFor } from "@/sanity/lib/image";
 
 export default async function Page() {
   const { data: posts } = await sanityFetch({ query: POSTS_QUERY });
+
   return (
     <>
       <div className="">
@@ -38,12 +39,18 @@ export default async function Page() {
               <Card className="shadow-none group hover:bg-muted transition-all">
                 <CardContent>
                   <div className="relative w-full aspect-video mb-6">
-                    <Image
-                      src={urlFor(post.mainImage).url()}
-                      alt={"Default alternative text describing the image."}
-                      fill
-                      className="w-full h-full rounded-mdv object-contain"
-                    />
+                    {post.mainImage ? (
+                      <Image
+                        src={urlFor(post.mainImage).url()}
+                        alt={"Default alternative text describing the image."}
+                        fill
+                        className="w-full h-full rounded-md object-contain"
+                      />
+                    ) : (
+                      <div className="w-full h-full rounded-md bg-gray-200 flex items-center justify-center">
+                        <span>No image available</span>
+                      </div>
+                    )}
                   </div>
                   <CardTitle className="mb-3">{post?.name}</CardTitle>
                   <CardDescription className="line-clamp-3">
@@ -53,7 +60,7 @@ export default async function Page() {
                     variant="link"
                     className="pl-0 text-muted-foreground text-xs mt-3 group-hover:underline"
                   >
-                    View Product Infromation &rarr;
+                    View Product Information &rarr;
                   </Button>
                 </CardContent>
               </Card>
