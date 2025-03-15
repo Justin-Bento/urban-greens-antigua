@@ -12,6 +12,15 @@ import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import { urlFor } from "@/sanity/lib/image";
 
+interface ProductsInterface {
+  _id: string;
+  slug: {
+    current: string;
+  };
+  mainImage: string;
+  name: string;
+  description: string;
+}
 export default async function Page() {
   const { data: posts } = await sanityFetch({ query: POSTS_QUERY });
 
@@ -33,7 +42,7 @@ export default async function Page() {
         <Separator className="max-w-[40ch] mt-12" />
       </div>
       <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {posts.map((post) => (
+        {posts.map((post: ProductsInterface) => (
           <li key={post._id}>
             <Link href={`/products/${post?.slug?.current}`}>
               <Card className="shadow-none group hover:bg-muted transition-all">
