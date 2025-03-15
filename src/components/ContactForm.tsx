@@ -1,87 +1,61 @@
 "use client";
-import { RiSendPlane2Line } from "react-icons/ri";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
-import { useForm, SubmitHandler } from "react-hook-form";
-
-interface IFormInput {
-  firstName: string;
-  lastName: string;
-  email: string;
-  message: string;
-  companyName: string;
-}
+import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
+import { Input } from "./ui/input";
+import { Textarea } from "./ui/textarea";
+import { Button } from "./ui/button";
+import { Label } from "./ui/label";
 
 export default function ContactForm() {
-  const {
-    register,
-    formState: { errors },
-    handleSubmit,
-  } = useForm<IFormInput>();
-  const onSubmit: SubmitHandler<IFormInput> = (data) => console.log(data);
-
+  const [state, handleSubmit] = useForm("xkgjggby");
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  }
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="flex items-center">
-      <div className="w-full space-y-6">
-        <div className="space-y-3">
-          <Label htmlFor="first-name">Full Name</Label>
-          <Input
-            type="text"
-            id="first-name"
-            placeholder="eg - john doe"
-            className="border-black dark:border-white"
-          />
-        </div>
-        {/* End Of Full Name - Input */}
-        <div className="space-y-3">
-          <Label htmlFor="email">Email</Label>
-          <Input
-            type="email"
-            {...register("email", { required: "* Email Address is required" })}
-            id="email"
-            placeholder="Email"
-            className="border-black dark:border-white"
-            autoComplete="email"
-          />
-          {errors.email && (
-            <p className="text-xs capitalize font-medium leading-none text-red-700 dark:text-red-500">
-              {errors.email?.message}
-            </p>
-          )}
-        </div>
-        {/* End Of Email Input */}
-        <div className="space-y-3">
-          <Label htmlFor="email">Your Message</Label>
-          <Textarea
-            placeholder="Type your message here."
-            className="border-black dark:border-white"
-            defaultValue={""}
-            {...register("message", {
-              pattern: /^[A-Za-z]+$/i,
-              required: "*Your Message is required",
-            })}
-            id="message"
-          />
-          {errors.message && (
-            <p className="text-xs capitalize font-medium leading-none text-red-700 dark:text-red-500">
-              {errors.message?.message}
-            </p>
-          )}
-        </div>
-        {/* End Of User Message Input */}
-        <div className="">
-          <Button
-            className="flex items-center gap-2 hover:cursor-pointer trasnition-all"
-            aria-label="send-contact"
-          >
-            <RiSendPlane2Line className="" />
-            <div className="">Send Message</div>
-          </Button>
-        </div>
-        {/* End Of User Message Input */}
-      </div>
+    <form onSubmit={handleSubmit} className="space-y-8">
+      <legend className="space-y-4">
+        <Label htmlFor="fullname" className="font-semibold capitalize">
+          Full Name
+        </Label>
+        <Input id="fullname" type="string" name="fullname" />
+        <ValidationError
+          prefix="Fullname"
+          field="fullname"
+          errors={state.errors}
+        />
+      </legend>
+      <legend className="space-y-4">
+        <Label htmlFor="company" className="font-semibold capitalize">
+          Company
+        </Label>
+        <Input id="company" type="string" name="company" />
+        <ValidationError
+          prefix="Fullname"
+          field="company"
+          errors={state.errors}
+        />
+      </legend>
+      <legend className="space-y-4">
+        <Label htmlFor="email" className="font-semibold capitalize">
+          Email Address
+        </Label>
+        <Input id="email" type="email" name="email" />
+        <ValidationError prefix="Email" field="email" errors={state.errors} />
+      </legend>
+      <legend className="space-y-4">
+        <Label htmlFor="message" className="font-semibold capitalize">
+          Send your message below.
+        </Label>
+        <Textarea id="message" name="message" />
+        <ValidationError
+          prefix="Message"
+          field="message"
+          errors={state.errors}
+        />
+      </legend>
+      <Button type="submit" disabled={state.submitting}>
+        Submit
+      </Button>
     </form>
   );
 }
