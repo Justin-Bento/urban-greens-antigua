@@ -10,7 +10,7 @@ export default function Footer() {
   const about = ["company", "questions", "farming"];
   const socials = ["facebook", "whatsapp", "instagram"];
   return (
-    <footer className="">
+    <footer className="overflow-hidden">
       <Card className="bg-green-900 text-white rounded-none shadow-none border-none py-24">
         <CardContent className="container mx-auto grid grid-cols-12 gap-12">
           <div className="relative w-32 aspect-[16/11] col-span-12 sm:col-span-3">
