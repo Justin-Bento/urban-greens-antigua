@@ -1,0 +1,18 @@
+import { defineField, defineType } from "sanity";
+
+export const frequentlyAskedQuestions = defineType({
+  name: "frequentlyAskedQuestions",
+  title: "frequentlyAskedQuestions",
+  type: "document",
+  fields: [
+    defineField({
+      name: "question",
+      type: "string",
+    }),
+    defineField({
+      name: "details",
+      type: "array",
+      of: [{ type: "block" }],
+    }),
+  ],
+});
