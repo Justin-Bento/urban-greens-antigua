@@ -26,7 +26,7 @@ export default function Page() {
           diet without leaving your home.
         </p>
         <div className="flex flex-col lg:flex-row gap-4">
-          <Button className="bg-green-700">View Our Microgreens</Button>
+          <Button>View Our Microgreens</Button>
           <Button variant="secondary">Learn About Our Product</Button>
         </div>
         <div className="w-full aspect-16/9 relative overflow-hidden mt-12">
@@ -111,7 +111,7 @@ export default function Page() {
        * End of websites feature.
        */}
       <section className="">
-        <Card className="shadow-none border-none bg-green-700 text-white">
+        <Card className="shadow-none border-none bg-primary text-white">
           <CardContent className="py-32 px-24 flex flex-col lg:flex-row justify-between gap-8">
             <div className="">
               <h3 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
@@ -157,7 +157,7 @@ export default function Page() {
             <li key={benifit.id}>
               <Card className="shadow-none">
                 <CardContent className="inline-flex items-start gap-x-2">
-                  <TbCircleCheck className="text-green-800 mt-1.5 size-5" />
+                  <TbCircleCheck className="text-primary mt-1.5 size-5" />
                   <span className="">
                     <CardTitle className="text-lg">{benifit.title}</CardTitle>
                     <CardDescription className="line-clamp-2">
@@ -175,7 +175,7 @@ export default function Page() {
        */}
       <section className="space-y-16">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-base/7 font-semibold text-green-600">
+          <h2 className="text-base/7 font-semibold text-primary">
             Testimonials
           </h2>
           <p className="mt-2 text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">

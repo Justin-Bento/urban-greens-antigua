@@ -17,7 +17,7 @@ export default async function page() {
     <>
       <section className="">
         <span className="space-y-1">
-          <p className="text-green-700">Microgreens</p>
+          <p className="text-primary">Microgreens</p>
           <h1 className="scroll-m-20 text-4xl font-bold capitalize lg:text-5xl">
             Frequently Asked Questions.
           </h1>
