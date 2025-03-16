@@ -19,7 +19,7 @@ export default async function FAQS() {
             &nbsp;
             <Link
               href="#"
-              className="font-semibold text-green-600 hover:text-green-500 hover:underline hover:cursor-pointer"
+              className="font-semibold text-primary hover:text-primary/50 hover:underline hover:cursor-pointer"
             >
               customer support
             </Link>
@@ -27,7 +27,7 @@ export default async function FAQS() {
           </p>
           <Button
             variant="link"
-            className="pl-0 hover:text-green-500 hover:underline hover:cursor-pointer"
+            className="pl-0 hover:text-primary hover:underline hover:cursor-pointer"
           >
             See More Questions &rarr;
           </Button>
@@ -36,10 +36,12 @@ export default async function FAQS() {
           <dl className="space-y-10">
             {questions.map((faq) => (
               <div key={faq._id}>
-                <dt className="text-base/7 font-semibold text-gray-900 capitalize">
+                <dt className="text-base/7 font-semibold text-foreground capitalize">
                   {faq.question}
                 </dt>
-                <PortableText value={faq?.details || []} />
+                <dt className="text-muted-foreground">
+                  <PortableText value={faq?.details || []} />
+                </dt>
               </div>
             ))}
           </dl>

@@ -7,7 +7,7 @@ import { RiMailLine, RiMapPinLine, RiPhoneLine } from "react-icons/ri";
 export default function page() {
   return (
     <>
-      <section className="grid grid-cols-2 items-center">
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <section className="">
           <div className="">
             <span className="space-y-1">
