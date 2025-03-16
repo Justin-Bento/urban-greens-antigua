@@ -9,6 +9,7 @@ import { TbCircleCheck } from "react-icons/tb";
 import Image from "next/image";
 import { microgreen_benifits } from "@/lib/data";
 import FAQS from "@/components/FAQS";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -122,15 +123,19 @@ export default function Page() {
               </p>
             </div>
             <div className="space-x-4">
-              <Button variant="secondary" className="capitalize">
-                Visit our FAQ
-              </Button>
-              <Button
-                variant="outline"
-                className="bg-transparent text-white shadow-none capitalize"
-              >
-                Send us an email
-              </Button>
+              <Link href="/questions">
+                <Button variant="secondary" className="capitalize">
+                  Visit our FAQ
+                </Button>
+              </Link>
+              <Link href="/contact">
+                <Button
+                  variant="outline"
+                  className="bg-transparent text-white shadow-none capitalize"
+                >
+                  Send us an email
+                </Button>
+              </Link>
             </div>
           </CardContent>
         </Card>
