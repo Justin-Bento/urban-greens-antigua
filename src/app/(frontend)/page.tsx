@@ -112,7 +112,7 @@ export default function Page() {
        */}
       <section className="">
         <Card className="shadow-none border-none bg-primary text-white">
-          <CardContent className="py-32 p-16 lg:px-24 flex flex-col lg:flex-row justify-between gap-8">
+          <CardContent className="px-12 py-24 sm:py-32 flex flex-col lg:flex-row justify-between gap-8">
             <div className="">
               <h3 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
                 Have Any Questions About Microgreens?
