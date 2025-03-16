@@ -122,16 +122,19 @@ export default function Page() {
                 us.
               </p>
             </div>
-            <div className="space-x-4">
+            <div className=" flex flex-col md:flex-row gap-4">
               <Link href="/questions">
-                <Button variant="secondary" className="capitalize">
+                <Button
+                  variant="secondary"
+                  className="w-full md:w-auto capitalize"
+                >
                   Visit our FAQ
                 </Button>
               </Link>
               <Link href="/contact">
                 <Button
                   variant="outline"
-                  className="bg-transparent hover:bg-primary-foreground hover:text-white hover:cursor-pointer shadow-none capitalize"
+                  className="w-full md:w-auto bg-transparent hover:bg-primary-foreground hover:text-white hover:cursor-pointer shadow-none capitalize"
                 >
                   Send us an email
                 </Button>
