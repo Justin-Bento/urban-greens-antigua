@@ -131,7 +131,7 @@ export default function Page() {
               <Link href="/contact">
                 <Button
                   variant="outline"
-                  className="bg-transparent text-white shadow-none capitalize"
+                  className="bg-transparent hover:bg-primary-foreground hover:text-white hover:cursor-pointer shadow-none capitalize"
                 >
                   Send us an email
                 </Button>
