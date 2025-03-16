@@ -32,7 +32,7 @@ export default function DashboardLayout({
         {/* Layout UI */}
         {/* Place children where you want to render a page or nested layout */}
         <Navigation />
-        <main className="container mx-auto px-6 space-y-20 min-h-dvh my-20">
+        <main className="container mx-auto px-2 lg:px-6 space-y-20 min-h-dvh my-20">
           {children}
           <Toaster />
         </main>
