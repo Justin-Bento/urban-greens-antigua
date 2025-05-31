@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/card";
 import { TbCircleCheck } from "react-icons/tb";
 import Image from "next/image";
-import { microgreen_benifits } from "@/lib/data";
+import { microgreens_benefits } from "@/lib/data";
 import FAQS from "@/components/FAQS";
 import Link from "next/link";
 
@@ -156,15 +156,15 @@ export default function Page() {
           </p>
         </div>
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {microgreen_benifits.map((benifit) => (
-            <li key={benifit.id}>
+          {microgreens_benefits.map((benefit) => (
+            <li key={benefit.id}>
               <Card className="shadow-none">
                 <CardContent className="inline-flex items-start gap-x-2">
                   <TbCircleCheck className="text-primary mt-1.5 size-5" />
                   <span className="">
-                    <CardTitle className="text-lg">{benifit.title}</CardTitle>
+                    <CardTitle className="text-lg">{benefit.title}</CardTitle>
                     <CardDescription className="line-clamp-2">
-                      {benifit.description}
+                      {benefit.description}
                     </CardDescription>
                   </span>
                 </CardContent>
