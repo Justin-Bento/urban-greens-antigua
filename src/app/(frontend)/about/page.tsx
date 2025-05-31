@@ -34,8 +34,8 @@ export default function page() {
               love for fresh, sustainable, and nutrient-rich food. What started
               as a small experiment quickly grew into a thriving business as we
               discovered the growing demand for microgreens in our community.
-              Today, we’re proud to offer a fresh, innovative way to enjoy these
-              tiny but mighty greens.
+              Today, we&#39;re proud to offer a fresh, innovative way to enjoy
+              these tiny but mighty greens.
             </p>
             <p className="mt-8">
               Our microgreens are grown with care, using sustainable practices
@@ -49,7 +49,7 @@ export default function page() {
           <div>
             <p>
               We realized that our customers were eager to explore new ways to
-              incorporate microgreens into their daily lives. Whether it’s
+              incorporate microgreens into their daily lives. Whether it&#39;s
               adding a burst of flavor to salads, garnishing gourmet dishes, or
               blending them into smoothies, microgreens have become a versatile
               staple for health-conscious individuals and culinary enthusiasts
@@ -57,11 +57,11 @@ export default function page() {
             </p>
             <p className="mt-8">
               Join us on this journey toward healthier, more sustainable living.
-              Whether you’re a home cook, a professional chef, or simply curious
-              about the benefits of microgreens, Urban Greens Antigua is here to
-              provide you with the freshest, most flavorful greens. Explore our
-              range and discover how these tiny greens can make a big impact on
-              your health and culinary creations!
+              Whether you&#39;re a home cook, a professional chef, or simply
+              curious about the benefits of microgreens, Urban Greens Antigua is
+              here to provide you with the freshest, most flavorful greens.
+              Explore our range and discover how these tiny greens can make a
+              big impact on your health and culinary creations!
             </p>
           </div>
         </div>
@@ -78,13 +78,13 @@ export default function page() {
         {/* Values section */}
         <div className="">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-pretty text-4xl font-semibold tracking-tight sm:text-5xl capitalize">
-              We’d love to hear from you!
+            <h2 className="text-pretty text-4xl font-semibold tracking-tight capitalize">
+              We&#39;d love to hear from you!
             </h2>
-            <p className="mt-6 text-lg/8">
-              Share your thoughts, recipes, or feedback with us, and let’s grow
-              together. Your ideas inspire us to keep innovating and delivering
-              the best for our community.
+            <p className="mt-3 text-base/[1.75] text-foreground">
+              Share your thoughts, recipes, or feedback with us, and let&#39;s
+              grow together. Your ideas inspire us to keep innovating and
+              delivering the best for our community.
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 mt-8">
@@ -97,7 +97,7 @@ export default function page() {
                   <CardTitle className="text-lg font-semibold mb-2">
                     Check Out Our Facebook Page!
                   </CardTitle>
-                  <CardDescription className="text-base/7">
+                  <CardDescription className="text-base/[1.75] text-foreground">
                     Got something to share or waiting for our latest update?
                     Interact with our online community, and see how people from
                     all backgrounds are using our greens.
@@ -118,7 +118,7 @@ export default function page() {
                   <CardTitle className="text-lg font-semibold mb-2">
                     Check Out Our Instagram Page!
                   </CardTitle>
-                  <CardDescription className="text-base/7">
+                  <CardDescription className="text-base/[1.75] text-foreground">
                     Got something to share or waiting for our latest update?
                     Interact with our online community, and see how people from
                     all backgrounds are using our greens.
