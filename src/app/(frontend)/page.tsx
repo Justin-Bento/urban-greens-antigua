@@ -14,7 +14,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <>
-      <section className="flex flex-col lg:items-center gap-6 text-center [&>*]:text-balance">
+      <section className="flex flex-col lg:items-center gap-6 text-center [&>*]:text-pretty">
         <h1 className="text-5xl font-bold text-foreground tracking-tight">
           Sustainable Microgreens, Unbeatable Flavor!
         </h1>
@@ -22,8 +22,8 @@ export default function Page() {
           Microgreens are vegetable greens that are packed with nutrients and
           flavor, making them the perfect addition to any meal. From salads to
           smoothies, sandwiches to sushi, the possibilities are endless. Plus,
-          with our convenient delivery service, you can easily incorporate
-          microgreens into your diet without leaving your home.
+          with our convenient delivery service, you can incorporate microgreens
+          into your diet without leaving your home.
         </p>
         <div className="flex flex-col lg:flex-row gap-4">
           <Button>View Our Microgreens</Button>
