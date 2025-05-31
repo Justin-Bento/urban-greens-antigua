@@ -14,7 +14,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <>
-      <section className="flex flex-col lg:items-center gap-6">
+      <section className="flex flex-col lg:items-center gap-6 text-center">
         <h1 className="scroll-m-20 text-4xl font-bold lg:text-5xl">
           Sustainable Microgreens, Unbeatable Flavor!
         </h1>
