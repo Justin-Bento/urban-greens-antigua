@@ -22,7 +22,7 @@ export default async function page() {
             Frequently Asked Questions.
           </h1>
         </span>
-        <p className="max-w-[120ch] opacity-70 text-balance my-4 text-lg">
+        <p className="max-w-5xl text-foreground text-balance my-4 text-lg/[2]">
           If you can&#39;t find what you're looking for, email our team and if
           you're lucky someone will get back to you.
         </p>
@@ -32,10 +32,10 @@ export default async function page() {
             <li key={question?._id}>
               <Accordion type="single" collapsible>
                 <AccordionItem value={question._id}>
-                  <AccordionTrigger className="text-xl hover:cursor-pointer">
+                  <AccordionTrigger className="text-xl font-semibold hover:cursor-pointer capitalize">
                     Question - {question?.question || "No question available"}
                   </AccordionTrigger>
-                  <AccordionContent className="prose text-balance text-muted-foreground">
+                  <AccordionContent className="max-w-3xl text-balance text-foreground text-base leading-[2]">
                     <PortableText value={question?.details || []} />
                   </AccordionContent>
                 </AccordionItem>

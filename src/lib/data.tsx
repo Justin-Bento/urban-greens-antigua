@@ -7,7 +7,7 @@ import {
   TbSun,
 } from "react-icons/tb";
 
-export const microgreen_benifits = [
+export const microgreens_benefits = [
   {
     id: 1,
     title: "Packed With Vitamins",

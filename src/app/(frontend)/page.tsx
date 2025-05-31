@@ -7,27 +7,29 @@ import {
 } from "@/components/ui/card";
 import { TbCircleCheck } from "react-icons/tb";
 import Image from "next/image";
-import { microgreen_benifits } from "@/lib/data";
+import { microgreens_benefits } from "@/lib/data";
 import FAQS from "@/components/FAQS";
 import Link from "next/link";
 
 export default function Page() {
   return (
     <>
-      <section className="flex flex-col lg:items-center gap-6">
-        <h1 className="scroll-m-20 text-4xl font-bold lg:text-5xl">
+      <section className="flex flex-col lg:items-center gap-6 text-center [&>*]:text-pretty">
+        <h1 className="text-5xl font-bold text-foreground tracking-tight">
           Sustainable Microgreens, Unbeatable Flavor!
         </h1>
-        <p className="text-xl/7 lg:text-center tracking-wide max-w-[90ch] mx-auto text-balance">
-          Our microgreens are packed with nutrients and flavor, making them the
-          perfect addition to any meal. From salads to smoothies, sandwiches to
-          sushi, the possibilities are endless. Plus, with our convenient
-          delivery service, you can easily incorporate microgreens into your
-          diet without leaving your home.
+        <p className="text-xl/[1.5] tracking-[0.01rem]">
+          Microgreens are vegetable greens that are packed with nutrients and
+          flavor, making them the perfect addition to any meal. From salads to
+          smoothies, sandwiches to sushi, the possibilities are endless. Plus,
+          with our convenient delivery service, you can incorporate microgreens
+          into your diet without leaving your home.
         </p>
         <div className="flex flex-col lg:flex-row gap-4">
-          <Button>View Our Microgreens</Button>
-          <Button variant="secondary">Learn About Our Product</Button>
+          <Button className="shadow-none">View Our Microgreens</Button>
+          <Button variant="secondary" className="shadow-none">
+            Learn About Our Product
+          </Button>
         </div>
         <div className="w-full aspect-16/9 relative overflow-hidden mt-12">
           <Image
@@ -47,7 +49,7 @@ export default function Page() {
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
               Freshly Grown In Antigua
             </h2>
-            <p className="max-w-prose text-balance">
+            <p className="max-w-prose text-balance text-base/[1.75]">
               Most of our plants are harvested in a ten-day to a two-week cycle.
               We grow and harvest our greens in a controlled environment,
               without the use of chemicals or pesticides, to ensure a healthy
@@ -69,7 +71,7 @@ export default function Page() {
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
               A Tiny Ingredient with Big Uses
             </h2>
-            <p className="max-w-prose text-balance">
+            <p className="max-w-prose text-balance text-base/[1.75]">
               Enjoy them on their own or mix them into salads and smoothies for
               a nutrient boost. They make fantastic toppers for sandwiches and
               add a burst of flavor as a garnish or decoration for your plates.
@@ -90,7 +92,7 @@ export default function Page() {
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
               Sustainable Packaging
             </h2>
-            <p className="max-w-prose text-balance">
+            <p className="max-w-prose text-balance text-base/[1.75]">
               Our packaging is designed with the environment in mind. Each item
               is either reusable or fully recyclable, ensuring that we reduce
               waste and promote sustainability in every step of our process.
@@ -117,7 +119,7 @@ export default function Page() {
               <h3 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
                 Have Any Questions About Microgreens?
               </h3>
-              <p className="">
+              <p className="text-base/[1.75]">
                 Visit our Frequently Asked Questions page to see what people ask
                 us.
               </p>
@@ -151,20 +153,20 @@ export default function Page() {
           <h4 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
             Incredible Benefits Of Microgreens
           </h4>
-          <p className="text-lg/7 opacity-70">
+          <p className="text-base/[1.75] opacity-70">
             Here are some reasons why Microgreens are considered superfood!
           </p>
         </div>
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {microgreen_benifits.map((benifit) => (
-            <li key={benifit.id}>
+          {microgreens_benefits.map((benefit) => (
+            <li key={benefit.id}>
               <Card className="shadow-none">
                 <CardContent className="inline-flex items-start gap-x-2">
                   <TbCircleCheck className="text-primary mt-1.5 size-5" />
                   <span className="">
-                    <CardTitle className="text-lg">{benifit.title}</CardTitle>
-                    <CardDescription className="line-clamp-2">
-                      {benifit.description}
+                    <CardTitle className="text-lg">{benefit.title}</CardTitle>
+                    <CardDescription className="line-clamp-2 text-sm/[1.5]">
+                      {benefit.description}
                     </CardDescription>
                   </span>
                 </CardContent>
@@ -190,10 +192,10 @@ export default function Page() {
             <li key={index}>
               <Card className="shadow-none border-none">
                 <CardContent>
-                  <p className="text-bold">
+                  <p className="text-base/[1.75] max-w-prose text-pretty">
                     “Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nemo expedita voluptas culpa sapiente alias molestiae.
-                    Numquam corrupti in laborum sed rerum et corporis.”
+                    Numquam corrupti in laborum sed rerum et.”
                   </p>
                 </CardContent>
               </Card>
