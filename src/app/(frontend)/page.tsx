@@ -19,11 +19,11 @@ export default function Page() {
           Sustainable Microgreens, Unbeatable Flavor!
         </h1>
         <p className="text-xl/7 lg:text-center tracking-wide max-w-[90ch] mx-auto text-balance">
-          Our microgreens are packed with nutrients and flavor, making them the
-          perfect addition to any meal. From salads to smoothies, sandwiches to
-          sushi, the possibilities are endless. Plus, with our convenient
-          delivery service, you can easily incorporate microgreens into your
-          diet without leaving your home.
+          Microgreens are vegetable greens that are packed with nutrients and
+          flavor, making them the perfect addition to any meal. From salads to
+          smoothies, sandwiches to sushi, the possibilities are endless. Plus,
+          with our convenient delivery service, you can easily incorporate
+          microgreens into your diet without leaving your home.
         </p>
         <div className="flex flex-col lg:flex-row gap-4">
           <Button>View Our Microgreens</Button>
