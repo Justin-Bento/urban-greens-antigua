@@ -27,7 +27,7 @@ export default function page() {
           </p>
         </div>
         {/* Content section */}
-        <div className="grid max-w-xl grid-cols-1 gap-8 text-base/7 text-muted-foreground lg:max-w-none lg:grid-cols-2">
+        <div className="grid max-w-xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-2 text-base/[1.75] text-foreground">
           <div>
             <p>
               Urban Greens Antigua began as a passion project, born out of a
