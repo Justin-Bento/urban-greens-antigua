@@ -18,7 +18,7 @@ export default function Page() {
         <h1 className="text-5xl font-bold text-foreground tracking-tight">
           Sustainable Microgreens, Unbeatable Flavor!
         </h1>
-        <p className="text-xl/[1.5]">
+        <p className="text-xl/[1.5] tracking-[0.01rem]">
           Microgreens are vegetable greens that are packed with nutrients and
           flavor, making them the perfect addition to any meal. From salads to
           smoothies, sandwiches to sushi, the possibilities are endless. Plus,
