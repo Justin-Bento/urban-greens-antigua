@@ -36,10 +36,10 @@ export default async function FAQS() {
           <dl className="space-y-10">
             {questions.map((faq) => (
               <div key={faq._id}>
-                <dt className="text-base/7 font-semibold text-foreground capitalize">
+                <dt className="text-base/[1.75] font-semibold text-foreground capitalize">
                   {faq.question}
                 </dt>
-                <dt className="text-muted-foreground">
+                <dt className="text-base/[1.75] text-pretty text-muted-foreground">
                   <PortableText value={faq?.details || []} />
                 </dt>
               </div>
