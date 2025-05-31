@@ -26,8 +26,10 @@ export default function Page() {
           into your diet without leaving your home.
         </p>
         <div className="flex flex-col lg:flex-row gap-4">
-          <Button>View Our Microgreens</Button>
-          <Button variant="secondary">Learn About Our Product</Button>
+          <Button className="shadow-none">View Our Microgreens</Button>
+          <Button variant="secondary" className="shadow-none">
+            Learn About Our Product
+          </Button>
         </div>
         <div className="w-full aspect-16/9 relative overflow-hidden mt-12">
           <Image
