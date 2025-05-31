@@ -49,7 +49,7 @@ export default function Page() {
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
               Freshly Grown In Antigua
             </h2>
-            <p className="max-w-prose text-balance">
+            <p className="max-w-prose text-balance text-base/[1.75]">
               Most of our plants are harvested in a ten-day to a two-week cycle.
               We grow and harvest our greens in a controlled environment,
               without the use of chemicals or pesticides, to ensure a healthy
@@ -71,7 +71,7 @@ export default function Page() {
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
               A Tiny Ingredient with Big Uses
             </h2>
-            <p className="max-w-prose text-balance">
+            <p className="max-w-prose text-balance text-base/[1.75]">
               Enjoy them on their own or mix them into salads and smoothies for
               a nutrient boost. They make fantastic toppers for sandwiches and
               add a burst of flavor as a garnish or decoration for your plates.
@@ -92,7 +92,7 @@ export default function Page() {
             <h2 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
               Sustainable Packaging
             </h2>
-            <p className="max-w-prose text-balance">
+            <p className="max-w-prose text-balance text-base/[1.75]">
               Our packaging is designed with the environment in mind. Each item
               is either reusable or fully recyclable, ensuring that we reduce
               waste and promote sustainability in every step of our process.
@@ -119,7 +119,7 @@ export default function Page() {
               <h3 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
                 Have Any Questions About Microgreens?
               </h3>
-              <p className="">
+              <p className="text-base/[1.75]">
                 Visit our Frequently Asked Questions page to see what people ask
                 us.
               </p>
@@ -153,7 +153,7 @@ export default function Page() {
           <h4 className="scroll-m-20 pb-2 text-3xl font-semibold first:mt-0">
             Incredible Benefits Of Microgreens
           </h4>
-          <p className="text-lg/7 opacity-70">
+          <p className="text-base/[1.75] opacity-70">
             Here are some reasons why Microgreens are considered superfood!
           </p>
         </div>
@@ -165,7 +165,7 @@ export default function Page() {
                   <TbCircleCheck className="text-primary mt-1.5 size-5" />
                   <span className="">
                     <CardTitle className="text-lg">{benefit.title}</CardTitle>
-                    <CardDescription className="line-clamp-2">
+                    <CardDescription className="line-clamp-2 text-sm/[1.5]">
                       {benefit.description}
                     </CardDescription>
                   </span>
@@ -192,10 +192,10 @@ export default function Page() {
             <li key={index}>
               <Card className="shadow-none border-none">
                 <CardContent>
-                  <p className="text-bold">
+                  <p className="text-base/[1.75] max-w-prose text-pretty">
                     “Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nemo expedita voluptas culpa sapiente alias molestiae.
-                    Numquam corrupti in laborum sed rerum et corporis.”
+                    Numquam corrupti in laborum sed rerum et.”
                   </p>
                 </CardContent>
               </Card>
