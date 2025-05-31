@@ -32,10 +32,10 @@ export default async function page() {
             <li key={question?._id}>
               <Accordion type="single" collapsible>
                 <AccordionItem value={question._id}>
-                  <AccordionTrigger className="text-xl hover:cursor-pointer">
+                  <AccordionTrigger className="text-xl font-semibold hover:cursor-pointer capitalize">
                     Question - {question?.question || "No question available"}
                   </AccordionTrigger>
-                  <AccordionContent className="prose text-balance text-muted-foreground">
+                  <AccordionContent className="max-w-3xl text-balance text-foreground text-base leading-[2]">
                     <PortableText value={question?.details || []} />
                   </AccordionContent>
                 </AccordionItem>
