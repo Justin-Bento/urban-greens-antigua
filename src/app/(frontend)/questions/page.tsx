@@ -22,7 +22,7 @@ export default async function page() {
             Frequently Asked Questions.
           </h1>
         </span>
-        <p className="max-w-[120ch] opacity-70 text-balance my-4 text-lg">
+        <p className="max-w-5xl text-foreground text-balance my-4 text-lg/[2]">
           If you can&#39;t find what you're looking for, email our team and if
           you're lucky someone will get back to you.
         </p>
