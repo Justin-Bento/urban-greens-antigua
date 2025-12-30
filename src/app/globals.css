@@ -126,4 +126,7 @@
   body {
     @apply bg-background text-foreground;
   }
+  .wrapper {
+    @apply w-[90%] max-w-7xl mx-auto;
+  }
 }

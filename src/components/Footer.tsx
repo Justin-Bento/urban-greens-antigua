@@ -1,9 +1,9 @@
 import React from "react";
 import { Card, CardContent } from "./ui/card";
-import Image from "next/image";
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
+import Logo from "./Logo";
 
 export default function Footer() {
   const navigation = ["home", "about", "products", "questions", "contact"];
@@ -12,16 +12,11 @@ export default function Footer() {
   return (
     <footer className="overflow-hidden">
       <Card className="bg-green-900 text-white rounded-none shadow-none border-none py-24">
-        <CardContent className="container mx-auto grid grid-cols-12 gap-12">
-          <div className="relative w-32 aspect-[16/11] col-span-12 sm:col-span-3">
-            <Image
-              fill
-              src="/media/logo/urban-greens-logo-white.png"
-              alt=""
-              className="object-center"
-            />
+        <CardContent className="wrapper grid grid-cols-4 gap-12">
+          <div className="">
+            <Logo />
           </div>
-          <nav className="col-span-12 sm:col-span-3">
+          <nav className="">
             <p className="mb-4 subtitle-1 text-gray-50">Pages</p>
             <Separator />
             <ul className="space-y-4 mt-4 opacity-70">
@@ -40,7 +35,7 @@ export default function Footer() {
               ))}
             </ul>
           </nav>
-          <nav className="col-span-12 sm:col-span-3">
+          <nav className="">
             <p className="mb-4 subtitle-1 text-gray-50">About</p>
             <Separator />
             <ul className="space-y-4 mt-4 opacity-70">
@@ -59,7 +54,7 @@ export default function Footer() {
               ))}
             </ul>
           </nav>
-          <nav className="col-span-12 sm:col-span-3">
+          <nav className="">
             <p className="mb-4 subtitle-1 text-gray-50">Contact</p>
             <Separator />
             <ul className="space-y-4 mt-4 opacity-70">
