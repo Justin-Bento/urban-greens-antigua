@@ -18,43 +18,49 @@ export default function Footer() {
           <p>Sustainable Microgreens, Unbeatable Flavor!</p>
         </div>
         <div className="col-span-4 sm:col-span-2 lg:col-span-1">
-          <h2 className="text-lg leading-7 capitalize">This is a footer.</h2>
+          <h2 className="text-lg leading-7 capitalize border-b border-gray-300">
+            Internal Pages.
+          </h2>
           <ul className="mb-3 ml-6 list-disc [&>li]:mt-2">
             <li className="">
-              <Link href="">Link Item</Link>
+              <Link href="">About</Link>
             </li>
             <li className="">
-              <Link href="">Link Item</Link>
+              <Link href="">Products</Link>
             </li>
 
             <li className="">
-              <Link href="">Link Item</Link>
+              <Link href="">Questions</Link>
             </li>
             <li className="">
-              <Link href="">Link Item</Link>
+              <Link href="">Contact</Link>
             </li>
           </ul>
         </div>
         <div className="col-span-4 sm:col-span-2 lg:col-span-1">
-          <h2 className="text-lg leading-7 capitalize">This is a footer.</h2>
+          <h2 className="text-lg leading-7 capitalize border-b border-gray-300">
+            Socials.
+          </h2>
           <ul className="mb-3 ml-6 list-disc [&>li]:mt-2">
             <li className="">
-              <Link href="">Link Item</Link>
+              <Link href="">Facebook ↗</Link>
             </li>
             <li className="">
-              <Link href="">Link Item</Link>
+              <Link href="">Instagram ↗</Link>
             </li>
 
             <li className="">
-              <Link href="">Link Item</Link>
+              <Link href="">Whatsapp ↗</Link>
             </li>
             <li className="">
-              <Link href="">Link Item</Link>
+              <Link href="">Other ↗</Link>
             </li>
           </ul>
         </div>
         <div className="col-span-4 sm:col-span-2 lg:col-span-1">
-          <h2 className="text-lg leading-7 capitalize">Legal Items.</h2>
+          <h2 className="text-lg leading-7 capitalize border-b border-gray-300">
+            Legal Items.
+          </h2>
           <ul className="mb-3 ml-6 list-disc [&>li]:mt-2">
             <li className="">
               <Link href="">Terms and Conditions</Link>
