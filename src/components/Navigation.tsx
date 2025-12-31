@@ -10,10 +10,14 @@ export default function Navigation() {
 
   return (
     <header className="py-6 shadow border-b border-black/10">
-      <button onClick={handleToggle}>{isToggled ? "ON" : "OFF"}</button>
+      <div className="wrapper">
+        <div className="">
+          <button onClick={handleToggle}>{isToggled ? "ON" : "OFF"}</button>
 
-      {/* Conditionally render content */}
-      {isToggled && <p>This content is visible when toggled ON.</p>}
+          {/* Conditionally render content */}
+          {isToggled && <div className=""></div>}
+        </div>
+      </div>
     </header>
   );
 }
