@@ -1,80 +1,77 @@
-import React from "react";
-import { Card, CardContent } from "./ui/card";
+import Image from "next/image";
 import Link from "next/link";
-import { Button } from "./ui/button";
-import { Separator } from "./ui/separator";
-import Logo from "./Logo";
+import React from "react";
 
 export default function Footer() {
-  const navigation = ["home", "about", "products", "questions", "contact"];
-  const about = ["company", "questions", "farming"];
-  const socials = ["facebook", "whatsapp", "instagram"];
   return (
-    <footer className="overflow-hidden">
-      <Card className="bg-green-900 text-white rounded-none shadow-none border-none py-24">
-        <CardContent className="wrapper grid grid-cols-4 gap-12">
-          <div className="">
-            <Logo />
+    <footer className="py-32 bg-green-800 *:text-white grid items-center">
+      <div className="wrapper grid grid-cols-4 gap-12">
+        <div className="col-span-4 sm:col-span-2 lg:col-span-1">
+          <div className="relative w-32 aspect-video">
+            <Image
+              fill
+              src="/media/logo/urban-greens-logo-white.png"
+              alt=""
+              className="object-center object-cover"
+            />
           </div>
-          <nav className="">
-            <p className="mb-4 subtitle-1 text-gray-50">Pages</p>
-            <Separator />
-            <ul className="space-y-4 mt-4 opacity-70">
-              {navigation.map((navigator, index) => (
-                <li key={index}>
-                  <Link href={navigator === "home" ? "/" : `/${navigator}`}>
-                    <Button
-                      variant="link"
-                      size="sm"
-                      className=" capitalize hover:cursor-pointer text-white"
-                    >
-                      {navigator}
-                    </Button>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-          <nav className="">
-            <p className="mb-4 subtitle-1 text-gray-50">About</p>
-            <Separator />
-            <ul className="space-y-4 mt-4 opacity-70">
-              {about.map((navigator, index) => (
-                <li key={index}>
-                  <Link href={navigator === "home" ? "/" : `/${navigator}`}>
-                    <Button
-                      variant="link"
-                      size="sm"
-                      className=" capitalize hover:cursor-pointer text-white"
-                    >
-                      {navigator}
-                    </Button>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-          <nav className="">
-            <p className="mb-4 subtitle-1 text-gray-50">Contact</p>
-            <Separator />
-            <ul className="space-y-4 mt-4 opacity-70">
-              {socials.map((navigator, index) => (
-                <li key={index}>
-                  <Link href={navigator}>
-                    <Button
-                      variant="link"
-                      size="sm"
-                      className=" capitalize hover:cursor-pointer text-white"
-                    >
-                      {navigator}
-                    </Button>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-        </CardContent>
-      </Card>
+          <p>Sustainable Microgreens, Unbeatable Flavor!</p>
+        </div>
+        <div className="col-span-4 sm:col-span-2 lg:col-span-1">
+          <h2 className="text-lg leading-7 capitalize">This is a footer.</h2>
+          <ul className="mb-3 ml-6 list-disc [&>li]:mt-2">
+            <li className="">
+              <Link href="">Link Item</Link>
+            </li>
+            <li className="">
+              <Link href="">Link Item</Link>
+            </li>
+
+            <li className="">
+              <Link href="">Link Item</Link>
+            </li>
+            <li className="">
+              <Link href="">Link Item</Link>
+            </li>
+          </ul>
+        </div>
+        <div className="col-span-4 sm:col-span-2 lg:col-span-1">
+          <h2 className="text-lg leading-7 capitalize">This is a footer.</h2>
+          <ul className="mb-3 ml-6 list-disc [&>li]:mt-2">
+            <li className="">
+              <Link href="">Link Item</Link>
+            </li>
+            <li className="">
+              <Link href="">Link Item</Link>
+            </li>
+
+            <li className="">
+              <Link href="">Link Item</Link>
+            </li>
+            <li className="">
+              <Link href="">Link Item</Link>
+            </li>
+          </ul>
+        </div>
+        <div className="col-span-4 sm:col-span-2 lg:col-span-1">
+          <h2 className="text-lg leading-7 capitalize">This is a footer.</h2>
+          <ul className="mb-3 ml-6 list-disc [&>li]:mt-2">
+            <li className="">
+              <Link href="">Link Item</Link>
+            </li>
+            <li className="">
+              <Link href="">Link Item</Link>
+            </li>
+
+            <li className="">
+              <Link href="">Link Item</Link>
+            </li>
+            <li className="">
+              <Link href="">Link Item</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
   );
 }
