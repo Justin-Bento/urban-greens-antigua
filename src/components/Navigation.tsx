@@ -12,12 +12,12 @@ export default function Navigation() {
 
   return (
     <header className="py-6 shadow border-b border-black/10">
-      <div className="wrapper">
-        <div className="">
+      <div className="wrapper grid grid-cols-1 lg:grid-cols-2">
+        <div className="flex items-center justify-between">
           <Logo />
           <button
             onClick={handleToggle}
-            className={twMerge("border border-black", "py-2 px-6")}
+            className={twMerge("border border-black", "py-2 px-6", "lg:hidden")}
           >
             {isToggled ? "ON" : "OFF"}
           </button>
