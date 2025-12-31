@@ -10,6 +10,8 @@ import Image from "next/image";
 import { microgreens_benefits } from "@/lib/data";
 import FAQS from "@/components/FAQS";
 import Link from "next/link";
+import { twMerge } from "tailwind-merge";
+import { shared_styles } from "@/components/shared-styles";
 
 export default function Page() {
   return (
@@ -26,10 +28,12 @@ export default function Page() {
           into your diet without leaving your home.
         </p>
         <div className="flex flex-col lg:flex-row gap-4">
-          <Button className="shadow-none">View Our Microgreens</Button>
-          <Button variant="secondary" className="shadow-none">
-            Learn About Our Product
-          </Button>
+          <Link href="" className={shared_styles.btn_primary}>
+            View Our Microgreens
+          </Link>
+          <Link href="" className={shared_styles.btn_grayscale}>
+            Our Product
+          </Link>
         </div>
         <div className="w-full aspect-16/9 relative overflow-hidden mt-12">
           <Image
