@@ -1,14 +1,16 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Logo() {
   return (
-    <Link
-      href="/"
-      className="flex font-semibold flex-col gap-0 *:leading-4 hover:opacity-75 hover:underline"
-    >
-      <span className="">Urban</span>
-      <span className="">Greens</span>
+    <Link href="/" className="relative w-24 aspect-video">
+      <Image
+        fill
+        src="/media/logo/urban-greens-logo.png"
+        alt=""
+        className="object-center object-cover"
+      />
     </Link>
   );
 }
