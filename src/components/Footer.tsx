@@ -54,20 +54,20 @@ export default function Footer() {
           </ul>
         </div>
         <div className="col-span-4 sm:col-span-2 lg:col-span-1">
-          <h2 className="text-lg leading-7 capitalize">This is a footer.</h2>
+          <h2 className="text-lg leading-7 capitalize">Legal Items.</h2>
           <ul className="mb-3 ml-6 list-disc [&>li]:mt-2">
             <li className="">
-              <Link href="">Link Item</Link>
+              <Link href="">Terms and Conditions</Link>
             </li>
             <li className="">
-              <Link href="">Link Item</Link>
+              <Link href="">Privacy Center</Link>
             </li>
 
             <li className="">
-              <Link href="">Link Item</Link>
+              <Link href="">Disclaimers</Link>
             </li>
             <li className="">
-              <Link href="">Link Item</Link>
+              <Link href="">Code of Conduct</Link>
             </li>
           </ul>
         </div>
