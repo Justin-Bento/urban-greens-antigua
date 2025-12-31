@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { twMerge } from "tailwind-merge";
+import Logo from "./Logo";
 
 export default function Navigation() {
   const [isToggled, setIsToggled] = useState(false);
@@ -13,6 +14,7 @@ export default function Navigation() {
     <header className="py-6 shadow border-b border-black/10">
       <div className="wrapper">
         <div className="">
+          <Logo />
           <button
             onClick={handleToggle}
             className={twMerge("border border-black", "py-2 px-6")}
