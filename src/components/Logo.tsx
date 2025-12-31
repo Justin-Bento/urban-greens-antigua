@@ -4,13 +4,15 @@ import Image from "next/image";
 
 export default function Logo() {
   return (
-    <Link href="/" className="relative w-24 aspect-video">
-      <Image
-        fill
-        src="/media/logo/urban-greens-logo.png"
-        alt=""
-        className="object-center object-cover"
-      />
+    <Link href="/">
+      <div className="relative w-24 aspect-video">
+        <Image
+          fill
+          src="/media/logo/urban-greens-logo.png"
+          alt=""
+          className="object-center object-cover"
+        />
+      </div>
     </Link>
   );
 }
