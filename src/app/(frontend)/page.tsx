@@ -10,7 +10,6 @@ import Image from "next/image";
 import { microgreens_benefits } from "@/lib/data";
 import FAQS from "@/components/FAQS";
 import Link from "next/link";
-import { twMerge } from "tailwind-merge";
 import { shared_styles } from "@/components/shared-styles";
 
 export default function Page() {
