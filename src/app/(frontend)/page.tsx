@@ -182,7 +182,7 @@ export default function Page() {
       {/*
        * End of websites product benifits.
        */}
-      <section className="space-y-16">
+      {/*<section className="space-y-16">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-base/7 font-semibold text-primary">
             Testimonials
@@ -206,7 +206,7 @@ export default function Page() {
             </li>
           ))}
         </ul>
-      </section>
+      </section>*/}
       {/*
        * End of websites client testimonials.
        */}
